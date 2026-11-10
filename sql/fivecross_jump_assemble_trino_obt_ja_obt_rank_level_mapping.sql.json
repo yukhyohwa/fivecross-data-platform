@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_rank_level_mapping.sql",
+  "sha256": "3043be2c80e8345a7860e015e434877abeec506a189bbfd07b289305a011139c"
+}

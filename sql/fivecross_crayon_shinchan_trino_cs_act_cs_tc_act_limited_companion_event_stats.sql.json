@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "crayon_shinchan_tc",
+  "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_act/cs_tc_act_limited_companion_event_stats.sql",
+  "sha256": "b54d340f94ddbe8b7167ec467cd5ff5d75424ce7dcff84806bd88bd2d1517bb4"
+}

@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "guilty_crown",
+  "source": "fivecross-sql-lib/games/guilty_crown/maxcomputer/gc_cn_lib_query_library.sql",
+  "sha256": "df0a15ac66404c1576601939eafbd0c13c8352b0d3f4671dbfe2be3e6e512c08"
+}

@@ -1,0 +1,6 @@
+# 部署脚本上传到 Linux 服务器执行，CRLF 行尾会导致 bash 报错
+# （`/usr/bin/env bash\r` 找不到解释器）。锁定 LF，不受 Windows autocrlf 影响。
+deploy/update.sh text eol=lf
+deploy/post-receive text eol=lf
+deploy/*.service text eol=lf
+deploy/*.timer text eol=lf

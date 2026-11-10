@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "saint_seiya3_global",
+  "source": "fivecross-sql-lib/games/saint_seiya3/maxcomputer/ss3_cn_rev_lv6_gacha_analysis.sql",
+  "sha256": "e10c4aa8cffb0230107dd1f6a57f2b4e780f30dc2008823050a013811879c5ff"
+}

@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/ja_revenue/ja_tc_cbt2_battlepass_task_completion_distribution.sql",
+  "sha256": "fb0cf891d274038cf51f30bc90e562239599e3b400c58d404ba61a03941cd35f"
+}

@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FiveCross 数据平台 · 对话式取数</title>
+<link rel="stylesheet" href="style.css">
+  <script src="theme.js"></script>
+</head>
+<body>
+<nav id="topnav" class="topnav"></nav>
+<div class="layout">
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="brand-logo">📊</div>
+      <div>
+        <div class="brand-title">Data AI</div>
+        <div class="brand-sub">对话式取数 · 表格 + 图形</div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <label class="panel-label" for="model-select">模型</label>
+      <select id="model-select" class="control"></select>
+    </div>
+
+    <div class="panel">
+      <label class="panel-label">🎮 游戏</label>
+      <div id="game-mode-panel">
+        <label class="game-mode-radio">
+          <input type="radio" name="game-mode" value="follow">
+          <span>① 单游戏项目（右上角切换）</span>
+        </label>
+        <label class="game-mode-radio">
+          <input type="radio" name="game-mode" value="none">
+          <span>② 无项目限制（需多轮确认）</span>
+        </label>
+        <p class="hint" id="game-mode-hint"></p>
+      </div>
+    </div>
+
+    <div class="panel">
+      <label class="panel-label" for="skill-select">专项</label>
+      <select id="skill-select" class="control"></select>
+      <p class="hint">不选则自由提问；选一个专项则直接使用其关联的 SQL 与知识库生成结果。</p>
+    </div>
+
+    <div class="panel history-panel">
+      <label class="panel-label">💾 最近聊天</label>
+      <ul id="sidebar-history" class="list"></ul>
+    </div>
+  </aside>
+
+  <main class="chat-area">
+    <div id="no-perm-banner" class="no-perm-banner" hidden>
+      ⚠️ 您没有任何游戏的数据权限，无法查询数据，请联系管理员开通
+    </div>
+    <div id="usage-stats" class="usage-stats" hidden></div>
+    <div id="session-bar" class="session-bar" hidden></div>
+    <div id="messages" class="messages">
+      <div class="welcome">
+        <h2>👋 有什么想查的？</h2>
+        <p>用自然语言提问，我会生成 SQL 查询数据库，并用表格和图形展示结果。</p>
+      </div>
+    </div>
+    <div class="composer">
+      <div id="suggestions" class="suggestions"></div>
+      <textarea id="input" class="input" rows="2" placeholder="输入问题，例如：最近7天各国家流水趋势"></textarea>
+      <div class="composer-actions">
+        <div class="composer-left">
+          <button id="new-chat" class="btn btn-sm">🆕 新对话</button>
+          <label class="deep-toggle" title="开启后 AI 自主查表→取数→分析，多步推理，速度较慢">
+            <input type="checkbox" id="deep-mode">
+            <span class="deep-toggle-track"><span class="deep-toggle-thumb"></span></span>
+            <span class="deep-toggle-label">🧠 深度分析</span>
+          </label>
+        </div>
+        <button id="stop" class="send-btn stop-btn" hidden>⏹ 停止</button>
+        <button id="send" class="send-btn">发送</button>
+      </div>
+    </div>
+  </main>
+</div>
+
+<!-- 「无项目限制」模式开启确认（多步：勾选了解 + 再次点击确认；取消回退上一模式） -->
+<div id="game-mode-confirm" class="modal-backdrop" hidden>
+  <div class="modal">
+    <div class="modal-head"><div class="modal-title">开启「无项目限制」</div></div>
+    <div class="modal-body">
+      <p>无项目限制模式下，提问时可在<b>所有有权限的游戏</b>中多选查询，结果逐游戏拼接；不再自动跟随右上角选择的游戏。</p>
+      <p class="warn">⚠️ 多游戏查询可能更慢、耗时更长，请按需使用。</p>
+      <label class="confirm-check">
+        <input type="checkbox" id="game-mode-confirm-check">
+        <span>我了解：开启后提问不再限定单个游戏项目</span>
+      </label>
+    </div>
+    <div class="modal-foot">
+      <button id="game-mode-confirm-cancel" class="btn btn-sm">取消</button>
+      <button id="game-mode-confirm-ok" class="btn btn-sm btn-danger" disabled>确认开启</button>
+    </div>
+  </div>
+</div>
+
+<script src="auth.js"></script>
+<script src="nav.js"></script>
+<script src="vendor/echarts.min.js"></script>
+<script src="vendor/vintage.js"></script>
+<script src="vendor/macarons.js"></script>
+<script src="vendor/infographic.js"></script>
+<script src="vendor/shine.js"></script>
+<script src="vendor/marked.min.js"></script>
+<script src="vendor/dompurify.min.js"></script>
+<script src="sanitize.js"></script>
+<script src="charts.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

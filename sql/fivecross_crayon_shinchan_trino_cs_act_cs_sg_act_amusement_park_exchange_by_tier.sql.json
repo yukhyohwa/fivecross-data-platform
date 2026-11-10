@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "crayon_shinchan_tc",
+  "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_act/cs_sg_act_amusement_park_exchange_by_tier.sql",
+  "sha256": "736d679128d7808dff397cdeb2e648ca8008ca8fe60370df8aaad239d029b75e"
+}

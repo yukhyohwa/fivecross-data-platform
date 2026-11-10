@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "crayon_shinchan_tc",
+  "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_char/cs_tc_08_character_system_growth.sql",
+  "sha256": "abee9ef429578421fa5b89a5597bfa50eda59c98bbd37423ab8a0115c385f62f"
+}

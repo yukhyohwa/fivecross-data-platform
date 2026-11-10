@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "crayon_shinchan_tc",
+  "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_play/cs_sg_play_stage_fight_fail_stats.sql",
+  "sha256": "860a53ae0ee0e4a84401b2c6922752ed357c94d3581a5c1f8660ebb6e8e8e14d"
+}

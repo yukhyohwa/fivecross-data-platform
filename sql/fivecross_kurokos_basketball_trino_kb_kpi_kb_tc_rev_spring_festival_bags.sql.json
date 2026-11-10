@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "kuroko_basketball_jp",
+  "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_tc_rev_spring_festival_bags.sql",
+  "sha256": "b631bbae7df2497de5f2a7cb78c05f1de84ebb88822a7f9e980ef42e46cd5cde"
+}

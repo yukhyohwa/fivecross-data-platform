@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "slam_dunk_gl",
+  "source": "fivecross-sql-lib/games/slam_dunk/trino/sd_kr_hall_of_fame_active_roles.sql",
+  "sha256": "52b0ff4374e11913bd3c8f5ad14b1550e7be420f7a91481447ed432c5081d10d"
+}

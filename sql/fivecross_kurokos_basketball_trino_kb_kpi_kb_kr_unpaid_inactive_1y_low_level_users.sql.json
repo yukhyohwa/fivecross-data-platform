@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "kuroko_basketball_jp",
+  "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_kr_unpaid_inactive_1y_low_level_users.sql",
+  "sha256": "50884187a351d26ed999328a27d2bcbec20f267fb21b7eca19e43bdf54dce3b5"
+}

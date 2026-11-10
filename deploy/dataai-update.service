@@ -1,0 +1,7 @@
+[Unit]
+Description=Data AI auto-update (git fetch + reset --hard + restart)
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStart=/opt/data_ai/deploy/update.sh

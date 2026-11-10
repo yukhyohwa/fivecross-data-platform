@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_char/ja_tc_user_lcx_to_role_mapping.sql",
+  "sha256": "2668d585a4b30fa283158522ac48e6a7b4f88bab0f914d07b548377d20322720"
+}

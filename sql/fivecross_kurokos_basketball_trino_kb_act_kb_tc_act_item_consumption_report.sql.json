@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "kuroko_basketball_jp",
+  "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_act/kb_tc_act_item_consumption_report.sql",
+  "sha256": "8d574766f7064ee1365103ee3a8550aeb48577d595c59facf2ef84a42e3e7ec4"
+}

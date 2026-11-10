@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_play/ja_tc_cbt2_mandou_ai_score_distribution.sql",
+  "sha256": "d94f640b750e81645a2e9710bd33ad23575cbcf5cc9c9a2fb9710f9e71ab7dbb"
+}

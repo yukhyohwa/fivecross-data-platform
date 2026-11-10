@@ -1,0 +1,12 @@
+{
+  "name": "分月流水预测",
+  "desc": "NUU/RUU 对数线性拟合 + OUU 留存递推的月粒度 MAU/流水/ARPU 预测（源自 12_线上游戏分月流水预测）",
+  "input": "sql",
+  "granularity": "month",
+  "sql": "流水预测_分月群组历史.sql",
+  "hist_months": 24,
+  "horizon_months": 6,
+  "window": 6,
+  "level": "通用",
+  "game": null
+}

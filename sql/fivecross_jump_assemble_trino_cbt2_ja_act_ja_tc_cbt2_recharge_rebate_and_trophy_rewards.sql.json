@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/ja_act/ja_tc_cbt2_recharge_rebate_and_trophy_rewards.sql",
+  "sha256": "c0392500116a3af5fa6c53a0616a0bd85a06f244f823a4d6c58307ce4abb72bf"
+}

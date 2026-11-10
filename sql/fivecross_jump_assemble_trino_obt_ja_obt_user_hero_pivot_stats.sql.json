@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_user_hero_pivot_stats.sql",
+  "sha256": "17feccd7a642746bc966d7d2a3cee266cdd6f2ad978fc58169670ccae173e44f"
+}

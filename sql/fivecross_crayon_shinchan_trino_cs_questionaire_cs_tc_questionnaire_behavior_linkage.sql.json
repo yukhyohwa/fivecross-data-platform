@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "crayon_shinchan_tc",
+  "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_questionaire/cs_tc_questionnaire_behavior_linkage.sql",
+  "sha256": "b17e051e072160ee1899d74ed72a6fb558b7b0f6f50dfcf1b9967f970a968562"
+}

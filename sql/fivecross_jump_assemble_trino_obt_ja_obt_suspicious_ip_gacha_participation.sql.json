@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_suspicious_ip_gacha_participation.sql",
+  "sha256": "bb69284781675fa487fca94a936e8fc05f7eade8817222d169e7dc84059b2d64"
+}

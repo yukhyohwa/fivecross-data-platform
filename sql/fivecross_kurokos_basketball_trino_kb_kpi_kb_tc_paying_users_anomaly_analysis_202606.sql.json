@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "kuroko_basketball_jp",
+  "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_tc_paying_users_anomaly_analysis_202606.sql",
+  "sha256": "b9af3e5049cfbde6010f03902e577d256c9fa181c8302702b5d3582cd7fc9d34"
+}

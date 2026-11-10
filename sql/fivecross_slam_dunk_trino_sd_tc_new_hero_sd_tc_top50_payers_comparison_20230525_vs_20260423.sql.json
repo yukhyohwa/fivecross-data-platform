@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "slam_dunk_gl",
+  "source": "fivecross-sql-lib/games/slam_dunk/trino/sd_tc_new_hero/sd_tc_top50_payers_comparison_20230525_vs_20260423.sql",
+  "sha256": "804b2f43600b9118b3a345b4c8cb327c6b14c8339ac8ca2fe8e2099f37871fe8"
+}

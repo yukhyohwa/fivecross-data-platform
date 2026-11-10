@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_user_kpi_stats_device_accel_with_zone.sql",
+  "sha256": "9e52790b3ea56fe63c709c7bff64baca8f8f63a19aa8a5d474344c6819ec064f"
+}

@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "street_rivals_jp",
+  "source": "fivecross-sql-lib/games/street_rivals/trino/sr_jp_char_kuroko_ownership_by_rtier.sql",
+  "sha256": "2db92c33e96d72f00abd2697b91aec76e87084789fe7fa4f3b598a4a8613b70a"
+}

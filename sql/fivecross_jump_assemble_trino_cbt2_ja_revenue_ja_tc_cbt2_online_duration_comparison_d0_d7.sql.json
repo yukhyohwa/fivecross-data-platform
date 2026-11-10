@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/ja_revenue/ja_tc_cbt2_online_duration_comparison_d0_d7.sql",
+  "sha256": "fb256ea9f264cf91b17a65fc44a7be0ada738e301052d5e3c649d9045df2a5b2"
+}

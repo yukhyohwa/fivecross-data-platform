@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "kuroko_basketball_jp",
+  "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_kr_daily_order_details.sql",
+  "sha256": "5ccd3b32415b58db09075431f0f5ba33687cd3339c6404aa7325c4cb1d228b08"
+}

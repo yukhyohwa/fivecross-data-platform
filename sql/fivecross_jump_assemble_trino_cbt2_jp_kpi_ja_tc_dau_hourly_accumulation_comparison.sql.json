@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_kpi/ja_tc_dau_hourly_accumulation_comparison.sql",
+  "sha256": "0437084adfc5f80cc52e89984ec7be1c1bb68f4fa4bf68aa78580ef65867b95d"
+}

@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "crayon_shinchan_tc",
+  "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_play/cs_sg_play_prizewheel_item_stats.sql",
+  "sha256": "e8459fd9cc30630c857852290bbdde6fa93b69c3edb6e1dc85d53b87f46ba5b9"
+}

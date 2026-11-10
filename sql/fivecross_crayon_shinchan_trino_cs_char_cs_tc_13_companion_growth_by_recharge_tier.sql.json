@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "crayon_shinchan_tc",
+  "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_char/cs_tc_13_companion_growth_by_recharge_tier.sql",
+  "sha256": "5d04b99e665e63bc1e56072f048b21ebecae8ef00f7fe0b1541ca8f5a3e40f4d"
+}

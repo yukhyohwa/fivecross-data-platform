@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "saint_seiya2_tc",
+  "source": "fivecross-sql-lib/games/saint_seiya2/trino/ss2_gl_game_identification.sql",
+  "sha256": "a05bdb472c9e0ecce22c2fa67c00c782d2cc288ba3e5b82e9fd800ba36e13b0a"
+}

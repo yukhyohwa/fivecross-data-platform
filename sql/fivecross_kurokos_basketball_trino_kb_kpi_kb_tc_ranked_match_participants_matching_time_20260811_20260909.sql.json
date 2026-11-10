@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "kuroko_basketball_jp",
+  "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_tc_ranked_match_participants_matching_time_20260811_20260909.sql",
+  "sha256": "019b20acddf9891a140e40d857f7f82eb5f4292808a549c97ca72ac0a45de5a4"
+}

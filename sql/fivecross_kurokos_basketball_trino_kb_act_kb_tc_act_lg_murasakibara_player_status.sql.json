@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "kuroko_basketball_jp",
+  "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_act/kb_tc_act_lg_murasakibara_player_status.sql",
+  "sha256": "20b83d7410fbff8d9f85007af32d81b6366d2fb5240237eddf38f9437dfcc3e1"
+}

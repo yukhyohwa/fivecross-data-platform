@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "slam_dunk_gl",
+  "source": "fivecross-sql-lib/games/slam_dunk/trino/sd_kr_churn/temp_queries/validate_user_counts.sql",
+  "sha256": "4eeafbf28c46d197c25727d8630a2b90c159a53e2572cf1e1991703980a0a3b8"
+}

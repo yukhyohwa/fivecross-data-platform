@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "saint_seiya2_tc",
+  "source": "fivecross-sql-lib/games/saint_seiya2/trino/ss2_gl_rev_internal_orders_reconcile.sql",
+  "sha256": "b3ab6f01bf65cc2aaf2285cc00501b121ac4c61efa269009724fdbe7df4ddbf2"
+}

@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "slam_dunk_gl",
+  "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_gl_rev_razer_stats.sql",
+  "sha256": "e6485627744cad44a30e54d96f1c89abd5587023052b344aba8e0079f498732f"
+}

@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "captain_tsubasa_global",
+  "source": "fivecross-sql-lib/games/captain_tsubasa/maxcomputer/ct_gl_first_month_kpi_by_region.sql",
+  "sha256": "cc0b75671e4d50db498f66d0731663ab74db7ec39a948a5edb8ca393d15380a9"
+}

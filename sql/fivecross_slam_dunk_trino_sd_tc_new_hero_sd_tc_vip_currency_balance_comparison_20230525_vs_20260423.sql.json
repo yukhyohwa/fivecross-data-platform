@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "slam_dunk_gl",
+  "source": "fivecross-sql-lib/games/slam_dunk/trino/sd_tc_new_hero/sd_tc_vip_currency_balance_comparison_20230525_vs_20260423.sql",
+  "sha256": "5ef1370e7ab82c7bdb551c01dbd5f110e31a82c6cd91cb422545c900857b032a"
+}

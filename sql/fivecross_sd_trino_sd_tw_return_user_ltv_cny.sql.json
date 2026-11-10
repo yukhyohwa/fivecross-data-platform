@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "level": "项目",
+  "game": "slam_dunk_cn_ali",
+  "sources": [
+    "C:\\Users\\5xgames\\Desktop\\github\\fivecross-sql-lib\\games\\slam_dunk\\trino\\sd_tw_return_user_ltv_cny.sql"
+  ],
+  "confidentiality": "internal"
+}

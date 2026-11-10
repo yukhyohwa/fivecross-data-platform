@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/maxcomputer/ja_tc_return_user_ltv_20240327_20250327.sql",
+  "sha256": "80d6b800a2701848f44e43e20bd32c1b1b67bc8308435a1bab78d06b3bd627c4"
+}

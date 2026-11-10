@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "crayon_shinchan_tc",
+  "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_tc_purchase_by_category.sql",
+  "sha256": "e671476b22afbca258f47adbd9cec07943154a24ee279b1995672fa18c8a5932"
+}

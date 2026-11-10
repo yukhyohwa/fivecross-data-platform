@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_play/ja_tc_cbt2_mandou_ladder_d0d1d2_rolling_cohort.sql",
+  "sha256": "4e3805d2a0d46be2bad07b90ccfcdb540b05c92c4bbdb077e82768519e15bbd3"
+}

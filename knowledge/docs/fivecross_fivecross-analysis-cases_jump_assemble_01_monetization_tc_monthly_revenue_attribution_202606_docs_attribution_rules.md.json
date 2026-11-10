@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-analysis-cases/jump_assemble/01_monetization/tc_monthly_revenue_attribution_202606/docs/attribution_rules.md",
+  "sha256": "7167d1451343910c7638818147332d7b30b59b7ddf34e5c3f390fb398dee269b"
+}

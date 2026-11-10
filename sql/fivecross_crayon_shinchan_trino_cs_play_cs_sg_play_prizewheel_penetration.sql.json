@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "crayon_shinchan_tc",
+  "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_play/cs_sg_play_prizewheel_penetration.sql",
+  "sha256": "45d3e699d7bb4e15c482d3fb03a5c3a634d6748582c1054c26beafae297f5785"
+}

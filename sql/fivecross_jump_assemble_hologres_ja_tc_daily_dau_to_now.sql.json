@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/hologres/ja_tc_daily_dau_to_now.sql",
+  "sha256": "6a97d44f6c31bad45cf031ccbb521ef4463b0541b4f4341ebfd56e8f36d351a3"
+}

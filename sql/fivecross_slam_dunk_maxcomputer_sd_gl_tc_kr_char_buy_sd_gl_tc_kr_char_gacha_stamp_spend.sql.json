@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "slam_dunk_gl",
+  "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_gl_tc_kr_char_buy/sd_gl_tc_kr_char_gacha_stamp_spend.sql",
+  "sha256": "a3dbc17fb6e5fbf7341b789db9647f269c16535c2f820e1edf55b9a074dacb84"
+}

@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "kuroko_basketball_jp",
+  "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_act/kb_tc_act_lg_murasakibara_awaken_dist.sql",
+  "sha256": "70d49bcedaeb7d857a7c36d48fdc228c0b0e616c9c5b451145d4aac9e5dbea2c"
+}

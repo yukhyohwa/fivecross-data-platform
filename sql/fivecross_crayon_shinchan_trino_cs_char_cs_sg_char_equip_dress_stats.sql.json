@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "crayon_shinchan_tc",
+  "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_char/cs_sg_char_equip_dress_stats.sql",
+  "sha256": "b179d278a29a945d58add1362bad5a75993f388bf9b75013feee09956b9ed3bf"
+}

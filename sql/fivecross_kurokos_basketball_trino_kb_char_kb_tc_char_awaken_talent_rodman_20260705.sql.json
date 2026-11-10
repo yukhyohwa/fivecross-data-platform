@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "kuroko_basketball_jp",
+  "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_char/kb_tc_char_awaken_talent_rodman_20260705.sql",
+  "sha256": "43755ae8a54c099ddabf08e334048fd268763c8f6878e78528aa194454cf8b50"
+}

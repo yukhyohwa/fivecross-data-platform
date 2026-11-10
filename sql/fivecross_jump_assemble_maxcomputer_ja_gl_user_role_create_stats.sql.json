@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/maxcomputer/ja_gl_user_role_create_stats.sql",
+  "sha256": "0cdbd7f30e3a7c955faf6d50dec7d9c5d13e9f5a53b46a8f56b944d0abc781fa"
+}

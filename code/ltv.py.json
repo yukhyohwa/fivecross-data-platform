@@ -1,0 +1,21 @@
+{
+  "name": "LTV 预测",
+  "desc": "分日留存 × 留存ARPU 递推累计 LTV（买量投放KPI 改写取数）",
+  "input": "sql",
+  "granularity": "day",
+  "sql": "LTV预测取数.sql",
+  "level": "通用",
+  "game": null,
+  "hist_days": 30,
+  "horizon_days": 360,
+  "days": 360,
+  "sources": [
+    {
+      "kind": "sql",
+      "name": "买量投放KPI.sql",
+      "fingerprint": "e06355b665ee2d68337c055fc337c98958e1337f4a6cf22060dfa9e3e9381688"
+    }
+  ],
+  "sql_transformed": true,
+  "sql_source": "买量投放KPI.sql"
+}

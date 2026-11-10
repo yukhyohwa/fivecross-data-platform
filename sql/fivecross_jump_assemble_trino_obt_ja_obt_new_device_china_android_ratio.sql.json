@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_new_device_china_android_ratio.sql",
+  "sha256": "cf7cdb76be41cb00b3d38e8dd47578a692952316e81e87ceed9ed921c965aacf"
+}

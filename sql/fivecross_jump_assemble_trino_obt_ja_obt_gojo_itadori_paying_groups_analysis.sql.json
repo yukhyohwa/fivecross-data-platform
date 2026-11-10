@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_gojo_itadori_paying_groups_analysis.sql",
+  "sha256": "c17df4012f8525290fde799223a13206cd313c48799aedd62830d9dc066c15f6"
+}

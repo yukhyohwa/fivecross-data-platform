@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_kpi/ja_tc_guide_funnel_comparison.sql",
+  "sha256": "6de47ebf4c0250ffabf0873ccaf2a521744b9d800e219c99180e88a195ccc188"
+}

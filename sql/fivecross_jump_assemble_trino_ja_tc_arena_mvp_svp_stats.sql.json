@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/ja_tc_arena_mvp_svp_stats.sql",
+  "sha256": "e248ee2864654a8adbaf15b7d8879adcb0f583fcf876d114dd41fc3eb80f98e1"
+}

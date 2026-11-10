@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "new_three_kingdoms_global",
+  "source": "fivecross-sql-lib/games/new_three_kingdoms/trino/ntk_gl_user_ltv_rr_old_ver.sql",
+  "sha256": "7ac6bf0e5cd036ba2632444d269e77b661b2fb4182174cd8e7deb16138e27c31"
+}

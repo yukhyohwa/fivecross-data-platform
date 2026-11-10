@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_online_duration_comparison_d0_d7_dewater.sql",
+  "sha256": "cc933f77b81f096103b1967a672c8a0ce3450c7479e0f4ca748129c38eea2964"
+}

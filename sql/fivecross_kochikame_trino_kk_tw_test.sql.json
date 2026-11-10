@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "kochikame",
+  "source": "fivecross-sql-lib/games/kochikame/trino/kk_tw_test.sql",
+  "sha256": "486522b79f1bed593528ac0d92f64ebf5774460337c2a20096fd48453b3d2e3f"
+}

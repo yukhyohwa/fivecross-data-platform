@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/ja_cbt2_vs_obt_firstday_fights.sql",
+  "sha256": "f47940b532e82d1f7bafd7bf372b2947d1258c63566b0bbd6a19142644107e54"
+}

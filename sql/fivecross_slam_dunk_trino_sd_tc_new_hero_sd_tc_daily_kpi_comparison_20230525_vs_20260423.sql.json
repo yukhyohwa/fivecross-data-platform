@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "slam_dunk_gl",
+  "source": "fivecross-sql-lib/games/slam_dunk/trino/sd_tc_new_hero/sd_tc_daily_kpi_comparison_20230525_vs_20260423.sql",
+  "sha256": "cc068f8b84db39c41b88fca0f62d9c6c43a5b3b52fcb27f203bff992c9739151"
+}

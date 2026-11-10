@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "saint_seiya2_tc",
+  "source": "fivecross-sql-lib/games/saint_seiya2/trino/ss2_gl_rev_monthly_wallet_by_channel.sql",
+  "sha256": "393886851cf9824ca050a33b408aa964ee9b74341dd69d71cf4e297b426e497d"
+}

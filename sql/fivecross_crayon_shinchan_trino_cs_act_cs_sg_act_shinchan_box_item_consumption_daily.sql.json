@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "crayon_shinchan_tc",
+  "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_act/cs_sg_act_shinchan_box_item_consumption_daily.sql",
+  "sha256": "67f6bc04dbd133a308609f0f76ff4219fb86361bb5601f9a12ebd439157cd67c"
+}

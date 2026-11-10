@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "street_rivals_jp",
+  "source": "fivecross-sql-lib/games/street_rivals/trino/sr_jp_kpi_daily_login_by_rtier.sql",
+  "sha256": "9ee0d70f0299049994c1adcde99208475c7212654d952388bc007d87ba5d012f"
+}

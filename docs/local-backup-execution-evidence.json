@@ -1,0 +1,161 @@
+{
+  "skill_discovered": "本地备份文件分析",
+  "dataset": {
+    "dataset_id": "1653e2bd09053e1adc79fe15",
+    "name": "圣斗士_繁体_阿里云_每日经营KPI_20161201至20260527.csv",
+    "bytes": 126272667
+  },
+  "inspection": {
+    "project": "saint_seiya_tw_backup",
+    "dataset_id": "1653e2bd09053e1adc79fe15",
+    "name": "圣斗士_繁体_阿里云_每日经营KPI_20161201至20260527.csv",
+    "coverage": {
+      "date_column": "period_start",
+      "rows": 620235,
+      "min": "2016-12-01",
+      "max": "2026-05-27",
+      "distinct_dates": 3465,
+      "invalid_or_missing_dates": 0,
+      "repeated_date_rows": 616770,
+      "note": "重复日期可能来自多维度，不自动去重；不认证连续覆盖。"
+    },
+    "columns": [
+      "app_id",
+      "version",
+      "period_type",
+      "period_start",
+      "period_end",
+      "observed_start",
+      "observed_end",
+      "dimension_type",
+      "dimension_value",
+      "observation_cutoff",
+      "source_observed_days",
+      "calendar_window_days",
+      "source_coverage_flag",
+      "au",
+      "payers",
+      "revenue_cny",
+      "arpu_cny",
+      "arppu_cny",
+      "pay_rate",
+      "dimension_contract"
+    ],
+    "schema_kind": "actual column names; business types not inferred"
+  },
+  "source_sha256": "72c4c16aad8511513093b15e47b15120ee6f150f749b4f8e3f090809d72509e1",
+  "windows": [
+    {
+      "project": "saint_seiya_tw_backup",
+      "source": "external_local_backup",
+      "file": "圣斗士_繁体_阿里云_每日经营KPI_20161201至20260527.csv",
+      "start_date": "2016-12-01",
+      "end_date": "2016-12-03",
+      "grain": "day",
+      "currency": "CNY",
+      "total_revenue_cny": "225254.568",
+      "rows": [
+        {
+          "date": "2016-12-01",
+          "revenue_cny": "58815.68",
+          "payers": 349,
+          "active_users": 2938
+        },
+        {
+          "date": "2016-12-02",
+          "revenue_cny": "65522.996",
+          "payers": 584,
+          "active_users": 17295
+        },
+        {
+          "date": "2016-12-03",
+          "revenue_cny": "100915.892",
+          "payers": 880,
+          "active_users": 20384
+        }
+      ],
+      "verified_days": 3,
+      "scanned_rows": 620235,
+      "observed_file_date_min": "2016-12-01",
+      "observed_file_date_max": "2026-05-27",
+      "file_bytes": 126272667,
+      "file_mtime_ns": 1793257082289665800,
+      "contract": {
+        "currency": "CNY",
+        "amount_field": "revenue_cny",
+        "date_field": "period_start",
+        "grain": "day/overall/ALL",
+        "app_id": "23000113",
+        "version": "TC",
+        "launch_date": "2016-12-01",
+        "evidence": "备份数据说明与样例.md §统计口径",
+        "filters": "is_water=不是水，非空lcm_id；源已聚合，不重复去重或换汇",
+        "limitations": [
+          "订单数未知",
+          "日人数不可相加为周期去重人数",
+          "源自然日，不认证时区或源分区完整性"
+        ]
+      },
+      "order_count": null,
+      "period_unique_payers": null,
+      "cloud_sql_executed": false,
+      "independent_decimal_control": "225254.568"
+    },
+    {
+      "project": "saint_seiya_tw_backup",
+      "source": "external_local_backup",
+      "file": "圣斗士_繁体_阿里云_每日经营KPI_20161201至20260527.csv",
+      "start_date": "2017-01-01",
+      "end_date": "2017-01-03",
+      "grain": "day",
+      "currency": "CNY",
+      "total_revenue_cny": "670541.77",
+      "rows": [
+        {
+          "date": "2017-01-01",
+          "revenue_cny": "175639.51",
+          "payers": 1051,
+          "active_users": 23183
+        },
+        {
+          "date": "2017-01-02",
+          "revenue_cny": "166477.58",
+          "payers": 1181,
+          "active_users": 23282
+        },
+        {
+          "date": "2017-01-03",
+          "revenue_cny": "328424.68",
+          "payers": 1478,
+          "active_users": 22623
+        }
+      ],
+      "verified_days": 3,
+      "scanned_rows": 620235,
+      "observed_file_date_min": "2016-12-01",
+      "observed_file_date_max": "2026-05-27",
+      "file_bytes": 126272667,
+      "file_mtime_ns": 1793257082289665800,
+      "contract": {
+        "currency": "CNY",
+        "amount_field": "revenue_cny",
+        "date_field": "period_start",
+        "grain": "day/overall/ALL",
+        "app_id": "23000113",
+        "version": "TC",
+        "launch_date": "2016-12-01",
+        "evidence": "备份数据说明与样例.md §统计口径",
+        "filters": "is_water=不是水，非空lcm_id；源已聚合，不重复去重或换汇",
+        "limitations": [
+          "订单数未知",
+          "日人数不可相加为周期去重人数",
+          "源自然日，不认证时区或源分区完整性"
+        ]
+      },
+      "order_count": null,
+      "period_unique_payers": null,
+      "cloud_sql_executed": false,
+      "independent_decimal_control": "670541.77"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_device_kpi_hourly_cumulative.sql",
+  "sha256": "652e28a91b70c08a06809a6f6778fd124d215ab30152db8ae2e147b9422f50d2"
+}

@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "new_three_kingdoms_global",
+  "source": "fivecross-sql-lib/games/new_three_kingdoms/maxcomputer/ntk_gl_search_role_by_did.sql",
+  "sha256": "ea5629998c5df25a272c689dcae07b21b2af614d5c7df89c4c8dc3f45a4186ed"
+}

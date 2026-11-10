@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_negative_star_balance_users.sql",
+  "sha256": "ea03934131332c7a38269021df885d03ca7e70660dce255ca8f4552259b4cf2b"
+}

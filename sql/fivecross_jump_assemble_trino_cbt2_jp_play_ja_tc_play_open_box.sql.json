@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_play/ja_tc_play_open_box.sql",
+  "sha256": "e7dbacd9798764c12e9f9372d298bca38d12a296b2fb2c0234d36e2b13dded3b"
+}

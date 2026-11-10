@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "slam_dunk_gl",
+  "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_tc_new_and_latent_return_30d-90d_ltv_stats/sd_tc_new_and_latent_return_30d_ltv_stats.sql",
+  "sha256": "9732eeab741731fcc25055f114b9e6a384da55261b323874f964c77f1723824a"
+}

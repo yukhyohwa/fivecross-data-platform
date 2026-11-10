@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "crayon_shinchan_tc",
+  "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_tc_obt_sandbox_welfare_blacklist.sql",
+  "sha256": "99bf28ec45b2fa405227d44baf395e65dacd029fe6e5f70e703770f17bc82977"
+}

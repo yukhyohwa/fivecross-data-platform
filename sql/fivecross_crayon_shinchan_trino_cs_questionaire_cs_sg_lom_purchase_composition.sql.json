@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "crayon_shinchan_tc",
+  "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_questionaire/cs_sg_lom_purchase_composition.sql",
+  "sha256": "ed402abe62e5c2ec1335d54c98d33a4707c8015a13bdd62a29157e7ac8f61d16"
+}

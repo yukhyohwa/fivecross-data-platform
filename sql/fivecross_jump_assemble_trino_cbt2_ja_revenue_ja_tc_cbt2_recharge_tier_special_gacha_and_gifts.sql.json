@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/ja_revenue/ja_tc_cbt2_recharge_tier_special_gacha_and_gifts.sql",
+  "sha256": "0b520d56f7f6976795d6694f6dc66099683ae1a80abedad87f792eb82bce37ce"
+}

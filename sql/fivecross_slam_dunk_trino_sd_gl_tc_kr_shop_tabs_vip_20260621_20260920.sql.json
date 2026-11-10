@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "slam_dunk_gl",
+  "source": "fivecross-sql-lib/games/slam_dunk/trino/sd_gl_tc_kr_shop_tabs_vip_20260621_20260920.sql",
+  "sha256": "0204726ac34f75d6d6a6d47631883867a088f03fb9b08290893be6e897019fcf"
+}

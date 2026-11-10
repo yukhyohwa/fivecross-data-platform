@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_moba_vs_3v3_cohort_comparison.sql",
+  "sha256": "7495a142cfc18239e1992c9c50a90c4bec25233c3b50fb7ea367fe3b53ed53ac"
+}

@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "crayon_shinchan_tc",
+  "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_sg_user_retention_hourly_comparison.sql",
+  "sha256": "17e681e57bdad7605f65b200e9bc542a80fb0ddde6de7f8fc194e68387817cfc"
+}

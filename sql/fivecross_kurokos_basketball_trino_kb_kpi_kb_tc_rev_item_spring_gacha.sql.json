@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "kuroko_basketball_jp",
+  "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_tc_rev_item_spring_gacha.sql",
+  "sha256": "bf6f7096fdbdfd16e9b468f587bb79a13f493fe2407e4006419d251e60498cf3"
+}

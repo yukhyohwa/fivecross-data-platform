@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_recharge_tier_active_shop_exchange.sql",
+  "sha256": "08fce01c5e0489ad0874edae746a218e97c922700c78b61c734beb15e17d2d1a"
+}

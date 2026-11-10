@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-analysis-cases/jump_assemble/README.md",
+  "sha256": "ab2efb60ebcb48cccc3a2f10c719ff068995cbdeedc90c4f87ab25d4a25b9277"
+}

@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/ja_tc_skin_gacha_coin_64_minato.sql",
+  "sha256": "1628af266b1591bb108d7d7b34315a3c7efc3efc1caf84195b9bb600a502e52c"
+}

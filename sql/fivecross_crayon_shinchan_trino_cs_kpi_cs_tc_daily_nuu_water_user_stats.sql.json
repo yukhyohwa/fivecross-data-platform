@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "crayon_shinchan_tc",
+  "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_tc_daily_nuu_water_user_stats.sql",
+  "sha256": "4d17da5eb3aae7bbc5872ad2154bec12d94f862341f8cf7f1e278ba53944c568"
+}

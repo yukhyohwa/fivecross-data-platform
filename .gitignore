@@ -1,0 +1,55 @@
+# ── 密钥（严禁入库）─────────────────────────────────────
+.env
+.env.*
+!.env.example
+**/.env.local
+**/.env.*.local
+*.pem
+*.key
+data/.sql-ide/encryption.key
+chat_history/
+backup/
+NUL
+*.sqlite
+*.sqlite3
+
+# ── 虚拟环境（服务器上建在仓库根，必须忽略否则 status 全脏）────
+.venv/
+
+# ── 运行时数据 / 外部查询临时产物 ─────────────────────────
+data/output/
+data/live_*
+data/query_payload.json
+
+*.log
+*.log.*
+*.err
+server_out.log
+server_err.log
+
+# ── SQLite 运行库 ───────────────────────────────────────
+*.db
+*.db-shm
+*.db-wal
+
+# ── 备份与缓存 ──────────────────────────────────────────
+backups/
+.pytest_cache/
+__pycache__/
+*.pyc
+
+# ── 前端（dist 已入库便于服务器无 Node 时 clone 即跑；改 src 后本地重建再提交）──
+ide_frontend/node_modules/
+
+# ── 版本镜像（30 天滚动，运行产物）───────────────────────
+_versions/
+
+# ── 运行时产物：导出 / 订阅 / 报告 ────────────────────────
+runtime/
+subscriptions/
+reports/
+eval/report.json
+
+# ── 模型管理覆盖（运行时写盘：admin 在页面保存的槽位覆盖；.bak/.tmp 为原子写产物。
+#    部署用 git reset --hard，入库会被覆盖丢失，故只忽略不入库）──
+model_config.json*

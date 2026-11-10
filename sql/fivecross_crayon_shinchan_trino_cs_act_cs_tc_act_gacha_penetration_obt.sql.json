@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "crayon_shinchan_tc",
+  "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_act/cs_tc_act_gacha_penetration_obt.sql",
+  "sha256": "82851d0afa562b541d498369c3f5dc57357300fe975ce1ee61bd09a0422ad572"
+}

@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "slam_dunk_gl",
+  "source": "fivecross-sql-lib/games/slam_dunk/trino/sd_chain_gift_cs_query.sql",
+  "sha256": "41f5abdf537b3313615c0517713332185a9d8046115ea310b3d75f615978ab05"
+}

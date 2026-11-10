@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_kpi/ja_tc_user_daily_retention_comparison_by_labels.sql",
+  "sha256": "3c6ef63e131b6534d0f6770dc083775facfa5159c4fc8c2ee08ca2a70a5a5f4e"
+}

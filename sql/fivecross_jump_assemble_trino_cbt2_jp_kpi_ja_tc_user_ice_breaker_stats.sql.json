@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_kpi/ja_tc_user_ice_breaker_stats.sql",
+  "sha256": "e41ad1f81aed3bd4c8fb5266dae6371644a4a3c75ab6b811db45650dae3de4fa"
+}

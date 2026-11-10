@@ -1,0 +1,20 @@
+{
+  "sqls": [
+    "流水达成_分周.sql",
+    "流水达成.sql",
+    "付费指标拆解.sql",
+    "付费国家构成.sql",
+    "付费商品构成.sql",
+    "喵果消耗.sql",
+    "流水目标_未来4周.sql",
+    "流水预测_分日群组历史.sql"
+  ],
+  "docs": [
+    "数据指标知识库",
+    "ROOC 商业化特色知识库"
+  ],
+  "level": "项目",
+  "game": "rooc_am",
+  "owner": null,
+  "forecast": "dau_arpu_roll"
+}

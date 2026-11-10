@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_ranked_season_engagement_retention_diagnostic.sql",
+  "sha256": "6da83f1f99899800a0fa0121c826c58371884d0c2384241145b7b0c655d1d293"
+}

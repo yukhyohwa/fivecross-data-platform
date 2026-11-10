@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "slam_dunk_gl",
+  "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_kr_rev_item_point_consume.sql",
+  "sha256": "fe24b84993c4630c50cb0f49ef9db8fbb59bccc1ccc6b767ae33c6d4e4a229f8"
+}

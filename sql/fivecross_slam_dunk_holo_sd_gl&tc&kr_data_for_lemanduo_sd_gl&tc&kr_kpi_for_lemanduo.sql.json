@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "slam_dunk_gl",
+  "source": "fivecross-sql-lib/games/slam_dunk/holo/sd_gl&tc&kr_data_for_lemanduo/sd_gl&tc&kr_kpi_for_lemanduo.sql",
+  "sha256": "6dee15a848b889533cc5d8651cf35a661b37a2e5f91ea2b196a1225af611f449"
+}

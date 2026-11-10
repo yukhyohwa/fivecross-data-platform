@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "saint_seiya2_tc",
+  "source": "fivecross-sql-lib/games/saint_seiya2/maxcomputer/ss2_gl_rev_monthly_wallet_by_channel.sql",
+  "sha256": "1dd49300e9d12174062a6d1ef02b08e21833a13aabbe6fa8761c0491227c2327"
+}

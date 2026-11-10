@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_play/ja_tc_cbt2_guide_stuck_509_time_to_event.sql",
+  "sha256": "243374af8fcb13a3f0afc33919eb9d1fc09f174ad725fb745c4e9eda0e829d51"
+}

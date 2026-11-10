@@ -1,0 +1,22 @@
+{
+  "name": "分日流水预测",
+  "desc": "留存递推 + 滚动平均的日粒度 DAU/流水/ARPU 预测（源自 22_线上游戏分日流水预测）",
+  "input": "sql",
+  "granularity": "day",
+  "sql": "流水预测_分日群组历史.sql",
+  "target_sql": "流水目标_未来4周.sql",
+  "level": "通用",
+  "game": null,
+  "hist_days": 84,
+  "horizon_days": 28,
+  "window": 30,
+  "sources": [
+    {
+      "kind": "sql",
+      "name": "流水预测_分日群组历史.sql",
+      "fingerprint": "84e87c952f0d947c220d95e9e4a94bb17f4a36aa6117c01428c1d74761be13a6"
+    }
+  ],
+  "sql_transformed": true,
+  "sql_source": "流水预测_分日群组历史.sql"
+}

@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "level": "项目",
+  "game": "slam_dunk_gl",
+  "sources": [
+    "C:\\Users\\5xgames\\Desktop\\github\\fivecross-sql-lib\\games\\slam_dunk\\maxcomputer\\sd_kr_daily_new_return60d_old_user_stats.sql"
+  ],
+  "confidentiality": "internal"
+}

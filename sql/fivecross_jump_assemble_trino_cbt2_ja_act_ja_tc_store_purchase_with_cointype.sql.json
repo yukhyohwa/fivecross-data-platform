@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/ja_act/ja_tc_store_purchase_with_cointype.sql",
+  "sha256": "5e40f81852e6cf7c4ef0bce8b4f39c8d25fd1c3f6fb3a4699d16c8f87edd3de4"
+}

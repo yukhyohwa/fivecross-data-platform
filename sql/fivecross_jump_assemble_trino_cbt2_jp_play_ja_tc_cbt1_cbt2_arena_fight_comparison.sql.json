@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_play/ja_tc_cbt1_cbt2_arena_fight_comparison.sql",
+  "sha256": "7b99ef5646d783795fe8588e4d53faca5a36fdd00dcf820b4d6ca03b5486b2e9"
+}

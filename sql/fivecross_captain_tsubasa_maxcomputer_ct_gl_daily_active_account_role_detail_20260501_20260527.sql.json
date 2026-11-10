@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "captain_tsubasa_global",
+  "source": "fivecross-sql-lib/games/captain_tsubasa/maxcomputer/ct_gl_daily_active_account_role_detail_20260501_20260527.sql",
+  "sha256": "18852de4c6dd749a27d9360f01dcab918ddb3f70e63d33376b637dc997e71ce3"
+}

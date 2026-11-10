@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "saint_seiya2_tc",
+  "source": "fivecross-sql-lib/games/saint_seiya2/maxcomputer/ss2_tw_user_wkly_kpi_stats.sql",
+  "sha256": "36a455795b5571b97b3a523e9671b6c4fffcbc9d2f3664fbea7b3e21c7080211"
+}

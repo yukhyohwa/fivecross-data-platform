@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "slam_dunk_gl",
+  "source": "fivecross-sql-lib/games/slam_dunk/holo/sd_gl_kr_daily_dau_2020_to_now.sql",
+  "sha256": "7182c455e9954e34d697db4851905a493b1487491b7146ce899c932908840eca"
+}

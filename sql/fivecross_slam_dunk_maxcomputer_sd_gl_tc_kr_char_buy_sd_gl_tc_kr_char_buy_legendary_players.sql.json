@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "slam_dunk_gl",
+  "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_gl_tc_kr_char_buy/sd_gl_tc_kr_char_buy_legendary_players.sql",
+  "sha256": "6d03ddf7c0b72c2dd51e6e7ca0cf7ce5b27a96ec7d642302a7fbe1a9546b2659"
+}

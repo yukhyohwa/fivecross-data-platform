@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_daily_task_milestone_stats.sql",
+  "sha256": "448d5555e894aad3b65d277055b1748855542579c5c1843f4c2b1d01ae8d1d4c"
+}

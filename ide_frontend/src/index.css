@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif;
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── Theme-aware surface tokens (for inline style migration) ── */
+:root {
+  --surface-0: #e8e8e8;       /* deepest: left icon strip, code blocks */
+  --surface-1: #f8f8f8;       /* sidebars, inputs */
+  --surface-2: #f0f0f0;       /* header, active tabs, cards */
+  --surface-3: #ffffff;       /* main background */
+  --border-light: #e0e0e0;    /* light borders */
+  --text-primary: #1a1a1a;    /* primary text */
+  --text-heading: #111;       /* heading text */
+  --text-secondary: #444;     /* secondary text */
+  --text-muted: #888;         /* muted text */
+  --text-inactive: #888;      /* inactive icon/text（审计 P1-23：原 #aaa 低于 AA，提亮） */
+  --text-on-accent: #1a1a1a;  /* input text in light mode */
+  --surface-heavy: #e0e0e0;   /* table headers, thick dividers */
+  --surface-hover: #e8e8e8;   /* hover states */
+  --border-heavy: #d6d6d6;    /* thicker borders */
+  --accent-blue: var(--brand);   /* 品牌主色（审计 P1-23：三处 CSS 同源——index.css --brand / globals --sql-accent / vanilla style.css --primary 均指向 #4f7cff） */
+  --brand: #4f7cff;
+  --accent-blue-faint: #4f7cff22; /* 品牌蓝 13% 透明：聊天气泡/行 hover 底 */
+  --accent-blue-dim: #dfe4eb;
+  --accent-amber: #e8a838;
+  --accent-amber-text: #6d4c00;
+  /* Tinted semantic surfaces */
+  --tint-green-bg: #e8f5e9;
+  --tint-green-border: #a5d6a7;
+  --tint-red-bg: #fbe9e7;
+  --tint-red-border: #ef9a9a;
+  --tint-blue-bg: #e3f2fd;
+  --tint-blue-border: #90caf9;
+  --tint-amber-bg: #fff8e1;
+  --tint-amber-border: #ffe082;
+  /* Semantic text */
+  --success-text: #2e7d32;
+  --error-text: #c62828;
+  /* Elevation ladder（审计 P1-23 ⑤：收敛散落的 zIndex 999-4000，全站弹窗/浮层只准引用这些变量） */
+  --z-modal: 1000;          /* 标准弹窗遮罩（原 999/1000/1200 收敛） */
+  --z-modal-nested: 2000;   /* 弹窗之上的二级弹窗 */
+  --z-modal-nested-2: 2100; /* 二级弹窗之上的三级弹窗 */
+  --z-popover: 2200;        /* 悬浮说明层（DescTip；Popover 面板用 --z-popover-panel，遮罩取 calc(其 - 10)） */
+  --z-popover-panel: 2500;  /* 悬浮面板层（Popover） */
+  --z-top: 4000;            /* 全站通用弹窗栈（wsCommon overlayStyle） */
+  --z-toast: 1200;          /* Toast 堆栈 */
+  /* 响应式栏目 token（审计 P2-12）：工作台/看板栏目宽度统一走变量，媒体查询收缩 */
+  --col-iconbar: 40px;   /* 工作台左侧图标条 */
+  --col-toolstrip: 26px; /* 编辑区竖向小工具条 */
+  --col-sidebar: 260px;  /* SQL 工作台侧栏 */
+  --col-files: 220px;    /* SQL 工作台 SQL 文件列表栏 */
+  --col-list: 240px;     /* 专项/知识库/算法 列表栏 */
+  --col-agent: 340px;    /* 专项/知识库/算法 AI 对话栏 */
+  --col-tree: 200px;     /* 看板目录树 */
+  --col-explore: 400px;  /* 探索弹窗左栏 */
+  --strip-icon-on-dim: #2a5bd7; /* 浅底（--accent-blue-dim）竖条按钮图标色：白图标对比度仅 1.28:1 不可见 */
+  --history-icon: #8e44ad;      /* 版本历史工具栏图标 */
+}
+
+.dark {
+  --surface-0: #111;          /* darkest: left icon strip, code blocks */
+  --surface-1: #1a1a1a;       /* sidebars, inputs */
+  --surface-2: #252525;       /* header, active tabs, cards */
+  --surface-3: #1e1e1e;       /* main background */
+  --border-light: #333;       /* light borders */
+  --text-primary: #ccc;       /* primary text */
+  --text-heading: #eee;       /* heading text */
+  --text-secondary: #aaa;     /* secondary text */
+  --text-muted: #888;         /* muted text */
+  --text-inactive: #777;      /* inactive icon/text（审计 P1-23：原 #555 低于 AA，提亮） */
+  --text-on-accent: #f0f0f0;  /* text on dark input bg */
+  --surface-heavy: #2a2a2a;   /* table headers, thick dividers */
+  --surface-hover: #3a3a3a;   /* hover states */
+  --border-heavy: #3a3a3a;    /* thicker borders */
+  --accent-blue: #a7c1e7;
+  --accent-blue-dim: #423d3d;
+  --accent-amber: #e8a838;
+  --accent-amber-text: #e8a838;
+  /* Tinted semantic surfaces */
+  --tint-green-bg: #1a2a1a;
+  --tint-green-border: #2a4a2a;
+  --tint-red-bg: #2a1a1a;
+  --tint-red-border: #4a2a2a;
+  --tint-blue-bg: #1a2030;
+  --tint-blue-border: #2a4060;
+  --tint-amber-bg: #2a2010;
+  --tint-amber-border: #4a3a20;
+  /* Semantic text */
+  --success-text: #7bc97b;
+  --error-text: #e07b7b;
+  --strip-icon-on-dim: #fff;    /* 暗色主题 --accent-blue-dim=#423d3d 深底，白图标 10.7:1 正常 */
+  --history-icon: #a06bd1;      /* 暗色下 #8e44ad 对 #09090b 仅 3.4:1，提亮至 4.6:1 */
+}
+
+/* Tailwind preflight（globals.css 的 @tailwind base）把 svg 统一设为 display:block，
+   纯 button 内联的 lucide 图标因此独占一行、把文字挤到第二行（「深度分析/自动」两行根因，
+   与 flex 折行无关）。恢复按钮/标签/链接内图标的行内布局；vertical-align 沿用 preflight 的 middle。 */
+button svg,
+label svg,
+a svg,
+[role='button'] svg {
+  display: inline-block;
+}
+
+/* Scrollbars */
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: var(--surface-1); }
+::-webkit-scrollbar-thumb { background: hsl(var(--border)); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: hsl(var(--muted-foreground) / 0.5); }
+
+@keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+@keyframes pulse { 0%, 100% { opacity: 0.4; transform: scale(0.9); } 50% { opacity: 1; transform: scale(1.2); } }
+@keyframes skeleton-pulse { 0% { opacity: 0.3; } 50% { opacity: 0.6; } 100% { opacity: 0.3; } }
+@keyframes toast-in { from { opacity: 0; transform: translateX(20px); } to { opacity: 1; transform: translateX(0); } }
+@keyframes progress-indeterminate { 0% { transform: translateX(-100%); } 100% { transform: translateX(400%); } }
+
+:focus-visible { outline: none; border-color: var(--accent-blue); box-shadow: 0 0 0 2px rgba(79, 124, 255, 0.25); }
+input::placeholder { color: var(--text-muted); }
+input:hover { border-color: var(--text-muted); }
+button { transition: opacity 0.15s; }
+button:hover { opacity: 0.85; }
+button:active { opacity: 0.7; }
+
+/* Sidebar merge/restore controls — show only on hover */
+.sidebar-ctrl { opacity: 0; transition: opacity 0.15s; pointer-events: none; }
+.sidebar-item:hover .sidebar-ctrl { opacity: 1; pointer-events: auto; }
+/* 键盘可达：Tab 聚焦到控件时同样揭示，避免聚焦到不可见按钮（对抗审查修复） */
+.sidebar-item:focus-within .sidebar-ctrl { opacity: 1; pointer-events: auto; }
+
+/* hover 揭示控件（审计 P1-23：原 NoticeCard/TableRenderer/ExploreFilterPanel 内联 <style> 收敛到全局） */
+.nc-edit, .tr-col-actions, .efp-del { opacity: 0; transition: opacity 0.15s; }
+.nc-panel:hover .nc-edit, .tr-th:hover .tr-col-actions, .efp-row:hover .efp-del { opacity: 1; }
+.efp-del { color: var(--text-muted); cursor: pointer; }
+.efp-del:hover { color: #e74c3c; }
+
+/* ── Agent reply markdown ── */
+.agent-reply h1, .agent-reply h2, .agent-reply h3 { color: var(--accent-amber-text); margin: 10px 0 4px; font-size: 13px; font-weight: 600; }
+.agent-reply p { margin: 4px 0; }
+.agent-reply ul, .agent-reply ol { margin: 4px 0; padding-left: 20px; }
+.agent-reply li { margin: 2px 0; }
+.agent-reply strong { color: var(--text-primary); }
+.agent-reply code { background: var(--surface-1); padding: 1px 5px; border-radius: 3px; font-size: 11px; color: #5a8; font-family: Consolas, Monaco, monospace; }
+.agent-reply pre { background: var(--surface-0); padding: 8px 12px; border-radius: 4px; overflow-x: auto; margin: 6px 0; border: 1px solid var(--border-light); }
+.agent-reply pre code { background: none; padding: 0; color: #5a8; font-size: 11px; }
+.agent-reply table { width: 100%; border-collapse: collapse; margin: 8px 0; font-size: 11px; }
+.agent-reply th, .agent-reply td { border: 1px solid var(--border-light); padding: 5px 10px; text-align: left; }
+.agent-reply th { background: var(--surface-2); color: var(--accent-amber-text); font-weight: 600; white-space: nowrap; }
+.agent-reply tr:nth-child(even) { background: var(--surface-1); }
+.agent-reply hr { border: none; border-top: 1px solid var(--border-light); margin: 10px 0; }
+.agent-reply blockquote { border-left: 3px solid var(--text-muted); margin: 6px 0; padding: 2px 10px; color: var(--text-muted); }
+.agent-reply a { color: #6cf; }
+
+/* ── 响应式（审计 P2-12）：栏目收缩两档 900px / 640px ── */
+@media (max-width: 900px) {
+  :root {
+    --col-sidebar: 190px;
+    --col-files: 180px;
+    --col-list: 190px;
+    --col-agent: 270px;
+    --col-tree: 170px;
+    --col-explore: 300px;
+  }
+}
+
+@media (max-width: 640px) {
+  :root {
+    --col-iconbar: 38px;
+    --col-sidebar: min(45vw, 150px);
+    --col-files: min(50vw, 160px);
+    --col-list: min(50vw, 160px);
+    --col-agent: min(60vw, 300px);
+    --col-tree: 150px;
+  }
+}
+
+/* 窄屏下可整块隐藏的栏目（按需挂 class） */
+@media (max-width: 900px) { .hide-narrow { display: none !important; } }
+@media (max-width: 640px) { .hide-phone { display: none !important; } }
+
+/* 触屏设备无 hover：hover 揭示控件常显（审计 P2-12） */
+@media (hover: none) {
+  .sidebar-ctrl, .nc-edit, .tr-col-actions, .efp-del { opacity: 1 !important; pointer-events: auto !important; }
+}
+
+/* Toast 堆叠容器：窄屏铺满底部，宽屏右下角 */
+.toast-stack { position: fixed; right: 16px; bottom: 16px; z-index: var(--z-toast); display: flex; flex-direction: column; align-items: flex-end; gap: 8px; pointer-events: none; }
+.toast-stack > * { pointer-events: auto; }
+@media (max-width: 640px) { .toast-stack { left: 8px; right: 8px; bottom: 8px; align-items: stretch; } }
+
+/* 减弱动效偏好 */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

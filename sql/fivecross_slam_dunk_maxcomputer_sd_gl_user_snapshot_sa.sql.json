@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "slam_dunk_gl",
+  "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_gl_user_snapshot_sa.sql",
+  "sha256": "5909c315dfc1f7c1c04e50d61629a95863cf481b6d2648118034a725134ed876"
+}

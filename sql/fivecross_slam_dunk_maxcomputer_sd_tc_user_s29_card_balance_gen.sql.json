@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "slam_dunk_gl",
+  "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_tc_user_s29_card_balance_gen.sql",
+  "sha256": "1796f069b57d4b9ce054ed0e1c56e44ec8db6a502f3ad462accdd2f66406bd87"
+}

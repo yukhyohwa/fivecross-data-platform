@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "crayon_shinchan_tc",
+  "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_char/cs_tc_44_week4_growth_compare.sql",
+  "sha256": "b4a8424e93b10ff6eb2833f3640839d0054a999209229bad525c06714950743f"
+}

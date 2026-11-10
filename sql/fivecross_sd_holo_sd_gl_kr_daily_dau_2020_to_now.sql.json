@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "level": "项目",
+  "game": "slam_dunk_gl",
+  "sources": [
+    "C:\\Users\\5xgames\\Desktop\\github\\fivecross-sql-lib\\games\\slam_dunk\\holo\\sd_gl_kr_daily_dau_2020_to_now.sql"
+  ],
+  "confidentiality": "internal"
+}

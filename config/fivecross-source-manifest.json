@@ -1,0 +1,3134 @@
+{
+  "manifest_version": 1,
+  "source_type": "FiveCross",
+  "policy": "verified canonical repositories only; no external backup copy",
+  "sources": [
+    "C:\\Users\\5xgames\\Desktop\\github\\fivecross-sql-lib\\games",
+    "C:\\Users\\5xgames\\Desktop\\github\\fivecross-analysis-cases",
+    "C:\\Users\\5xgames\\Desktop\\github\\shinchan-events-tracking"
+  ],
+  "external_backup_observed": true,
+  "accepted": [
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/captain_tsubasa/maxcomputer/ct_gl_daily_active_account_role_detail_20260501_20260527.sql",
+      "sha256": "18852de4c6dd749a27d9360f01dcab918ddb3f70e63d33376b637dc997e71ce3"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/captain_tsubasa/maxcomputer/ct_gl_daily_kpi_by_country_channel_from_launch.sql",
+      "sha256": "705050b5843e5f5eb607fdff6f36bff4a16b97a3aea1180dc879b7d1081e8bf6"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/captain_tsubasa/maxcomputer/ct_gl_first_month_kpi_by_region.sql",
+      "sha256": "cc0b75671e4d50db498f66d0731663ab74db7ec39a948a5edb8ca393d15380a9"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/captain_tsubasa/maxcomputer/ct_gl_revenue_by_channel_2025Q4.sql",
+      "sha256": "3ae60122b6ac30292eeb82f889b0014e65a382189870112d2160dc6432a4bebf"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/captain_tsubasa/maxcomputer/ct_gl_revenue_by_channel_202602.sql",
+      "sha256": "40879011134945b7e4be390249c9f5e644dab53ececc5ce12d9d3f0b92efd754"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/captain_tsubasa/maxcomputer/ct_gl_revenue_stats.sql",
+      "sha256": "c2a2b5c746a5749deca7541e508707c4840df18f102adc264c0a68f61f7fe7a2"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/captain_tsubasa/maxcomputer/ct_gl_sg_ltv_stats.sql",
+      "sha256": "4c9d827dc78e5f97528518218a13fbd52a5c4cf6bd623478cbe5e8471ffdd569"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/captain_tsubasa/trino/ct_cn_user_kpi_stats.sql",
+      "sha256": "6d842dbb3f0a91c139316f421b3347c9ac8390306e9beb6453003a8b813f7992"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/captain_tsubasa/trino/ct_gl_daily_kpi_by_country_channel_ta.sql",
+      "sha256": "d52e155f16526e371545aae00597b8d13828eac700712a16a54f6e08befe10ba"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/captain_tsubasa/trino/ct_gl_revenue_by_channel_202602.sql",
+      "sha256": "58174d88411c38fabb73e95b9364f89c8926977ca3dad79157c433cccca43f35"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_act/cs_sg_act_amusement_park_event_stats.sql",
+      "sha256": "d80d16cb0e276318558a334d320d5fab939a1ab148f728d9b229f94210f246a6"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_act/cs_sg_act_amusement_park_exchange_by_tier.sql",
+      "sha256": "736d679128d7808dff397cdeb2e648ca8008ca8fe60370df8aaad239d029b75e"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_act/cs_sg_act_diamond_avg_balance.sql",
+      "sha256": "8c36bebd695d67b24e87b086b4a73fd319e80f8f581822c3c67972ce9fd21e3b"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_act/cs_sg_act_diamond_daily_stats.sql",
+      "sha256": "6680440edd3090a2a8b2fac1e97130d17feca3f1a52bf6612ec3de33f7e1b53d"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_act/cs_sg_act_exchange_stats.sql",
+      "sha256": "4ed749cc5e3fb76952c27014894f2e47ea980c1979093e22bebc67ce83693044"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_act/cs_sg_act_gacha_event_stats.sql",
+      "sha256": "09a5f70347077d4048ba6ed75cc5cdc4ad1978cc255f85a1df217e314664713b"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_act/cs_sg_act_gacha_item_stats.sql",
+      "sha256": "93be6c41a0206af4de1f25acd2a841b631ee8ec964fe2ca1dace6e3de191caf0"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_act/cs_sg_act_gacha_penetration.sql",
+      "sha256": "12e6083ec5a62e45eb74048f0e397251e9a014a8c0f1b7c0c80812455e6d5ede"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_act/cs_sg_act_shinchan_box_item_consumption_daily.sql",
+      "sha256": "67f6bc04dbd133a308609f0f76ff4219fb86361bb5601f9a12ebd439157cd67c"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_act/cs_tc_act_amusement_park_exchange_by_tier.sql",
+      "sha256": "9663412a982fb18051bcac144d0d6b4946bfac6507d6cb4c7a1ac805b9db807d"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_act/cs_tc_act_gacha_item_stats_obt.sql",
+      "sha256": "53b5ff47d9d14d6d01878f3db400e7e2579ba0b91a654d37af9d6ab0c4d321c0"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_act/cs_tc_act_gacha_penetration_obt.sql",
+      "sha256": "82851d0afa562b541d498369c3f5dc57357300fe975ce1ee61bd09a0422ad572"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_act/cs_tc_act_limited_companion_event_stats.sql",
+      "sha256": "b54d340f94ddbe8b7167ec467cd5ff5d75424ce7dcff84806bd88bd2d1517bb4"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_act/cs_tc_act_limited_companion_mount_gacha_dashboard.sql",
+      "sha256": "5464871c6c55bcaa55851b41632cd0edc9577e2eb9e05286694f182d641364de"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_act/cs_tc_act_limited_companion_mount_gacha_draw_distribution.sql",
+      "sha256": "90676ad8c21db31c9888b9c7f5532a9ef9682b9e4a5452c80bfadb174891a3a0"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_act/cs_tc_act_limited_companion_mount_gacha_stats.sql",
+      "sha256": "a46353ea827b8888a6f60ecc80e12d2e1144792244641542660649715fe48b64"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_act/cs_tc_act_limited_companion_mount_gacha_stats_by_level_paytier.sql",
+      "sha256": "62a65789832d058fe41e21c003d500199a594d885c047f7fe8692938704e20e5"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_act/cs_tc_act_red_image_acquisition_detail_obt.sql",
+      "sha256": "d136d1ac0a8f21ac03f19edf22a8440902610f7660650eee6d43becb28649b4a"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_act/cs_tc_act_red_image_shop_reward_server_cutoff_obt.sql",
+      "sha256": "56c328ba90b27b38392596eb534661a3fcbbb9bb3c53a85cf5f7ed4825bfdddd"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_act/cs_tc_act_shop_purchase_stats.sql",
+      "sha256": "b77049b32ef443c7bed18205c0966d7d406f5698392769e29f82eead2e0d77c5"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_act/cs_tc_limited_companion_mount_core_item_acquisition_distribution.sql",
+      "sha256": "0408cf6df910d99005d73772bdd02287d672b144f887ec90503c5176d2dce420"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_act/cs_tc_limited_mount_gundam_ge4_players.sql",
+      "sha256": "fc31eca18aec32937e1413bf135da0f414bcbe3a896680aa6c115877b46f6776"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_act/cs_tc_obt_happy_box_daily_participation_revenue.sql",
+      "sha256": "51e8c464c8d81239d14256763ba55033b322cb9fb376e05a1e05782c5f72ffdf"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_act/cs_tc_obt_party_coin_exchange.sql",
+      "sha256": "9b2cecd581d79f31867337dce7bfb983194e7a1ecec2f8908e1f7fab9ddf6e34"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_act/cs_tc_obt_party_daily_participation_revenue.sql",
+      "sha256": "73f25521d169dbd410c5a558208f18e0c3cb4d436e2a8a6f1010f83904fa999d"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_ad/cs_sg_ad_churn_ratio.sql",
+      "sha256": "ac8a4a724c33aefda480ee6b40b8303738a122bea8747c5f0413025c9d5d1164"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_ad/cs_sg_ad_cohort_retention.sql",
+      "sha256": "f018c04e5db21a3e941f1b54c7a6586fe59d74a17aa50a9924c08788f2669fb7"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_ad/cs_sg_ad_daily_stats.sql",
+      "sha256": "d3731e7459a00b0a0942e584d28137ba5b0e3380470b90ed6772ca3a57451972"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_ad/cs_sg_ad_impression_stats.sql",
+      "sha256": "6297f5616858f70235646251d66dbcca6e01300aa334d996b66eda65402aec63"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_ad/cs_sg_ad_level.sql",
+      "sha256": "131efacf3e87e2f80092f5d0f8f6c897017285487423deb1c2d70372ee5d08fd"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_ad/cs_sg_ad_pref_by_reg_date.sql",
+      "sha256": "3708c732644a99e6a207953c761c4927404d120f7607354f518d2f9850c0957d"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_ad/cs_sg_ad_views_before_purchase.sql",
+      "sha256": "d7630fc14627634b5355ba326c3f4878dfc13080939c04295ad2cc1785213c66"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_char/cs_sg_char_equip_dress_stats.sql",
+      "sha256": "b179d278a29a945d58add1362bad5a75993f388bf9b75013feee09956b9ed3bf"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_char/cs_sg_char_friend_up_stats.sql",
+      "sha256": "adb98373904a7fb4da404fa4d07171c2202d14a30472b95a812c642a38241bfd"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_char/cs_sg_char_mosaic_up_stats.sql",
+      "sha256": "cffd86e62e6f733a6c6d2d8db13b2e5ecd5fa3bd7c5fe7b592594c69915305b8"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_char/cs_sg_char_mount_levup_stats.sql",
+      "sha256": "9b6e28e315f71ee0c9e3d8798ac3c7e7501ad863868843f83b50d242b5116e09"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_char/cs_sg_char_mount_stats_by_recharge_tier.sql",
+      "sha256": "21c170e3e297b9e9c260bf73579ba55929b03d23b4f3e4cb651dbcab410f0046"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_char/cs_sg_char_skill_up_stats.sql",
+      "sha256": "b9a23086d8df0218c620aaffe79480ba56bc7893150085386eb56756e9564e77"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_char/cs_sg_char_toy_up_stats.sql",
+      "sha256": "f34a25530cca5bc6fea700fd3bc32c6623502248f2a440235fd5bc88c4d5ba98"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_char/cs_tc_05_character_progression.sql",
+      "sha256": "597d91acfac5f9b635783a2df159a0c43f5332ff01bb61b63ae880642d789099"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_char/cs_tc_08_character_system_growth.sql",
+      "sha256": "abee9ef429578421fa5b89a5597bfa50eda59c98bbd37423ab8a0115c385f62f"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_char/cs_tc_12_role_level_snapshot.sql",
+      "sha256": "59873c455433f4b4ae166ae32de4ab8ead9213c5c5690b6e0a4829d55374ab99"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_char/cs_tc_13_companion_growth_by_recharge_tier.sql",
+      "sha256": "5d04b99e665e63bc1e56072f048b21ebecae8ef00f7fe0b1541ca8f5a3e40f4d"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_char/cs_tc_14_skill_growth_by_recharge_tier.sql",
+      "sha256": "f6caa8cdd9a770cff6ee81a87211be2feab5c330754a4a1b5180d4da2505ccbf"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_char/cs_tc_44_week4_growth_compare.sql",
+      "sha256": "b4a8424e93b10ff6eb2833f3640839d0054a999209229bad525c06714950743f"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_char/cs_tc_48_week4_quality_ownership_compare.sql",
+      "sha256": "b2ce12a21e2c1ef08f3d5e117f9f81478338c7745efa81a580c235833faf82ae"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_char/cs_tc_char_gem_log_by_user.sql",
+      "sha256": "f52b0914da27bf882a4f657c599700dc7b7dccf540eafcd4add6cfc2cf8193e8"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_char/cs_tc_first_jobchange_level.sql",
+      "sha256": "6368d9a5295ce1a40c0302bf5d7c96e6a01ec15bf1d95c35376ae7194ce5566d"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_char/cs_tc_first_jobchange_level_detail.sql",
+      "sha256": "0928536a33a1cf06ce75e89dca993780eeda581928cc2678b47f5be0e7a69c3d"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_char/cs_tc_mount_feed_consumption_level_detail.sql",
+      "sha256": "89a1696282b75111b64c2944e64837d167ae6e60127a66a64f5b27f4cfa8ff62"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_sg_all_recharge_users_profile.sql",
+      "sha256": "e5d0f56fa0620fa149541a4feb13cb3f54c2c0bd6d04560fe566e20e7b9c8a87"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_sg_new_user_profile_with_stage.sql",
+      "sha256": "f503d77f7bf3ff314dded49994309b7880241f69935d8b6a4fb178315babd3ef"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_sg_tc_user_retention_hourly_4period_comparison_obt_fc_id.sql",
+      "sha256": "83bd304b6ad4625334fcf9731a15421f86ef3c3eae72d8f9094b8cd773fe4d77"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_sg_user_duration_methods_comparison.sql",
+      "sha256": "db09f4f45bdbac09a14843f97782eac60c5233354d8062a36a0645b30c786c6b"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_sg_user_duration_retention_stage.sql",
+      "sha256": "7de168adba720b3c67fad7d2eb88cf949b32b41928eacb45028bacfb20f0ccb5"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_sg_user_first_purchase_last_stage.sql",
+      "sha256": "852fbb536670a28a57704b36a89e37af4259ce27c1454d636eab06f5d38a7d72"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_sg_user_first_purchase_product_stats.sql",
+      "sha256": "2b55717df052d8aa7b61192a4bd24af6dc674d0d0434cffef7481b0a73cf4769"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_sg_user_first_purchase_time_diff.sql",
+      "sha256": "60de59dfca526f97a402694258f73b74a3bc3a84c1ffe2ce7d74be27df0cb235"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_sg_user_first_week_cohort_sku_rev.sql",
+      "sha256": "64bc7e625e45ce0f833a23c352b4922b4ecd561899a597a127af6fd23d59d98c"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_sg_user_guide_stage_timeline.sql",
+      "sha256": "824cd29aed1559673d25475ce543f7273542094d49a1aff6a0bc454dba56ae92"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_sg_user_ice_breaker_stats.sql",
+      "sha256": "aad4cd6c6e9a2f06da48041cd0f513fc4a0a6ad1dd2c526aec6b6d9cddef9bc7"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_sg_user_kpi_ad_ltv_stats.sql",
+      "sha256": "66ad4a09c7c14e87737dd162914976b07aa218b0b944c4af68e5128d707e97c0"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_sg_user_kpi_hourly_cumulative.sql",
+      "sha256": "7303e82be7c82c8864cee3cd8246999e14d80c876569978663f459ddfea5b720"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_sg_user_kpi_ltv_stats.sql",
+      "sha256": "8f20d4ce143af47a8f6ff1b73a1e22fede345ea0c14e62f06fe10fbef78e15a9"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_sg_user_kpi_stats.sql",
+      "sha256": "6a404099285764b7933c3f1d3612d07812b46cc05699dbbd23caa151b10d63ce"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_sg_user_level_stage_stats.sql",
+      "sha256": "ce9005feb4dab3cb323cd08612aa763b18f5c3408997be764d497be813539883"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_sg_user_new_role_stats_by_os.sql",
+      "sha256": "c20bae9fff4c129a0cbb178f8fd48b641fd1e5f5231381f4ee65d85d291b9960"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_sg_user_recharge_sequence.sql",
+      "sha256": "afe91fba8407370242985aa2e06807e07a4c82adc7a91731d5605ac3b618f16c"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_sg_user_retention_hourly_comparison.sql",
+      "sha256": "17e681e57bdad7605f65b200e9bc542a80fb0ddde6de7f8fc194e68387817cfc"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_sg_user_retention_stats.sql",
+      "sha256": "ab988e9475c8838f99d2e0f6d6fb227c9dbf0e104d38097642cca9b99bf471eb"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_sg_user_ruu_stats.sql",
+      "sha256": "b09d28a85d97e2b4b5106e8b3ab37fe73a031327c990584b2aa3d2baef801ab3"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_tc_cbt_kpi_stats_device_accel_matured_only.sql",
+      "sha256": "7a7b914a83ecd58fd9624ae9cf545708eb4a58f72e5c9f8dfe9782b9fbf81928"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_tc_cbt_kpi_stats_device_accel_with_zone.sql",
+      "sha256": "66c305df7d25e3794e7668eafee4c798ac3952c31a8e78f08fd7aa739336d81d"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_tc_charge_by_product_obt_fc_id.sql",
+      "sha256": "05d6f0bf6df53f549fb44a4c582fdcbc1b52700f9ab744d6f5733c024d26bde1"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_tc_charge_user_detail_obt_fc_id.sql",
+      "sha256": "2b97a2f8611533fe1fcba64faa0934f72a0b4d2533831de08cfcc2d1533fd241"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_tc_daily_gems_average_balance_obt_fc_id.sql",
+      "sha256": "1c948c94d8470678f66eb489e0c9c5cbd179482b6e8e38911bcae0cc0b6f4fcd"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_tc_daily_gems_production_consumption_obt_fc_id.sql",
+      "sha256": "5750735e948bb233c69561900ff459481119d4d0549e03d998c898a3d3a246f7"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_tc_daily_hourly_cumulative_dau_obt_fc_id.sql",
+      "sha256": "e0596dd5be189889f786c9e9c38e1c56fe06ff32b62ce52845cb7dac4fb8001c"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_tc_daily_nuu_water_user_stats.sql",
+      "sha256": "4d17da5eb3aae7bbc5872ad2154bec12d94f862341f8cf7f1e278ba53944c568"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_tc_daily_red_diamond_average_balance_obt_fc_id.sql",
+      "sha256": "5e1d2ddb503fef38b6bb28a0260992b917f58010f1f104a93fb5ac91be2108d1"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_tc_daily_red_diamond_production_consumption_obt_fc_id.sql",
+      "sha256": "cad247dd07e3080d3b41da9d208e00519d796e1c5254a930adc9b30930d52b71"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_tc_first_charge_product_analysis_obt_fc_id.sql",
+      "sha256": "936490f6f3d1b1e3f388954c61f0324024ca9b0076901dee5bc057eed79ae061"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_tc_kpi_obt_fc_id_hourly_cumulative.sql",
+      "sha256": "c1e5327215a4c6154726df2945ad97705cf93425061499fddc65eb023490a27f"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_tc_kpi_obt_fc_id_matured.sql",
+      "sha256": "4738a2920613f907dacbbf296ce31ac301d55310770010a3dd023ad1d5694692"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_tc_kpi_obt_fc_id_zone_realtime.sql",
+      "sha256": "f94bc6aaa42d3bacdc550f63cb7803a48f1d3b75de812d77f672ba191e39d2b6"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_tc_novice_guide_cbt_obt_android_comparison.sql",
+      "sha256": "5cd5fdbb41cbd1ced1d34289ba04f5459b0b24246fd0aa9143c0d422104fa806"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_tc_novice_guide_sg_cbt_obt_tc_comparison.sql",
+      "sha256": "2b07a8400ed7a5d16d45a3896e70efd81a415ade800a632062943d30c0b365f3"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_tc_obt_high_progress_role_profile.sql",
+      "sha256": "5931f9ffffa846e9d0cc5f9dca8f8e2854589632110b0a584bc45524d26fd5bc"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_tc_obt_sandbox_welfare_blacklist.sql",
+      "sha256": "99bf28ec45b2fa405227d44baf395e65dacd029fe6e5f70e703770f17bc82977"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_tc_obt_water_user_fc_ids_by_install_device_ip.sql",
+      "sha256": "b4ec5623cb871b08aeb671e82ba5b4c94547a2a9fa9dbd7a5b17b9416e7e0edb"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_tc_order_detail_by_d0_payment.sql",
+      "sha256": "e6ecd11482f2ff4b3428fec97013d0090d85031e733e915cea7bccb4b4bbe655"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_tc_purchase_by_category.sql",
+      "sha256": "e671476b22afbca258f47adbd9cec07943154a24ee279b1995672fa18c8a5932"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_tc_purchase_by_category_obt_fc_id.sql",
+      "sha256": "56c4474a31d8b530353755f98f1f92176526b9f3edf945ea303b5a96ca37b5fb"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_tc_purchase_category_sequence.sql",
+      "sha256": "07a4124ff8882f2f302ec1febbc9e19d0a42a1c748d017fc886ca1cd266592e4"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_tc_recharge_summary_by_paytier_obt_fc_id.sql",
+      "sha256": "84bdef1d7ea7dea7b9613707d50ce1a98f7e62d842734df19de63cd946e07ced"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_tc_rev_server_open_days.sql",
+      "sha256": "017a429ae948c49faad358181f3c638be9247339be1de63d445a93fc3640889a"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_tc_search_user_by_rolename.sql",
+      "sha256": "439932431c18d33670dd5648f88085cebbf6508b2da5c5432f8bb9a03036e0f9"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_tc_server_daily_active_obt.sql",
+      "sha256": "65e9a729a7d5865637cb70c41a27daff4035568023e8c7a80af1e68db71278a6"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_tc_server_open_day_cohort_ltv.sql",
+      "sha256": "61aa7903e275adbfa27777c2c180a41133df7a946de84b4ce83a84e8f80ee479"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_tc_shop_exchange_obt_fc_id.sql",
+      "sha256": "ace3630ddb39f00d9f9266964f20afd2dc5bdef8764755e6a989e300bd33d1f9"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_tc_top_gems_balance_users_obt_fc_id.sql",
+      "sha256": "4b3ea6d29056e9ac9b26e3673b955323a81bf578505b4880708f6c93bebcfb02"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_tc_twd_payer_tiers.sql",
+      "sha256": "d41cc0a2ece54e642660cd9c529cbd7fac8e281c962a36ef05fde5dec073fa4a"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_tc_user_arena_power_by_open_days.sql",
+      "sha256": "e929c7dd2ffffa9eaa7899a017fd9a5c6c6e8bb7aa358e49fd5c537aafb6333b"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_tc_user_cross_server_recharge_tracking.sql",
+      "sha256": "4e48136010fb02b41edd7d50d207a9f15b5063c97a79ec570d459d96a2b3ad40"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_tc_user_duration_methods_comparison_obt_fc_id.sql",
+      "sha256": "6a9a09d94e5caa956ce1aa1b0094d15eea6c07a099d7e9cc5bb76cebf0f7494c"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_tc_user_first_charge_time_diff_obt_fc_id.sql",
+      "sha256": "913941046da064b747872d41e913f8a18e9cad825a2d0646e11812ee5475d46d"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_tc_user_ice_breaker_stats_obt_fc_id.sql",
+      "sha256": "a689eb0ead9f4d7d55bcc4552cf97c5f920fb820ea364d573b5dd86d513d563c"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_tc_user_kpi_hourly_cumulative.sql",
+      "sha256": "7c3756d885401876f967c9b2a1b100da6c04491cdc39062670ef5774bdf1bf82"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_tc_user_last_main_stage_before_first_charge_obt_fc_id.sql",
+      "sha256": "79abf6710d32ccf33244e81baa78391b4faa1dd3360778d28c59b9e119671202"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_tc_user_novice_guide_obt_fc_id.sql",
+      "sha256": "6e7b218aa2e147e27e7b6b5b9ad2f56e330e13ee9f7a3af95e2f59a0248923d6"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_tc_user_novice_guide_obt_fc_id_complete.sql",
+      "sha256": "5b8201e2c8d16f64db73a5b033a7c165f5d8b7017bf8791cc25356a6d5efb5a6"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_tc_user_ruu_stats_obt_fc_id.sql",
+      "sha256": "90a6e81af6a377f4d6c2e75e79820171d33ce2c66f7ad98dfb1bf1d115c90d9f"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_tc_water_users_device_stats.sql",
+      "sha256": "03ee2e8caff8c4138ecdd4c2d5d42ce4b8deeed27d64c4c5a335c215c380ff71"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/sg_obt1_obt2_first_pay_stage_timing.sql",
+      "sha256": "61191ca45d0f077968b42a6073a800cbeba41b3b3ed8baef72262f167098f8fc"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/sg_user_payment_behavior_detail.sql",
+      "sha256": "f81ed7cc4901955cc0f58f7b95a753cc42487863c7f4f15c380e0b11ee4d727f"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_play/cs_sg_play_main_stage_pass_stats.sql",
+      "sha256": "3d227e26778f5947d417bff5586652713216dfb3376e69a8f77c04312831f019"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_play/cs_sg_play_prizewheel_item_stats.sql",
+      "sha256": "e8459fd9cc30630c857852290bbdde6fa93b69c3edb6e1dc85d53b87f46ba5b9"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_play/cs_sg_play_prizewheel_penetration.sql",
+      "sha256": "45d3e699d7bb4e15c482d3fb03a5c3a634d6748582c1054c26beafae297f5785"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_play/cs_sg_play_role_level_stats.sql",
+      "sha256": "9fff59bb8cc6f9574f30db3e7efbbfe150e00e185a045df7b2e747029dd5f948"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_play/cs_sg_play_stage_fail_stats_by_chapter.sql",
+      "sha256": "4da3a88c9306896896562dc9381508ebec879c8fb9aa1c0090b7b892f4eaaa5d"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_play/cs_sg_play_stage_fight_fail_stats.sql",
+      "sha256": "860a53ae0ee0e4a84401b2c6922752ed357c94d3581a5c1f8660ebb6e8e8e14d"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_play/cs_sg_play_stage_penetration.sql",
+      "sha256": "6a07d2b3a717422a4b332a9bef01ddff76286480ffa6aecc0dfc9c2bf842317d"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_play/cs_sg_play_stage_penetration_stats.sql",
+      "sha256": "f5c4c9fd4195e95eb773d50ee82f436f131575f434c6313261f80ee79ba82650"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_play/cs_sg_play_sub_stage_pass_stats.sql",
+      "sha256": "fa941ca072010ecec37aae1af476422729c0417d94e8a2d1b9c9892104404004"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_play/cs_tc_play_guild_charity_sale_stats.sql",
+      "sha256": "edf1f3f95c478754b44bb67bfa0e330948ce29bce8803f4ecc3d29847e0fc5f3"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_play/cs_tc_play_stage_penetration_stats.sql",
+      "sha256": "673215c9ac58e9fb6e3cd06da9fc96fb450ea023cf4dabc5003a0762210e1fc9"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_play/cs_tc_play_stage_penetration_stats_obt_fc_id.sql",
+      "sha256": "7b91a0b300b281fec9061e4bc3c0321b331019420cf48e253ea62f3154b44cb9"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_play/sg_mainline_chapter_bottleneck.sql",
+      "sha256": "cd4a60a8a20d60111666e6766d7a73d4eb8c0ed28ec72af93d4a29089cb40232"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_questionaire/cs_sg_lom_equip_dist_by_recharge_tier.sql",
+      "sha256": "8ad9463ba849aacc243af21cf38e646d12c3eb4a767215980157a05a6e17840b"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_questionaire/cs_sg_lom_first_charge_item.sql",
+      "sha256": "78da8b9a153a0abbd47aed63aa6eaa5ec851ef8b2ebcd63f8f2a4ba74a2f2db5"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_questionaire/cs_sg_lom_level_dist_by_recharge_tier.sql",
+      "sha256": "cf2f350dbf2f8a4b8cbf5c60cc5ac54c9bf58d8aefec981c711d40dc5f4b424a"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_questionaire/cs_sg_lom_purchase_composition.sql",
+      "sha256": "ed402abe62e5c2ec1335d54c98d33a4707c8015a13bdd62a29157e7ac8f61d16"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_questionaire/cs_sg_lom_stage_penetration_d0_d2.sql",
+      "sha256": "b41bd917f99a0acc5893ea1d51534176af708d43cd9b63e600882c7655b76899"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_questionaire/cs_sg_lom_user_metrics_compare.sql",
+      "sha256": "cea2af37453e3feace42d1b7a2af3f3fa6fd21dad9283bb3b88d33f691bf550c"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_questionaire/cs_tc_questionnaire_behavior_linkage.sql",
+      "sha256": "b17e051e072160ee1899d74ed72a6fb558b7b0f6f50dfcf1b9967f970a968562"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/guilty_crown/maxcomputer/gc_cn_lib_query_library.sql",
+      "sha256": "df0a15ac66404c1576601939eafbd0c13c8352b0d3f4671dbfe2be3e6e512c08"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/hologres/ja_tc_daily_dau_to_now.sql",
+      "sha256": "6a97d44f6c31bad45cf031ccbb521ef4463b0541b4f4341ebfd56e8f36d351a3"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/hologres/ja_tc_user_survey_analysis.sql",
+      "sha256": "704176d85cc5ec19c2a0c93493f97b07efef9e2afaf825cd4a7e315a42c7a888"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/hologres/ja_tc_user_survey_tags.sql",
+      "sha256": "0e259f4c49232dadd3a20bfadaf07b81bdc0297869254d1e395524f180f4671a"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/maxcomputer/ja_gl_ios_device_dist_stats.sql",
+      "sha256": "c08ff5807aeff163f93a5687a48b2be182d71a8f01da87ca6e7e2cc8a0f2cc7d"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/maxcomputer/ja_gl_multi_app_did_recharge_last_login.sql",
+      "sha256": "e3939edb7f1d4ccce6f3e07017b6208f044eefaa2090db5de7d227751879566b"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/maxcomputer/ja_gl_user_ram_dist_stats.sql",
+      "sha256": "c489f6217113a4cac3605e68785fd75a41208aad7828d9e9b67a1ff601c7a7d8"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/maxcomputer/ja_gl_user_role_create_stats.sql",
+      "sha256": "0cdbd7f30e3a7c955faf6d50dec7d9c5d13e9f5a53b46a8f56b944d0abc781fa"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/maxcomputer/ja_tc_daily_dau_to_now.sql",
+      "sha256": "cd6107ec369a4cf759694127906c07acf2d477478b536193fd1cae7377c6b7ef"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/maxcomputer/ja_tc_obt_launch_30d_kpi_analysis.sql",
+      "sha256": "85a74d2afe24b0cb45d9eab903fa850c9659fa0cc4fe99672d404f74ad993dfc"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/maxcomputer/ja_tc_return_user_ltv_20240327_20250327.sql",
+      "sha256": "80d6b800a2701848f44e43e20bd32c1b1b67bc8308435a1bab78d06b3bd627c4"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/ja_act/ja_tc_activity_special_participation_0415_all_by_recharge.sql",
+      "sha256": "e83ab13c157bdf682fbb3ba111f9bd9e2b4150800f19a7e1d8e950690040f37a"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/ja_act/ja_tc_cbt2_recharge_rebate_and_trophy_rewards.sql",
+      "sha256": "c0392500116a3af5fa6c53a0616a0bd85a06f244f823a4d6c58307ce4abb72bf"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/ja_act/ja_tc_cbt2_store_purchase_with_cointype_by_recharge_tier.sql",
+      "sha256": "33d89375eb6a4c5dfe8e7d669c1ec11cda63de7b03ff65dcb8f1ec8e8facb715"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/ja_act/ja_tc_store_purchase_with_cointype.sql",
+      "sha256": "5e40f81852e6cf7c4ef0bce8b4f39c8d25fd1c3f6fb3a4699d16c8f87edd3de4"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/ja_cbt2_vs_obt_firstday_fights.sql",
+      "sha256": "f47940b532e82d1f7bafd7bf372b2947d1258c63566b0bbd6a19142644107e54"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/ja_revenue/ja_tc_cbt1_cbt2_daily_recharge_tier.sql",
+      "sha256": "4eae4c818036a21f0c90ddde5e8a022ba04748ea7f82236a0c4fdb420030d830"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/ja_revenue/ja_tc_cbt2_battlepass_task_completion_distribution.sql",
+      "sha256": "fb0cf891d274038cf51f30bc90e562239599e3b400c58d404ba61a03941cd35f"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/ja_revenue/ja_tc_cbt2_online_duration_comparison_d0_d7.sql",
+      "sha256": "fb256ea9f264cf91b17a65fc44a7be0ada738e301052d5e3c649d9045df2a5b2"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/ja_revenue/ja_tc_cbt2_recharge_tier_special_gacha_and_gifts.sql",
+      "sha256": "0b520d56f7f6976795d6694f6dc66099683ae1a80abedad87f792eb82bce37ce"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/ja_revenue/ja_tc_cbt2_recharge_tier_vs_product_purchase_stats.sql",
+      "sha256": "b31b169ac33698960b558c010f583c668dbf2c65810e8c40a2bb2ae0ddf2cdbe"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/ja_revenue/ja_tc_rev_product_sales_stats.sql",
+      "sha256": "4c6d925ff0bebce62505f87c54b2cc5598b4b09a32bb9d00ebd0f4adaf8d19ed"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/ja_revenue/ja_tc_rev_product_sales_stats_nu_d0_d7.sql",
+      "sha256": "5dab413aa1a40a8f3699a750773b322dbc1112ad3788599a910f06a8ac9f675d"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/ja_revenue/ja_tc_user_recharge_tier_stats.sql",
+      "sha256": "011f90456aed0dadf18427e5b6172b71abb07022b5e398e5b3d7bdf40f8e235d"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_char/ja_cbt_recharge_tier_distribution.sql",
+      "sha256": "71d28992b8e666551af50893e40ad1c9fc9e269c12664376cee22ebe0a9dc2a6"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_char/ja_tc_find_lcx_id_via_role_id_for_blacklist.sql",
+      "sha256": "d7cb473c2e903bce748679dc7d66d87e37ec7cda3e6f17c2172f9fecf0ea9c61"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_char/ja_tc_lib_deep_dive_stats.sql",
+      "sha256": "29257b94e0e119c319603970748326024068e0c95c323d564645f9478dfd2889"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_char/ja_tc_user_character_stats.sql",
+      "sha256": "defc63ba08700095c72e680f5d6da16141e947b088257d72fb7badad0e8b64b5"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_char/ja_tc_user_lcx_to_role_mapping.sql",
+      "sha256": "2668d585a4b30fa283158522ac48e6a7b4f88bab0f914d07b548377d20322720"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_char/ja_tc_user_return_kpi_stats.sql",
+      "sha256": "8fe64610874f916b734e3434bb8576f6744b2f16f0b961d1d628bdcc6a362773"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_kpi/ja_tc_cbt2_fight_ladder_retention_0416.sql",
+      "sha256": "075619c6e851cede1ef802e4e34d18cf4a4d6a1813be49827d61f4064573e489"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_kpi/ja_tc_cbt2_first_second_purchase_nu_0415.sql",
+      "sha256": "7c629bf7c75e04267fa73790ba9152f71bd4bab0b206986bbdf60978bb8d8a90"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_kpi/ja_tc_cbt2_new_vs_old_user_ratio.sql",
+      "sha256": "4cd12e7863cd4e23eca97ec49836df62c3809f33128d56806a4613f4185253e7"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_kpi/ja_tc_cbt2_preference_retention_0415.sql",
+      "sha256": "912a1fff163cee8a7fe5e0b46e5221c9d0eae25bee8793913408f8eca28c2a7f"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_kpi/ja_tc_cbt2_role_id_retention.sql",
+      "sha256": "ad7e203a7abea52b99ae50a6f312d5317fc719f83a87bc503ce527e9dc0939ea"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_kpi/ja_tc_cbt2_top_payer.sql",
+      "sha256": "c88e54f36ae2e8b28769738b1a02ec6ccdaaa1f385dd4f635151bd4f40dde24f"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_kpi/ja_tc_dau_hourly_accumulation_comparison.sql",
+      "sha256": "0437084adfc5f80cc52e89984ec7be1c1bb68f4fa4bf68aa78580ef65867b95d"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_kpi/ja_tc_guide_funnel_comparison.sql",
+      "sha256": "6de47ebf4c0250ffabf0873ccaf2a521744b9d800e219c99180e88a195ccc188"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_kpi/ja_tc_kpi_cbt_retention_comparison_by_regdate.sql",
+      "sha256": "32b16c17d5450b44dead6347692a9e09e2322787c14edfc2c2473a05b18c4a08"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_kpi/ja_tc_new_user_hourly_accumulation_comparison.sql",
+      "sha256": "16bdf4c24d7e6e237c0071160ab9f99ac06da5fc9876cf3eca161ed10f7b5939"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_kpi/ja_tc_retention_hourly_cbt1_vs_cbt2.sql",
+      "sha256": "aba5d303b9708b2a73f4a5da0db9eb7f83ce715eddd4c4462a38cb5b9002a185"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_kpi/ja_tc_user_daily_retention_comparison_by_labels.sql",
+      "sha256": "3c6ef63e131b6534d0f6770dc083775facfa5159c4fc8c2ee08ca2a70a5a5f4e"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_kpi/ja_tc_user_ice_breaker_stats.sql",
+      "sha256": "e41ad1f81aed3bd4c8fb5266dae6371644a4a3c75ab6b811db45650dae3de4fa"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_kpi/ja_tc_user_kpi_stats.sql",
+      "sha256": "5157e631d7b43a9d8757b0494f8e317e54724c892b770c2839a86f84595a2b03"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_kpi/ja_tc_user_login_days_dist.sql",
+      "sha256": "c2cdcafa16f985cd648c6d57aba46147dcbafc20cf55bb2e465766cf198cef77"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_kpi/ja_tc_user_ram_dist_stats.sql",
+      "sha256": "30afb4933730c73976968fd655576f8247eb0262d5edfcc2efb1ba14ce6bf14c"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_kpi/ja_tc_user_retention_label_optimized.sql",
+      "sha256": "735688a33d50b91662f620b78d794cabc5e244f7e295493098e246750004f2c9"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_play/ja_tc_cbt1_cbt2_arena_fight_comparison.sql",
+      "sha256": "7b99ef5646d783795fe8588e4d53faca5a36fdd00dcf820b4d6ca03b5486b2e9"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_play/ja_tc_cbt1_cbt2_hero_guide_funnel.sql",
+      "sha256": "b381fe46066bec0627d4b9e0c0ab2b09b71df2c39928378c97b44417fc2eb5df"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_play/ja_tc_cbt2_arena_battle_detail_with_score.sql",
+      "sha256": "51e47a3e2a7fbfe5c68d3b93e7fe26578b26a326a1be689a13b968bb5fa38a7c"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_play/ja_tc_cbt2_arena_ping_performance_stats.sql",
+      "sha256": "40f8b228af71fd009ac68f37c99a249ba22f6b7e19f95a4423a68f78e90f3589"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_play/ja_tc_cbt2_daily_task_milestone_distribution.sql",
+      "sha256": "69564eaddc6ea3817166370138e56e0d8fa543637fcd50662a51ea452f37cb43"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_play/ja_tc_cbt2_fight_preference_churn_winrate_0416.sql",
+      "sha256": "7ed096a64af9ab85651d0abc70b0362938a8dcbf3fb3dd39bf43ebebf3a71485"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_play/ja_tc_cbt2_fight_preference_d0d1d2_rolling_cohort.sql",
+      "sha256": "1c837775250744af1968ca6feaee242df8c3a14c85219de4b8b713623d787817"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_play/ja_tc_cbt2_guide_stuck_509_time_to_event.sql",
+      "sha256": "243374af8fcb13a3f0afc33919eb9d1fc09f174ad725fb745c4e9eda0e829d51"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_play/ja_tc_cbt2_mandou_ai_score_distribution.sql",
+      "sha256": "d94f640b750e81645a2e9710bd33ad23575cbcf5cc9c9a2fb9710f9e71ab7dbb"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_play/ja_tc_cbt2_mandou_ladder_d0d1d2_rolling_cohort.sql",
+      "sha256": "4e3805d2a0d46be2bad07b90ccfcdb540b05c92c4bbdb077e82768519e15bbd3"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_play/ja_tc_cbt2_userid_duration_retention.sql",
+      "sha256": "ca4a7710de5599cb914e6377d5df45debfad749a663f6844c8c7cf7343c8d4e7"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_play/ja_tc_play_open_box.sql",
+      "sha256": "e7dbacd9798764c12e9f9372d298bca38d12a296b2fb2c0234d36e2b13dded3b"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_play/ja_tc_user_fight_stats_au_ios.sql",
+      "sha256": "3c6b62e4322a1db2bb68d878ba220a26cee4d014fa1b53a174821689546ae298"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_play/ja_tc_user_gameplay_fight_stats.sql",
+      "sha256": "b0ca7378607d99e1a127abca71a2ba4900ac9a7281a854d1850d3bb7dec74417"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_play/ja_tc_user_guide_funnel_label_optimized.sql",
+      "sha256": "7afa64f44d79265a2497903b98c5b40a231241b306a74648343cc57dce58a1cd"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_play/ja_tc_user_guide_step8_no_step16_analysis.sql",
+      "sha256": "8698d0179f4f8dce3195d8a0e95f214ca08f36a4420c891d218dc8cd2c06c8a1"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_play/ja_tc_user_hero_arena_report.sql",
+      "sha256": "898cd3be9e41169646f9a90b69162d4f6502756d479b62ac78060e19801e683b"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/ja_cn_hourly_kpi_account_dim.sql",
+      "sha256": "36d5c5df6a78b0e5e915bf55c37e951cb8b74e82c751e3109432eae04fae1ba0"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/ja_tc_arena_mvp_svp_stats.sql",
+      "sha256": "e248ee2864654a8adbaf15b7d8879adcb0f583fcf876d114dd41fc3eb80f98e1"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/ja_tc_arena_mvp_with_robot_stats.sql",
+      "sha256": "cacd0f5ad4dcf9bf115a2f14b4f2ab06786f4f3e798d3caf10935c6e715a58bf"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/ja_tc_matchmaking_timeout_by_tier.sql",
+      "sha256": "a0cfedd387b637b2e4679e5162940e12466b1270ccc27fcf00194f2410d09bc1"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/ja_tc_skin_gacha_coin_64_minato.sql",
+      "sha256": "1628af266b1591bb108d7d7b34315a3c7efc3efc1caf84195b9bb600a502e52c"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_cbt_active_shop_exchange_with_dim.sql",
+      "sha256": "5fd45d7fe7247738f410c9d1c7a81cf397d455fd3f2704a4a17c1237e2365fbc"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_active_shop_exchange_actual_cost_no_tier.sql",
+      "sha256": "ecaaeed695c73896b4a03bd8f788343ec5789fb253675d23853baaa4fe7471d2"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_battlepass_level_distribution.sql",
+      "sha256": "6d718b37eba2d89118ae22bc200fd04f462cea57cad0370836191d7b586daf58"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_card_ownership_rates.sql",
+      "sha256": "e9d8e55a0654e3e26d14f24218b761f7e3014f8dcea7631b6a7912260a92ceeb"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_cohort_recharge_tier_analysis.sql",
+      "sha256": "203ae9a1b99e313505af0896814cfd3173b6fc7f9cfa850eba3f6feadf06e783"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_cohort_reg0624_daily_product_revenue.sql",
+      "sha256": "1255486d46f9b64f79662a3ed678aaa6c80e514500cb34c588bd1ef7a8a1ce4b"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_cohort_reg0624_tier_subsequent_revenue.sql",
+      "sha256": "aa7b8a8dbbc4da73799b686c44cf4ba59c827aa16093f9e2b0b3f538e23c75f5"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_daily_task_milestone_stats.sql",
+      "sha256": "448d5555e894aad3b65d277055b1748855542579c5c1843f4c2b1d01ae8d1d4c"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_device_guide_funnel_comparison.sql",
+      "sha256": "404b5750026f6b30781055b3d3cd4a152314b468645b88e580a8e20121c04da9"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_device_guide_funnel_with_cbt.sql",
+      "sha256": "76fda0a2dc7488d7ebe9d17ce21a72beb8a3ea52314db5d9009bbf7437643e80"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_device_kpi_hourly_cumulative.sql",
+      "sha256": "652e28a91b70c08a06809a6f6778fd124d215ab30152db8ae2e147b9422f50d2"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_device_online_time_methods_comparison.sql",
+      "sha256": "cbb5c44d5394ef5cbd4cfa887ef8d8b5ee3929d70bc0c3869c323915a9827c65"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_device_retention_hourly_comparison.sql",
+      "sha256": "be7d44a44788310f2c94fcd115921e10953b337706674c1a0c62a45edfee16a2"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_gojo_itadori_paying_groups_analysis.sql",
+      "sha256": "c17df4012f8525290fde799223a13206cd313c48799aedd62830d9dc066c15f6"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_guide_funnel_comparison.sql",
+      "sha256": "d88be606892b26fe1efd8e2a12971005470ddeb2599f5eee83d9c3582e578c64"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_guide_funnel_with_cbt.sql",
+      "sha256": "bcf9dde57fe3e45331ca6d687c632da3bfd14ccc0b4ed944b43ec66dca31b96d"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_hero_add_acquisition_stats.sql",
+      "sha256": "3d8191515ddf930c6e92c2148c714ede85fba4c79a8e59a4f993758257b30ec4"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_hero_fight_pick_ban_stats.sql",
+      "sha256": "e91ab97b7b5c68607ddd30dc48b9039feb9343defba6c3772bbf321d40cb3b41"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_hero_growth_revenue_attribution.sql",
+      "sha256": "7199bbf0c11187c3daad2d6630db15eb39cda8d0c626edf394328fbdff61599e"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_hero_growth_revenue_attribution_by_user.sql",
+      "sha256": "71dffe32da8b9c59ec67c9d5892c2a300bef5489a30065c1e537b9e4baa35af9"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_match_cost_analysis.sql",
+      "sha256": "5f6f680a6e2cd3f141d19925fee7b1cd87a56906fb03ec755eafe48a072756ba"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_moba_vs_3v3_cohort_comparison.sql",
+      "sha256": "7495a142cfc18239e1992c9c50a90c4bec25233c3b50fb7ea367fe3b53ed53ac"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_negative_star_balance_users.sql",
+      "sha256": "ea03934131332c7a38269021df885d03ca7e70660dce255ca8f4552259b4cf2b"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_new_device_china_android_ratio.sql",
+      "sha256": "cf7cdb76be41cb00b3d38e8dd47578a692952316e81e87ceed9ed921c965aacf"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_online_duration_3methods_cohort.sql",
+      "sha256": "25a78c4b99b1954b67b5fb891760b140d5b44d010b97c21d3e2875b06ca4123f"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_online_duration_comparison_d0_d7_dewater.sql",
+      "sha256": "cc933f77b81f096103b1967a672c8a0ce3450c7479e0f4ca748129c38eea2964"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_payment_product_stats.sql",
+      "sha256": "eff26136cd5c4f63265b3d52557f52704dfc0e7ee2588aaa3b682bf968f70f95"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_points_mall_purchase.sql",
+      "sha256": "afb4ddc462364cbce7701ad9ae21a263edf312ae221a423a46a15174f301a2c4"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_rank_level_mapping.sql",
+      "sha256": "3043be2c80e8345a7860e015e434877abeec506a189bbfd07b289305a011139c"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_ranked_match_balance_and_bot_audit.sql",
+      "sha256": "0fb2439e2944c9fb57fa8bfd1459d147e5baf34f767168f19fd51348ad47a81c"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_ranked_rank_goal_diagnostic.sql",
+      "sha256": "3fc7314a1b718c28ebf856f2c36a74dfbbcf06b8262a17a7979a8b3f52814b0c"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_ranked_season_engagement_retention_diagnostic.sql",
+      "sha256": "6da83f1f99899800a0fa0121c826c58371884d0c2384241145b7b0c655d1d293"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_recharge_classification_stats.sql",
+      "sha256": "7f92b2c87dd6ee7b4ac0fb09d0788681662c53659f6c71af7507a6364a0e6ba1"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_recharge_tier_active_shop_exchange.sql",
+      "sha256": "08fce01c5e0489ad0874edae746a218e97c922700c78b61c734beb15e17d2d1a"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_recharge_tier_distribution.sql",
+      "sha256": "4535f7c4f4fdb672e4c87a22a1251ec68007fa58c908ab35a1b8e027ddbd59b7"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_recharge_tier_product_revenue.sql",
+      "sha256": "4f1b13224255ecc068f586eba61641790eb52e9efd77b00d5144c6b42a949e6d"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_recharge_tier_star_consumption.sql",
+      "sha256": "fec80f5ae75dc99d3d0f9c7940711b6102e8accc7c49c4ff935d8a9670271ae8"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_recharge_tier_vs_card_growth_stats.sql",
+      "sha256": "6983c5d586c1dee23abe4311c6fe1620776683fc0fd1fdf53663d9062bc15f79"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_shinobu_user_profile.sql",
+      "sha256": "b9edbafdf976721fce6d97b2190007a69e1662da10364f4eec2a0e56fa1abe18"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_solo_duo_match_stats.sql",
+      "sha256": "c680c707517354ca8530c122e5a63a6c2457e7f0b50f72f02ed1dba2a01b95f8"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_streamer_purchase.sql",
+      "sha256": "8f22cbd93006e5cb4415a1b8d3590b8703a7357fae8aa971f44b0bacf1c05afd"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_streamer_share_points_mall_daily.sql",
+      "sha256": "bd9152f76599379a6c06d02441a495296ee5abce77f56adb9053215367e7f3b3"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_suspicious_device_ip_union.sql",
+      "sha256": "acba03380c672fa7b32c1c7640702bfa2d8e775ce6d6b74ac1ca1da8abb4de53"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_suspicious_ip_cohort_deep_check.sql",
+      "sha256": "5087ae5b56c1dbeb0f997cd9b7cd5adc0035ad7040f67a2e69861f38c05db8bb"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_suspicious_ip_gacha_participation.sql",
+      "sha256": "bb69284781675fa487fca94a936e8fc05f7eade8817222d169e7dc84059b2d64"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_top_payer.sql",
+      "sha256": "9f4ba2eb0f4a003acc013f80a970a8b2727c21f3e5c0306c3c36d913805f7d2f"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_user_fight_stats_nu_d0_d7.sql",
+      "sha256": "9270b559ef4621298eb4789784edcac6c8327d938440e95e34bf9320f9db824a"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_user_hero_pivot_stats.sql",
+      "sha256": "17feccd7a642746bc966d7d2a3cee266cdd6f2ad978fc58169670ccae173e44f"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_user_hourly_fight_stats.sql",
+      "sha256": "51ec475d283682e84c246ae06fe65987956356c0ec53f7a3ee6d67b1f0e34dc0"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_user_kpi_hourly_cumulative.sql",
+      "sha256": "5cf1a57e4c9d0b37e341041ad26327d855f80dd1f8ddd9e4644fd3b7abc31051"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_user_kpi_stats_device_accel_matured_only.sql",
+      "sha256": "3e5e5f00b09b80f912a94c36ddd170883a22f1a167edff053852697122b8a2ed"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_user_kpi_stats_device_accel_with_zone.sql",
+      "sha256": "9e52790b3ea56fe63c709c7bff64baca8f8f63a19aa8a5d474344c6819ec064f"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_user_profile_search.sql",
+      "sha256": "4cc94ad7ea800592d26ab6a936bd08df7b205cfee3eb311913267656fedb6bb1"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_water_users_hourly_stats.sql",
+      "sha256": "d86c95d5b1fe6761c52dd3d648cc38cdbbf8c5c9754c0cb862f54df208316577"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_wau_currency_inventory_stats.sql",
+      "sha256": "acfd0880ab7eb2a20e2014d0e30a02a01f1de3d413a57d5ba871d29bc62e675c"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kochikame/trino/kk_tw_test.sql",
+      "sha256": "486522b79f1bed593528ac0d92f64ebf5774460337c2a20096fd48453b3d2e3f"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_act/kb_jp_act_insignia_gacha_stats.sql",
+      "sha256": "e2dfbc9198f1b71b25e3ac0a2a1fb607a377870d6a356ebb1703c344b9f10c9b"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_act/kb_jp_act_item_3010522_consumption_report.sql",
+      "sha256": "1572aa199f448eb987d56d337c3a12decbeff5e6637611e737235bdb40c81b55"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_act/kb_jp_act_nba_maddy_spend.sql",
+      "sha256": "2a2c1b41ab46ddf4a9e60b158e9f444b78ffdace2e5672df8e24e21d45bb594e"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_act/kb_jp_act_nba_rayallen_spend.sql",
+      "sha256": "e2cac8a4336b5da2a21a111214555218eb1d786ff57f72937b409508fd137105"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_act/kb_jp_act_nba_rodman_spend.sql",
+      "sha256": "4acc4a685a05cb7c6af6acc073c122655fe6c59fc9c7f4d12d9ca3a0e4ce9ff4"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_act/kb_jp_act_return_user_ltv_dynamic.sql",
+      "sha256": "bf19ad8ba2ff6adad6e2662718d649cb1cc1e57a59576db928e2ed635551815a"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_act/kb_jp_new_user_pvp_rank_analysis.sql",
+      "sha256": "e8b262ed39f49291536e8576584a660c5e76837395bad7f55856ef80b089f3c5"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_act/kb_kr_act_nba_spend.sql",
+      "sha256": "5e7915fd57cc4de9d1d4f9df481010ff9c43f4b7af6e168de4ee0c75022eab44"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_act/kb_kr_act_new_return_revenue_20260701.sql",
+      "sha256": "af8a7f8a80c5cb2095f0e4b4632c19b74fb4f7ffc0f4e7d975f4ec176d883760"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_act/kb_kr_act_new_user_item_30001533_30001537_consumption_stats.sql",
+      "sha256": "63b70abc008773fa8ce3425f12731a8df6aad1cdacb79d45d09d72074361d515"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_act/kb_kr_act_return_user_detail_20260701.sql",
+      "sha256": "837f16182e701da4fb06dac5672b5956ccacdf0fa180c5cf2e60a9e3aa3ff441"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_act/kb_tc_act_2nd_anniversary_gift.sql",
+      "sha256": "2a2a866499a7e26ab65ff7ceb0014c8e8bc05d91f622806222cdda409698b289"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_act/kb_tc_act_2nd_anniversary_users.sql",
+      "sha256": "99516d164d543ba70c1355772a5175a15b63bda47de9a522326de199b435efa4"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_act/kb_tc_act_anni_2nd_lifecycle.sql",
+      "sha256": "cacef915c693dd6385262485ece845d5629b1b31c2a5d79fe37383f97c348adc"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_act/kb_tc_act_badge_gacha_dpu.sql",
+      "sha256": "d6bbb053389ad57a6e1dbc13005d47068abf6eb324efa1a42cad3348a1f46e1e"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_act/kb_tc_act_comp_stats_monthly.sql",
+      "sha256": "59b2c6e6f72ac64ec2e7baf1b73de7b21913403267783d12c677194ca41c9a5b"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_act/kb_tc_act_fortune_gacha_stats.sql",
+      "sha256": "25ecbe312b9fcae84265c73c0ca1fbf0a9d585ceacc402808a11683e3e320a1b"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_act/kb_tc_act_insignia_gacha_stats.sql",
+      "sha256": "de6a9fc7246ac96c0ab79db283f49990bac844c06dd7c9612c7d877662c505fd"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_act/kb_tc_act_item_chest_summary.sql",
+      "sha256": "e0dc298e28141bb17c3ecb4629f31c2112d391ff91682dd695247c9f8329de7b"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_act/kb_tc_act_item_consumption_report.sql",
+      "sha256": "8d574766f7064ee1365103ee3a8550aeb48577d595c59facf2ef84a42e3e7ec4"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_act/kb_tc_act_item_holder_stats.sql",
+      "sha256": "1b9130e26cbb8a16fd79e0060610dc9994cbb950c98f6a9b43daa0ed3a6e4444"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_act/kb_tc_act_item_output_stats.sql",
+      "sha256": "f3f4fa025773eb7dc9a3580ae96e10f93ad0974d398a9d7307917646a75d8595"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_act/kb_tc_act_item_special_mission_box_output.sql",
+      "sha256": "979b1b182855544fbf3a1fbd6fbe4e7983dab62eb75542f059dc13cdeebbba4f"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_act/kb_tc_act_legend_gacha_stats.sql",
+      "sha256": "1650ebca6e0413d81faaf3e30a6ddcfe55b80d225aef73bbb755c8325710264e"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_act/kb_tc_act_lg_item_murasakibara_output.sql",
+      "sha256": "94639e86ae6eb27b7db5b8bef2740d80063777c5046322b1bfca9d61e2cd0951"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_act/kb_tc_act_lg_murasakibara_awaken_dist.sql",
+      "sha256": "70d49bcedaeb7d857a7c36d48fdc228c0b0e616c9c5b451145d4aac9e5dbea2c"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_act/kb_tc_act_lg_murasakibara_player_status.sql",
+      "sha256": "20b83d7410fbff8d9f85007af32d81b6366d2fb5240237eddf38f9437dfcc3e1"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_act/kb_tc_act_nba_anni_active.sql",
+      "sha256": "38ca6bc549fda6fbb5c3518f8fc7354c8fde785e2b1cd6f28fb6aef8ca8bce60"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_act/kb_tc_act_nba_spend.sql",
+      "sha256": "70c6db7d547ad64aa8c334bbec20699e65f0e7fa7c2086cffe5f7bf9c11eb103"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_act/kb_tc_act_new_return_event_analysis.sql",
+      "sha256": "5622c26a6939bebf694c9c86cd3200c153be48eea87f55adb2013220426b9a8d"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_act/kb_tc_act_spring_points_pack.sql",
+      "sha256": "f31d36d0df4077aae3b321757c073562a99efbe970977707541cd8f4a7fcbfa2"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_act/kb_tc_act_team_war_top10_roster.sql",
+      "sha256": "b6fa2a284a03f0e659bea29a3ca3547cca3414c435b723b7b5102586bb6adeb4"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_act/kb_tc_act_tmac_items_sales.sql",
+      "sha256": "ae759245618ce4924e45022699131965cd8e9c374a816b4806ec63f54bf5153f"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_char/kb_tc_char_awaken_stats_20260424.sql",
+      "sha256": "d95a79ebc7932a5d34cc542ce7c4f9424663dbdbc7b3560566c9c4d87d7d4c26"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_char/kb_tc_char_awaken_talent_output_stats_20260424.sql",
+      "sha256": "1a4e4227709efd05612340f80ab3cf12dd48b5a81eec6fe571517d140a4ed087"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_char/kb_tc_char_awaken_talent_rodman_20260705.sql",
+      "sha256": "43755ae8a54c099ddabf08e334048fd268763c8f6878e78528aa194454cf8b50"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_char/kb_tc_char_talent_stats_20260424.sql",
+      "sha256": "4a589b406c097ce222b0ad0a5dc9120450aee4347a82c582c0c6e9443b3a9df1"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_jp_kpi_launch_30d.sql",
+      "sha256": "7b93ce0bac6bd48bd0854e81ed7dc37955297ae32801f304a056af3100e225a7"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_jp_rev_stamps_inventory_stats.sql",
+      "sha256": "ea01f543ca870ee75b4afa2e2ce6c5efbeef63b182f55076d3efaebb747c565c"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_jp_user_daily_rtier_stats.sql",
+      "sha256": "ee5e497fb8d8c60df520dc440547bc4ade7d6c9c0fd043899b874f6c3d1a5f1e"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_jp_user_daily_rtier_stats_by_region.sql",
+      "sha256": "0b40258bf1c8947d05f5e56f3be46e4b8b9517e847a3b5c7d6cd463cfd3b81ef"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_jp_user_kpi_stats.sql",
+      "sha256": "5b9c8ca1037f348972dc11ab253672cb9e50d0e4f98186b9684efad66c88f1bb"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_jp_user_lifetime_stats.sql",
+      "sha256": "4bfe39e1e7d19e1703e14c7bf4e713dfe2b07a39359b71c6d24905fbde4cf4d8"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_jp_user_return_ltv.sql",
+      "sha256": "caf0ef1c594b36e50a2db785e9a2b77133ee0086e55cf961f4349dd0318ae3cb"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_kr_daily_ltv_new_return_old.sql",
+      "sha256": "e3492d0bddb2f98b33dc20d28446562d94f722e61dc3a93adb72909a0dfdecb3"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_kr_daily_order_details.sql",
+      "sha256": "5ccd3b32415b58db09075431f0f5ba33687cd3339c6404aa7325c4cb1d228b08"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_kr_daily_paying_user_product_breakdown_20260728.sql",
+      "sha256": "3425d0ea89e49d38efb36c22805dce9e959f5e6f5d89124bd3db81b3c4dee1f1"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_kr_daily_recharge_by_event_cohort.sql",
+      "sha256": "cc2c66fc7d00439361b05b1b52de23f11686caeec28e2e003d360bec7132e00c"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_kr_daily_recharge_by_user_type.sql",
+      "sha256": "d7bc1b6ecb88844fafd6c47d5e291f9be1cd0bccb54ac2087db7439136f6c6ec"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_kr_daily_retention_new_return_old.sql",
+      "sha256": "8040b20c9c8363ce4429513cbf8910298015a82c8ced526aaadca06c823b035e"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_kr_launch_30d_kpi.sql",
+      "sha256": "03f52ae150503b0fc8095c6a52c7291d13a557396a56d7aa12032b3f6bfddf1f"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_kr_new_return_14d_ltv_retention_20260701_20260712.sql",
+      "sha256": "6a3470c9b01ac0558af2a0b7783c8aa54dcd2fe6e488772405f7bc907b06c87e"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_kr_new_return_ltv_20250701_20260424.sql",
+      "sha256": "4ebffe7f2f14ec264d90a104afadafe1b633130a9e734d0bb3bf1c5076a4dc1b"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_kr_new_return_retention_revenue_20260701_20260721.sql",
+      "sha256": "fa38e5af940f53fee3030153a97da5bbe11149e531df222cbd81502352f31561"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_kr_rev_product_stats_20260706_20260712.sql",
+      "sha256": "9f97c681f1dcddba8c0079b2df7e9e46ea84b63483e63527aac5d7a17f0685f0"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_kr_unpaid_inactive_1y_low_level_users.sql",
+      "sha256": "50884187a351d26ed999328a27d2bcbec20f267fb21b7eca19e43bdf54dce3b5"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_kr_user_kpi_stats.sql",
+      "sha256": "c04f0fab040d10948d8323bf8ae71becad036ac0d088985a92bd1049b9eb8d81"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_kr_user_whale_churn_stats.sql",
+      "sha256": "319009116733945683a34fa2d3b21841eee44f2170303cfed245f268a8d5cd14"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_kr_user_whale_detail_stats.sql",
+      "sha256": "485f7f49c26c45e685bc9a130c22490eaaa85d52aa27b7a7f82229cbd4391755"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_new_user_match_hist_max_rank.sql",
+      "sha256": "97602b3beec4ef729a783a2e495c2306dad51c4fa817f9ea49641e476bc222bb"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_tc_churn_analysis_20260706_20260712.sql",
+      "sha256": "6fa5a0e590155d17d41e45202bf6bb06b2407314174bd83381b1c344e88e7c72"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_tc_daily_top_paying_users_breakdown_20260808.sql",
+      "sha256": "b1fa1b04cf8559ef0642e233ffafa42bb1e67ce862a7ec9d5d32f0cd3d4a3434"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_tc_daily_top_paying_users_stamps_consumption_20260808.sql",
+      "sha256": "354312ef9e217f9579f1fbca10523a9ad3a85d35229df7a19c4dc834fc99605d"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_tc_kpi_launch_30d.sql",
+      "sha256": "f2bea9af90aabf4ea5b127e9a4c8045a84b368746fa638f76405097c9dbec253"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_tc_kpi_new_user_stats.sql",
+      "sha256": "cc281de0480ef14fc4797bcb13b04a02536b7e7d9163a92a0a8b0888bf56e2ba"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_tc_kpi_retention_new_return.sql",
+      "sha256": "c3a82afeb60bc3e98c634747b662e343d8a79841bdf98aaa238549db8c91375a"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_tc_kpi_various_cohorts_stats.sql",
+      "sha256": "2d2776f0c2535a4c7c0d7a413f8d5915a7e9618e9d3d62e107f66c952a4314e9"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_tc_new_user_ltv_202507_202604.sql",
+      "sha256": "53df0bfede52ea0e6ece39fea8522047a513684ba8c1fa2b984ec79c8f60cf9a"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_tc_paying_users_anomaly_analysis_202606.sql",
+      "sha256": "b9af3e5049cfbde6010f03902e577d256c9fa181c8302702b5d3582cd7fc9d34"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_tc_product_14100009_buyers_stamps_consumption.sql",
+      "sha256": "79f9bebfdd5343367b807773fc5240dd0d2a99a548ab148dc06981fde2665d96"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_tc_ranked_match_participants_matching_time_20260811_20260909.sql",
+      "sha256": "019b20acddf9891a140e40d857f7f82eb5f4292808a549c97ca72ac0a45de5a4"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_tc_rev_court_scene_stats.sql",
+      "sha256": "b133b2253d7e5ba1dc62ee290f43afd641b26861620cf2a50d379425216e3661"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_tc_rev_diamond_exchange.sql",
+      "sha256": "35896cdef85ed954357f14b269753e297dccf0a398fac4c26e8e86aa73df16c1"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_tc_rev_exchange_stats.sql",
+      "sha256": "0c559680549fbdacc7c86a7436388b1df27ded0a745dcfc5b050515d7a8437cb"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_tc_rev_item_spring_gacha.sql",
+      "sha256": "bf6f7096fdbdfd16e9b468f587bb79a13f493fe2407e4006419d251e60498cf3"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_tc_rev_product_stats.sql",
+      "sha256": "e0da4282bf337eceb414f762a373cf4cacee062dfb0de8eddc589c8389d9cb83"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_tc_rev_resource_revenue_stats.sql",
+      "sha256": "96cd05cc2ba939ebbd04a8f32926396085891a8cd6bcd80102e2ee40f94c7dfa"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_tc_rev_spring_festival_bags.sql",
+      "sha256": "b631bbae7df2497de5f2a7cb78c05f1de84ebb88822a7f9e980ef42e46cd5cde"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_tc_rev_stamps_exchange_stats.sql",
+      "sha256": "694f00f4a305dec4bab93913f8b674bae58d9b783853e86db54998f6898a65f8"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_tc_rev_unpaid_diamond_stats.sql",
+      "sha256": "27b93eeba180f1bdd3c4388d9e70b8b8da98930e442c83adb852740857cb4b11"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_tc_rev_unpaid_stamps_stats.sql",
+      "sha256": "727cd010e9ff62c7dc8969b237bb8604cf5a622d897f7875b5f40f9008626180"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_tc_new&return&vip_user_kpi_stats/kb_tc_event_new_user_kpi_stats.sql",
+      "sha256": "4a564a231135f69dae53eca492bc28a208fa856d3443c0e21d70d74042d6fde1"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_tc_new&return&vip_user_kpi_stats/kb_tc_event_return_user_kpi_stats.sql",
+      "sha256": "8f518398d3f648e22b00a90503daf25c7e833d3d8149eb227b9c649b1a2a5f5a"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_tc_new&return&vip_user_kpi_stats/kb_tc_event_vip_user_kpi_stats.sql",
+      "sha256": "f994e9a9c07154f09581497c4f6f38806b8f553d0638dbe7fb9b8f4bf99cf28f"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/new_three_kingdoms/maxcomputer/ntk_gl_rev_general_analysis_by_zone.sql",
+      "sha256": "05654ae04d8ee60b8d1a3960496b731471f8cdac5859e254403efdd797d00b50"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/new_three_kingdoms/maxcomputer/ntk_gl_search_did_by_name.sql",
+      "sha256": "afc36d3faa2969a9cf0d1583916ad95230699b5a73d0f1c9da19f84853df8a7e"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/new_three_kingdoms/maxcomputer/ntk_gl_search_role_by_did.sql",
+      "sha256": "ea5629998c5df25a272c689dcae07b21b2af614d5c7df89c4c8dc3f45a4186ed"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/new_three_kingdoms/trino/ntk_gl_rev_daily_recharge_tiers.sql",
+      "sha256": "68d2484fee545f0139dd389748bfe08255553a25b6721517de182fd56c0df4dd"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/new_three_kingdoms/trino/ntk_gl_rev_icebreaker_stats.sql",
+      "sha256": "42b320ea550cf9adb52ab0ce773333cb29ae681dadfe97c10d31fe6503e70459"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/new_three_kingdoms/trino/ntk_gl_rev_product_stats.sql",
+      "sha256": "3f3f5c0660dd15d5ed31c55f6c8478a52e9315a1fa3400be4a8b586eb5e91756"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/new_three_kingdoms/trino/ntk_gl_user_kpi_stats.sql",
+      "sha256": "d6e5e43c0b680b7313fecca7083bcc55f2740abf6082823073cfbec0207913bd"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/new_three_kingdoms/trino/ntk_gl_user_login_days_dist.sql",
+      "sha256": "8bdfd0e4acb96bb75e3e60e055eba795abe1e2399e0fd4c895e0afa3e126f99f"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/new_three_kingdoms/trino/ntk_gl_user_ltv_rr_old_ver.sql",
+      "sha256": "7ac6bf0e5cd036ba2632444d269e77b661b2fb4182174cd8e7deb16138e27c31"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/new_three_kingdoms/trino/ntk_gl_user_return_kpi_stats.sql",
+      "sha256": "5c1f76bf2ae68721de1165d69cd7d289c6c8a22f0ee1b4eac2021c2232eaa84b"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/saint_seiya2/maxcomputer/ss2_cn_search_dena_id_v2.sql",
+      "sha256": "3c0d527119fb3bd2e8f8c1967e5aa41b554abda9d3a5de28ddd1f279953c215e"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/saint_seiya2/maxcomputer/ss2_cn_user_wkly_activity_stats.sql",
+      "sha256": "37123878280aff34583ab0d44da93902166423d1a9bfbf35e5f07f09a9382c23"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/saint_seiya2/maxcomputer/ss2_cn_user_wkly_general_stats.sql",
+      "sha256": "5865bc5f7a003123f2854395ca2b6eef0250c9637e8e3b9572191764d03f074f"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/saint_seiya2/maxcomputer/ss2_gl_rev_daily_recharge_2025Q4.sql",
+      "sha256": "93153dfdb6856e71dbeb73c741667db8bc07365e914cf3bc6383aa69cb5639df"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/saint_seiya2/maxcomputer/ss2_gl_rev_full_orders.sql",
+      "sha256": "5c1f663b4914ad72c25b1565740314fcf6fdd6903be5539563437f6191950740"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/saint_seiya2/maxcomputer/ss2_gl_rev_monthly_revenue_by_channel.sql",
+      "sha256": "1019ed2a40a879ac5783d10bd0892928f4e753aaa557329ab2203473adfb3af0"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/saint_seiya2/maxcomputer/ss2_gl_rev_monthly_wallet_by_channel.sql",
+      "sha256": "1dd49300e9d12174062a6d1ef02b08e21833a13aabbe6fa8761c0491227c2327"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/saint_seiya2/maxcomputer/ss2_gl_search_order_id.sql",
+      "sha256": "3149abcf74a44a08b75b203ac22adf73dfdb8bd89c49ee38e21d47acaf410c50"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/saint_seiya2/maxcomputer/ss2_tw_sea_rev_daily_recharge_202506.sql",
+      "sha256": "e3300be95ecc427fe58cd55f4d2dae1d492b01c4ada0dc6802d0142522fc8cdc"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/saint_seiya2/maxcomputer/ss2_tw_sea_user_growth_stats.sql",
+      "sha256": "5e82be2ef0be816ce4f1a1e72d396632394a936b21d76c98d7d947e13ff328db"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/saint_seiya2/maxcomputer/ss2_tw_sea_user_wkly_activity.sql",
+      "sha256": "6e78abe805564af18f85b87ab95f4b5310235fe886036e4a8ef6a31f004c5846"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/saint_seiya2/maxcomputer/ss2_tw_user_wkly_activity_stats.sql",
+      "sha256": "8ab6e85ed46f6d9216149e6d4b63d67f0bd7081d960f381f88501e246cdd05d5"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/saint_seiya2/maxcomputer/ss2_tw_user_wkly_kpi_stats.sql",
+      "sha256": "36a455795b5571b97b3a523e9671b6c4fffcbc9d2f3664fbea7b3e21c7080211"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/saint_seiya2/trino/ss2_gl_game_identification.sql",
+      "sha256": "a05bdb472c9e0ecce22c2fa67c00c782d2cc288ba3e5b82e9fd800ba36e13b0a"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/saint_seiya2/trino/ss2_gl_rev_internal_orders_reconcile.sql",
+      "sha256": "b3ab6f01bf65cc2aaf2285cc00501b121ac4c61efa269009724fdbe7df4ddbf2"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/saint_seiya2/trino/ss2_gl_rev_monthly_revenue_by_channel.sql",
+      "sha256": "8d7a8aa36a28d8685e51850668b8f098e6976d5655053a1d8255d16bfced56a4"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/saint_seiya2/trino/ss2_gl_rev_monthly_wallet_by_channel.sql",
+      "sha256": "393886851cf9824ca050a33b408aa964ee9b74341dd69d71cf4e297b426e497d"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/saint_seiya2/trino/ss2_gl_rev_product_distribution.sql",
+      "sha256": "5967231f84df7dd228dbbb281a8c2f9918aaa0e821dd9448480d4607cf9898b7"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/saint_seiya2/trino/ss2_gl_rev_recharge_tier_stats.sql",
+      "sha256": "475a8e748aa4a6297667b2d9637b92d9fa31f79e12fc72dc4ab4c4da214af0a5"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/saint_seiya2/trino/ss2_gl_user_ice_break_tier_distribution.sql",
+      "sha256": "cab58fe3a00d11988c441c7fcb51d01ad19d356ed866868fd2bb39c2fe93e39f"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/saint_seiya2/trino/ss2_gl_user_kpi_stats.sql",
+      "sha256": "aafe9cf5c70f85cc1d9a7f0259ec1528e0401ab5aed75cff0fc975da00979888"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/saint_seiya2/trino/ss2_gl_user_paying_composition.sql",
+      "sha256": "1650df6ae858c1ac68236fde9113e75009cee1afa30dfaa47cd6a2d5541d11f9"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/saint_seiya2/trino/ss2_gl_user_return_kpi_stats.sql",
+      "sha256": "d8450055d2f2b05b17437fc3e81fb19002c44b4e02477123e46c7b79900071b6"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/saint_seiya3/maxcomputer/ss3_cn_rev_lv6_gacha_analysis.sql",
+      "sha256": "e10c4aa8cffb0230107dd1f6a57f2b4e780f30dc2008823050a013811879c5ff"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/saint_seiya3/maxcomputer/ss3_cn_user_lv6_churn_analysis.sql",
+      "sha256": "de8689bdd9ad5e51c1f1d841c11e2bcc3581dc83a0c0257de35de518ef385b7e"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/holo/sd_gl&tc&kr_data_for_lemanduo/sd_gl&tc&kr_data_for_lemanduo.sql",
+      "sha256": "625f06ac101f7aabcf977a2c68d9877d0ca6e7bf232eb026f953ed255cbe0791"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/holo/sd_gl&tc&kr_data_for_lemanduo/sd_gl&tc&kr_kpi_for_lemanduo.sql",
+      "sha256": "6dee15a848b889533cc5d8651cf35a661b37a2e5f91ea2b196a1225af611f449"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/holo/sd_gl_kr_daily_dau_2020_to_now.sql",
+      "sha256": "7182c455e9954e34d697db4851905a493b1487491b7146ce899c932908840eca"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/holo/sd_tc_kr_movie_impact_monthly_analysis_all.sql",
+      "sha256": "1d7a43fe31a47dca60fd0583de7eb68194e13916d9c99496841aef852f7a116f"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/holo/sd_tc_kr_movie_impact_monthly_analysis_organic.sql",
+      "sha256": "9fbb4229b665021947f9587b2e552ca1699cd25ef38ce0ddd38b6e4c5041d9c2"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_cn_contact.sql",
+      "sha256": "c8e2c8f512d43cd21b65dc2f7c3b20fe75eda347b8c57fdd741086ad98f8c759"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_gl&tc&kr_rev_consume.sql",
+      "sha256": "54e326726a8190da74e314bb9415c6a659d87b5292dd1b4ba6a5ceebbeb3816b"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_gl&tc&kr_rev_pay_method.sql",
+      "sha256": "f4a0edde5b491e276fe12d7bbb23f0d2e7b4c4da40a7b705e6684816d7ab9307"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_gl&tc&kr_rev_recharge.sql",
+      "sha256": "e8e652f27660690ac5a1bcd36612fac0e964f4f3e84db858b875e79e1423bd01"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_gl_daily_dau_by_region_2020.sql",
+      "sha256": "71bca38338e50c04502f5a5bcc2ddbddd7b4d50a9032744c0d2fe480994fa82b"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_gl_kr_tw_launch_cohort_retention_ltv_darpu.sql",
+      "sha256": "29e925bb8b2dae28be8182f19c7bf241e068acde080797002191576ab64625f8"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_gl_kr_tw_launch_monthly_rev_nuu.sql",
+      "sha256": "584da3237d2f50f3cbd9854bbac7f01ff6f47f5db19b5df292ce4e3c9b69694f"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_gl_kr_tw_monthly_dau_1y_2y.sql",
+      "sha256": "d47ef68ae65a9ca60e8f962d253e7c5a72e26df619263d4cb4fdd9bf858c448f"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_gl_kr_tw_totals_summary.sql",
+      "sha256": "11e8a9a66bf1e84fd682af64456221810d27c7f3a74d9fd2e8640859f4148665"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_gl_lib_bi_report.sql",
+      "sha256": "a1a73284c1c01403d9800c5f7d17ce2eaf3406dbf29adfc53c280e88bb041d9e"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_gl_lib_weekly_report.sql",
+      "sha256": "76f4ba93ac063d08c670d03398f0f9a704aaf50f1b9de525196651c24d54eab4"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_gl_rev_razer_stats.sql",
+      "sha256": "e6485627744cad44a30e54d96f1c89abd5587023052b344aba8e0079f498732f"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_gl_sea_na_launch_30d_kpi.sql",
+      "sha256": "85494b802f9127393d5cf1bb79bff7a0c7fded1dc5a03e97a678d1dca5c75c43"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_gl_search_multi_region_order.sql",
+      "sha256": "d13714c229cf881727f58431521cce380fb39cf71f95bcf14dad8ce7841d1b8b"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_gl_search_order_0099.sql",
+      "sha256": "8be4713af3f00f1093725cc63b7bdbe650f80d2c5c2d5e1a14d2045219aeec0f"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_gl_sg_launch_30d_retention.sql",
+      "sha256": "abaefbf3008b32d1efc1498d96d02876c12f8b134b61537b2fbe747014274acb"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_gl_tc_kr_char_buy/sd_gl_tc_kr_char_buy_legendary_players.sql",
+      "sha256": "6d03ddf7c0b72c2dd51e6e7ca0cf7ce5b27a96ec7d642302a7fbe1a9546b2659"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_gl_tc_kr_char_buy/sd_gl_tc_kr_char_gacha_stamp_spend.sql",
+      "sha256": "a3dbc17fb6e5fbf7341b789db9647f269c16535c2f820e1edf55b9a074dacb84"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_gl_th_launch_cohort_retention_ltv.sql",
+      "sha256": "a6340ffa7b72a33fb54f37b033438ff4d265891df802bc7f3096a4916b1627c3"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_gl_th_new_return_user_ltv_202507_202604.sql",
+      "sha256": "18477340f9810bf1df7a07878c1634ec5ca9057b021b423f0ffd0570de190aed"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_gl_th_new_user_ltv_202507_202604.sql",
+      "sha256": "1cf6a82ba9ad03011a10b3741887eb87df7b785505a5a2358900300a4756cfbb"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_gl_th_real_old_user_stability.sql",
+      "sha256": "eda74649a6b93976040dd76a1d43b2ff0660f48d5f53880c5d78002ba3a71f4e"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_gl_user_active_paid_sa.sql",
+      "sha256": "0689f8e807e5e859e5f3e2cb2ef34feb7d2fb7ddb02e298e78b0e178f9830a67"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_gl_user_churn_point.sql",
+      "sha256": "016b027e2ccc1e37a0867fd76c1fdecd88a9bf81ecf2763d6add3c1c34f9aba8"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_gl_user_churned_2y_sa.sql",
+      "sha256": "b298abcd852f715b4f2af82cf3bc1c7606073db12438f17362c66759af32d571"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_gl_user_dau_sa.sql",
+      "sha256": "9ce4ff614e95fb792fd46d4948fb9ed61946258e2ef0438b257cb38a073251c4"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_gl_user_multi_region_item_list.sql",
+      "sha256": "3c05495174ac57aa2c301c2f946c852dfe91bb8ad5674e258a131f4a69cf5037"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_gl_user_new_churn_detail.sql",
+      "sha256": "7ea23bf7fd43eae0fd78dbc8fff21211a30e760b4a3b080e8f6785fa8bf760fe"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_gl_user_new_rank_analysis.sql",
+      "sha256": "d0d831c80537b72573e7b68751ea0916a6e25be7980e0fa2debcdd798ab99086"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_gl_user_pay_retention.sql",
+      "sha256": "7bd38c2c5b8ad599f837e8884bb1e3bfb7830c8dcb5845212979f7becba4f51b"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_gl_user_ping_sa.sql",
+      "sha256": "8b111bbbfe1d3aefc7897a0d7898f981a0a4363070cfbf417e2005981e85d607"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_gl_user_returning_stats.sql",
+      "sha256": "93fb9ef49101c34dc857a3209e3598b6ba1529ea5e1cf202143a1b40938493bb"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_gl_user_sa_kpi_device.sql",
+      "sha256": "32679ff7df2d81884194dfb3e7c43c3ccb0bd5b0fce5bbca69afe070097a393f"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_gl_user_sa_kpi_stats.sql",
+      "sha256": "93faab4c8153fc79a436eac588d83dd18520faf61ce0aca59ed9687ada64a608"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_gl_user_snapshot_sa.sql",
+      "sha256": "5909c315dfc1f7c1c04e50d61629a95863cf481b6d2648118034a725134ed876"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_kr_daily_new_return60d_old_user_stats.sql",
+      "sha256": "886e6a9066170737265ab5c3374d4726ce0ed6fc97e69e3386b24b7cf2f9edd1"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_kr_rev_item_point_consume.sql",
+      "sha256": "fe24b84993c4630c50cb0f49ef9db8fbb59bccc1ccc6b767ae33c6d4e4a229f8"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_kr_user_item_get_christmas.sql",
+      "sha256": "a0ad2f7e65447b1d478f803fddac174e427f5bbf57439f641fc9e8f4f5c0c492"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_kr_user_stamp_log.sql",
+      "sha256": "adf88cc66c913aa5d3d6230cd17a4debd1f01d83fafc8c40f814c45ed2b9c4c3"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_kr_ww_launch_cohort_ltv.sql",
+      "sha256": "db26f0baa457b17359812cf0bb46809f9196706e6a99f4de3452c20161067448"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_kr_ww_ltv_20250701_20260424.sql",
+      "sha256": "459ecf6c8fcd2b36985e53c19b58ed70b5554cdac4e094bd706f77e81b51963d"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_kr_ww_return_user_ltv_202507_202604.sql",
+      "sha256": "8d258ec216515e5272e2ce9900a8c6c45820f039cfc6d01b2aaca4a4eb66b11b"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_ltv_combined_summary.sql",
+      "sha256": "ca8196cb84b46973cec7871b5da7f67fd70a66a0a5ec85324f180b5340576c41"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_tc_daily_dau_historical.sql",
+      "sha256": "fdbf9ff0de4a07f78d831d898c8df347103222efda9c299ab7008a4045448189"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_tc_gl_kr_palace_skill.sql",
+      "sha256": "02a23d11aef7c8de59082bd5230fee04f6e270a4d43968948c835b86d5b12187"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_tc_kr_ww_return_user_ltv_20200101_today.sql",
+      "sha256": "7e78c1ea1dadb82d5dcd335e775c01c13559603d2e0512376dab4af63f72fa70"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_tc_kr_ww_return_user_ltv_202507_202602.sql",
+      "sha256": "d7fbfd30829784e98fe20b7da1674e327e34766e9fbfa5146d77da214fd7addb"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_tc_new_and_latent_return_30d-90d_ltv_stats/sd_tc_new_and_latent_return_30d_ltv_stats.sql",
+      "sha256": "9732eeab741731fcc25055f114b9e6a384da55261b323874f964c77f1723824a"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_tc_new_and_latent_return_30d-90d_ltv_stats/sd_tc_new_and_latent_return_60d_ltv_stats.sql",
+      "sha256": "5edaed31d8e92c7b56053820f7e37842fb284c3fed2ba64772f479e9129e323e"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_tc_new_and_latent_return_30d-90d_ltv_stats/sd_tc_new_and_latent_return_90d_ltv_stats.sql",
+      "sha256": "98ebc5de8a8d1249ec9f00edcb6c68da4063845b99c3a866aea94cb306a28041"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_tc_rev_airwallex_stats.sql",
+      "sha256": "393ea70bcf56fb229296a801cf32ab4a9b6a5c200dfb6038acb6a48db5b23772"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_tc_rev_ios_metrics_1std.sql",
+      "sha256": "4b6d2c3fcbb3c4deb72fc6a0064ba04a2821a30af3ce11813aa1c0bf6ebba9b8"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_tc_rev_return_90d_ltv.sql",
+      "sha256": "9773341b7acac861e5c48f3a5f47099d38930e2403c2b95e010d6b3bbc1ee8b8"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_tc_search_rank_query.sql",
+      "sha256": "8185327668042b42918559c08d82130cc8205a528e9b46b6b4da61499cb91585"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_tc_user_s28_top500_login.sql",
+      "sha256": "2144081ce70f328e796eab1443658c9e613ea4649c2e23f78f96a08ba0dc777a"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_tc_user_s29_card_balance_gen.sql",
+      "sha256": "1796f069b57d4b9ce054ed0e1c56e44ec8db6a502f3ad462accdd2f66406bd87"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_tc_user_s29_card_balance_gen_v0.sql",
+      "sha256": "3e4dbf3f185062b5a9caa59ee20a6308a1a34c7b3e67d1ff7315d417b4656f27"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_ww_return_user_ltv_country_os_20200101_today.sql",
+      "sha256": "b64669330a37e83d0030188891370f26098397844127fd28b3cb4e00e973e5dc"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/trino/sd_chain_gift_cs_query.sql",
+      "sha256": "41f5abdf537b3313615c0517713332185a9d8046115ea310b3d75f615978ab05"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/trino/sd_gl_item_gain_with_stamps_consumption.sql",
+      "sha256": "772bbf51d6f03ebc0deac64560728ef836747b5ff8d4d263901eaaa8d789222b"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/trino/sd_gl_kpi_ltv_by_game_version.sql",
+      "sha256": "c109637fc20e9078013ded822e1e6878f31e547f4a318b5932de51158db7a6e4"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/trino/sd_gl_kpi_target_completion.sql",
+      "sha256": "ca6feb756f2b4c4884a9fe78e3efcf8d7d58c2c47fc66c188685a461a31e9b09"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/trino/sd_gl_na_eu_dau_aug1_aug5.sql",
+      "sha256": "02fcfb95277cbba8a31c401cb425a02ee0a43ae1430a3f065f05ed520439b1b4"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/trino/sd_gl_return_user_period_kpi.sql",
+      "sha256": "41f212143ec49673b473768b2f168cc4a217fcd5f4b701014b484a4f8e90a34a"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/trino/sd_gl_tc_kr_rev_direct_charge_gift_by_product.sql",
+      "sha256": "c4340ae85e22b7b5dc3ad19b18ccb7d666bcb77b0f3daf33471277b6caf5a788"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/trino/sd_gl_tc_kr_rev_monthly_revenue_by_channel.sql",
+      "sha256": "a7ed76fba34b54d0509ee3813de53e344b39116e57fbfe0f16ea2c409fc85484"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/trino/sd_gl_tc_kr_rev_monthly_wallet_by_channel.sql",
+      "sha256": "7d1e6af4f6e69d55536342693c8d3766d39baeedec26dec51e61882ff94700e3"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/trino/sd_gl_tc_kr_shop_tabs_vip_20260621_20260920.sql",
+      "sha256": "0204726ac34f75d6d6a6d47631883867a088f03fb9b08290893be6e897019fcf"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/trino/sd_item_gain_with_stamps_cs_query.sql",
+      "sha256": "6fc3a1ced82c451fb6fad5fd0a1b1df614a217718842ba173f534a33ece6320a"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/trino/sd_kr_churn/sd_kr_user_churn_last3_events_new_return60d.sql",
+      "sha256": "90146679de5f240e8268dab6a3076729722ecfe2712db865e35d9d8124df16b6"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/trino/sd_kr_churn/sd_kr_user_guide_dist_new_return60d.sql",
+      "sha256": "4513d5e623b117709a027ede9732a3ead00e528548af183792af8b4579c11361"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/trino/sd_kr_churn/sd_kr_user_level_dist_new_return60d.sql",
+      "sha256": "bb7dcbc359d7b1c7d3f635ace03f305a1e387d8e0d8d94d8a680f19bc1e7545e"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/trino/sd_kr_churn/sd_kr_user_rank_dist_new_return60d.sql",
+      "sha256": "1e46cd949a171f01c4830a99de56672685ccc92a3274173bececbd9625780502"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/trino/sd_kr_churn/temp_queries/churn_login_match_diagnostic.sql",
+      "sha256": "9a18d207ec1d1628e93e9b193cef5cb66080a89c5a1704399b049d1a1ad81716"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/trino/sd_kr_churn/temp_queries/validate_user_counts.sql",
+      "sha256": "4eeafbf28c46d197c25727d8630a2b90c159a53e2572cf1e1991703980a0a3b8"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/trino/sd_kr_daily_ltv_new_return.sql",
+      "sha256": "4320f52adcdf6d1db810f79fd79747e75dac88547f52a4176e64f40778f64dc8"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/trino/sd_kr_daily_new_return60d_old_user_stats.sql",
+      "sha256": "6140846b738116b4f52cea10db8dd4a71b2806db5bb1d2a29e07a939fda40c5e"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/trino/sd_kr_daily_order_details.sql",
+      "sha256": "757c48022fab6e5108f3ed839b43cc57e3a7632db1cb3d79d07863f6ed3df330"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/trino/sd_kr_daily_retention_new_return.sql",
+      "sha256": "cef976e9b81eb856ef7c10e414149d771688e647d041bfc12f2be8f74bbedf2a"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/trino/sd_kr_hall_of_fame_active_roles.sql",
+      "sha256": "52b0ff4374e11913bd3c8f5ad14b1550e7be420f7a91481447ed432c5081d10d"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/trino/sd_kr_kpi_target_completion.sql",
+      "sha256": "475ccb5453a891f47ecff7e552f313278b6afe822a645269f67a8b4fa74b4da6"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/trino/sd_kr_nuu_daily_online_duration_heartbeat.sql",
+      "sha256": "367981dc1c2a0bc4410dca5133e543b8e108ffcd2913846e66c77d45a630a877"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/trino/sd_tc_daily_card_talent_distribution.sql",
+      "sha256": "db48021727f4b39c44f3e9dbbc5dfe6f94ced83dd4af346973aad624b6476e85"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/trino/sd_tc_item_gain_with_stamps_consumption.sql",
+      "sha256": "bfc8b58ab98da0dddf0b86c2b7136244c0accd787d1f3a8108e0a3027e703dbd"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/trino/sd_tc_kpi_target_completion.sql",
+      "sha256": "c2b1f9b1520f7f4c697c9c4e49fa27d6d3ba4d67ee2d8df8822c1731f767a4bb"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/trino/sd_tc_new_hero/sd_tc_card_talent_vs_winrate.sql",
+      "sha256": "b60e622deeb265cfed03a8531c76c08b3ec21fd9cd96a0ae6c36d47ea62b0fca"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/trino/sd_tc_new_hero/sd_tc_daily_kpi_comparison_20230525_vs_20260423.sql",
+      "sha256": "cc068f8b84db39c41b88fca0f62d9c6c43a5b3b52fcb27f203bff992c9739151"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/trino/sd_tc_new_hero/sd_tc_sku_pay_by_vip_20250423.sql",
+      "sha256": "0c8bf05041596eee61d83fa8d2faa004fb77e8382f01656a2b6aa7744149869f"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/trino/sd_tc_new_hero/sd_tc_sku_pay_comparison_20230525_vs_20260423.sql",
+      "sha256": "bb25b4fb0cbae1b68c134bcaef59c5e3ce04bafc55a54cc44ff84c293486f859"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/trino/sd_tc_new_hero/sd_tc_top50_payers_comparison_20230525_vs_20260423.sql",
+      "sha256": "804b2f43600b9118b3a345b4c8cb327c6b14c8339ac8ca2fe8e2099f37871fe8"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/trino/sd_tc_new_hero/sd_tc_vip_currency_balance_comparison_20230525_vs_20260423.sql",
+      "sha256": "5ef1370e7ab82c7bdb551c01dbd5f110e31a82c6cd91cb422545c900857b032a"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/trino/sd_tc_new_hero/sd_tc_vip_kpi_comparison_20230525_vs_20260423.sql",
+      "sha256": "26ad8e576e4a4cb39d5a09550fcdef6b9ec66fa69201b4cc9af807602466acc8"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/trino/sd_tc_ranked_match_participants_matching_time_20260811_20260909.sql",
+      "sha256": "c1aa1015b8d1c7e19cae233b6683d3735f3640c1973b916d2e5dcea06dfe4653"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/slam_dunk/trino/sd_tw_return_user_ltv_cny.sql",
+      "sha256": "56dedd391b9bd28b394064c0eed2ac059ae77456d6d83fb9d5129c95bd2c867c"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/street_rivals/trino/sr_jp_char_kuroko_ownership_by_rtier.sql",
+      "sha256": "2db92c33e96d72f00abd2697b91aec76e87084789fe7fa4f3b598a4a8613b70a"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/street_rivals/trino/sr_jp_kpi_daily_login_by_rtier.sql",
+      "sha256": "9ee0d70f0299049994c1adcde99208475c7212654d952388bc007d87ba5d012f"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/street_rivals/trino/sr_jp_user_active_registration_month.sql",
+      "sha256": "dff6592a16e5407b666bf4d1908be86186a61529fbe28923447c94d6a7c91b19"
+    },
+    {
+      "kind": "sql",
+      "source": "fivecross-sql-lib/games/street_rivals/trino/sr_jp_user_kpi_stats_old_version.sql",
+      "sha256": "354353128c96d802d0a5c803bace8d377ef11e385025bb794d3a11691e5c8686"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/captain_tsubasa/ct_two_platform_kpi/README.md",
+      "sha256": "a6862df5a2c2f1ef6b5348dec3fbf666902c0a42c88eb1b8c6ef7795e430277f"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/captain_tsubasa/player_handover_2026-05-27/README.md",
+      "sha256": "3cc7ea13677ed32dde442fd4fd4c7c350bac97ac3fdf00c89aa26f517be27fd4"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/crayon_shinchan/01_kpi_reports/tc-cbt-report/README.md",
+      "sha256": "9ba74562826bedb08b0d7b149c18eca26224d96edb0fcf4e3179391895e8ef8c"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/crayon_shinchan/01_kpi_reports/tc_obt_d1_daily_report_20261015/README.md",
+      "sha256": "5b745f98ac27b14f4555d79bf7c87daf6e9363c47ffb3cd0cd5d7d99a428eafe"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/crayon_shinchan/02_monetization_liveops/activity_comparison_review_20261030/docs/ACTIVITY_RULES.md",
+      "sha256": "a51e6e82937932ed896f6aa1bb7d2c38030521bb26e2464a198554184ff8e30d"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/crayon_shinchan/02_monetization_liveops/activity_comparison_review_20261030/docs/ACTIVITY_RULES_CONFIRMATION.md",
+      "sha256": "e917bb098340191dded13c34f38232576029b2e553539e202dfd87d2ba11c04f"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/crayon_shinchan/02_monetization_liveops/activity_comparison_review_20261030/docs/ACTIVITY_SUPPLEMENTS.md",
+      "sha256": "66609e46d28c405c3af5935f20a1d5ca2a9a2138bd67ce25b3eac2b6d7395344"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/crayon_shinchan/02_monetization_liveops/activity_comparison_review_20261030/docs/DELIVERABLES.md",
+      "sha256": "e02df56198883ad457028318017d056f050352965f6a54fe96f5510a3e63fa22"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/crayon_shinchan/02_monetization_liveops/activity_comparison_review_20261030/README.md",
+      "sha256": "36ff173a00a2b37e91cd1f1ed21e20949be508fbc27de83b8151aad9a57e05bf"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/crayon_shinchan/02_monetization_liveops/activity_event_timetable_20261030/docs/ACTIVITY_RULES.md",
+      "sha256": "e9d096b07b25db0886c2bbba703387d060608dfe8927b1ab8d333d8983975703"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/crayon_shinchan/02_monetization_liveops/activity_event_timetable_20261030/provenance/association/activity_timetable_observed.md",
+      "sha256": "8190d1b2d153622fb857d42170f145169b38224cd4b87db5ad23fdbaca87786b"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/crayon_shinchan/02_monetization_liveops/activity_event_timetable_20261030/README.md",
+      "sha256": "d77200a711e33c7dc323032607ee637aaeb5238b71cc8198ee2a6b2842261326"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/crayon_shinchan/02_monetization_liveops/paid_product_purchase_stage_distribution_20260729_20260824/README.md",
+      "sha256": "d9d9edcb94fc463510b54656bca22f676ad7c08b14ff6a60d2df77c2c02d0df5"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/crayon_shinchan/02_monetization_liveops/tc_obt_post_d1_monetization_20261023/outputs/首日後付費與晶鑽消耗.md",
+      "sha256": "0a477c24128d3a01cea63b46df9d451ad627a2d068fecdcb63b7c211ddfd1fbb"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/crayon_shinchan/02_monetization_liveops/tc_obt_post_d1_monetization_20261023/README.md",
+      "sha256": "df43a72d0f0dd89bcbfe68301c1ea4a365a9bf619115cc02fed7992c9b9286a2"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/crayon_shinchan/02_monetization_liveops/weekly_operations_review_20261102/outputs/revenue_audit/classification_correction_20261109.md",
+      "sha256": "5cad2e367d934a20dc3b16baa282962a2dc87fa0ff4307c7c16ff0c855cfed56"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/crayon_shinchan/02_monetization_liveops/weekly_operations_review_20261102/README.md",
+      "sha256": "828a1162a3dca49d8ab1ff3770876c2050f42ac67b5792aa2df5cc925563e1bc"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/crayon_shinchan/03_user_lifecycle_progression/first_day_tutorial_stage_dropout_20260729_20260824/README.md",
+      "sha256": "1b37f6d6cf571527d51925bbf98c5dbb089d4ebab61d32890cb4b7e7eaf15249"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/crayon_shinchan/03_user_lifecycle_progression/new_user_lifecycle_diagnosis/README.md",
+      "sha256": "2a6c37886a3cc78f0ef51c4cb6e085c032d79a8e40175f95e887813bfaf349b6"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/crayon_shinchan/03_user_lifecycle_progression/specific_event_stage_distribution_20260729_20260824/README.md",
+      "sha256": "f9aa1df228fbe8c026d8f395812a7514229736dfcfa76aa728f958dc35fe5d3d"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/crayon_shinchan/04_surveys_retention/tc-cbt-survey-analysis/README.md",
+      "sha256": "1498dfadf9c53b568a3c956dc45e31fa0452f23add76f1edf4c73fe19617feff"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/crayon_shinchan/04_surveys_retention/tc-cbt-survey-analysis/reports/questionnaire_behavior_report.md",
+      "sha256": "79f2d819228fbbaa25d4fee47963e6075ff4e8052eff2604f51000ece121ac21"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/crayon_shinchan/04_surveys_retention/tc-cbt-survey-analysis/reports/questionnaire_only_summary.md",
+      "sha256": "64068294d1535be61ac86a6e0ed7ff87e4503567bb2220581b6ef30566ee5e18"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/crayon_shinchan/04_surveys_retention/tc_obt_d3_churn_survey_diagnostic_20261020/ios/outputs/小新繁體iOS_三日流失問卷補充_20261020.md",
+      "sha256": "80dadc9bbf48f15631d19aaa7b0af1dae329e798ea187d5265ff4ce9bf4ce200"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/crayon_shinchan/04_surveys_retention/tc_obt_d3_churn_survey_diagnostic_20261020/ios/outputs/小新繁體iOS_三日流失特徵分析_20261020.md",
+      "sha256": "21ff76daaa6368b1861e7fc936ba326ca265ade6ebed60656d4d66fba487d8d1"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/crayon_shinchan/04_surveys_retention/tc_obt_d3_churn_survey_diagnostic_20261020/ios/README.md",
+      "sha256": "9b59052cb4816cf60dc353f80e0bf405e9c72142bda94040defdf799de9c92ec"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/crayon_shinchan/04_surveys_retention/tc_obt_d3_churn_survey_diagnostic_20261020/README.md",
+      "sha256": "13321b57db1264b409814cdf21c38433c79f1ecfe10d266b02fee1fe8100d01e"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/crayon_shinchan/05_data_audits/tc_obt_customer_support_mainline_audit_20261017/README.md",
+      "sha256": "14149edf8ccff8b5b35b1f646b470d7b524d72d706d67ed7c48fe94f53cba8b9"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/crayon_shinchan/05_data_audits/tc_obt_mount_feed_audit/README.md",
+      "sha256": "8a3fea20bfc377cd20426a5ccdf808c624527da1375a7fb4d664f1fc822961a1"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/crayon_shinchan/05_data_audits/tc_obt_red_image_server_cutoff_20261109/README.md",
+      "sha256": "3711a131143fc916ebb3ddcbcc87edd8180e713ae3a70487f4287a772e4f69b8"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/crayon_shinchan/05_data_audits/tc_obt_toy_reset_compensation_audit_20261018/batch_all_servers_20261020/README.md",
+      "sha256": "1d50c43f416be62f393b46f4b1af9fdb6c41930c24dcfd06e8c54d447d01b30a"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/crayon_shinchan/05_data_audits/tc_obt_toy_reset_compensation_audit_20261018/followup_20261022_3EB7AD/结论.md",
+      "sha256": "b58031b02426497cb838060ea06c068862fa42f702f33af9622e11e069aa3941"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/crayon_shinchan/05_data_audits/tc_obt_toy_reset_compensation_audit_20261018/outputs/final/客服核查结论.md",
+      "sha256": "8703c6922ab163143cb9c85c380091d1baf69474eaf142c4b827270f3889e8bc"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/crayon_shinchan/05_data_audits/tc_obt_toy_reset_compensation_audit_20261018/README.md",
+      "sha256": "00389d1e46f4461135548c6d05abd6ead6025ea62a7bd833e5e67b7cb4293ce9"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/crayon_shinchan/README.md",
+      "sha256": "e1774c5c9233b1b88d3ea4ba5cd66664641fffd048b3e76b27d36693bbdd91bb"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/jump_assemble/01_monetization/a_class_delivery_mechanisms_first5d_20260831/README.md",
+      "sha256": "e72bf1a4edc7ed173c4db414d717adb28a23292a338cfd2f478e0c44fe612b94"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/jump_assemble/01_monetization/a_class_return_monetization_20260805/README.md",
+      "sha256": "3e90af2e7f1404a8af74e30e4e53a6167dea89e59b7174e837ab957b412ff5ec"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/jump_assemble/01_monetization/card_pool_monetization/04_validation_checklist.md",
+      "sha256": "e33622da9b57e0084f6e0d833d56bc29bf88d7c81dd081b006d084a4d245790f"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/jump_assemble/01_monetization/card_pool_monetization/README.md",
+      "sha256": "320b8467343f7af06e660cfff60cf3b36b71d4db7a21d691679fc6805a7905ce"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/jump_assemble/01_monetization/character_release_cadence_revenue_stability_20260923/outputs/分析报告.md",
+      "sha256": "b973851ccb2a3a2f5561286a314c703fcd99b317f733bdda0b9fc95922c6fb0c"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/jump_assemble/01_monetization/character_release_cadence_revenue_stability_20260923/README.md",
+      "sha256": "eda131673d590525874e7e7a4a99902558cbf1b71d530988ab00c18a605bb97b"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/jump_assemble/01_monetization/s_class_byakuya_minato_monetization_20260828/README.md",
+      "sha256": "71edddf9625b7a31db5556f5b7ad7a69ababbdc6cbd5aee386667609b30eebe7"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/jump_assemble/01_monetization/s_class_gojo_return_30_pity_20260902/README.md",
+      "sha256": "2553e89483a18481d7010e9ed445fcd5c539741de34a0d0f9fc4614ad4801e24"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/jump_assemble/01_monetization/s_class_luffy_monetization_d1_d5_20261012/all_character_channels/README.md",
+      "sha256": "0add764df3cd20af836fa0c0e5eec126165c98fb2a9789d9df40bac8d92ffd37"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/jump_assemble/01_monetization/s_class_luffy_monetization_d1_d5_20261012/README.md",
+      "sha256": "eac25497bec8ddac1dc06a4ffbde31910f05fc98c1bd91d6a039b4f56f2a7cc4"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/jump_assemble/01_monetization/s_class_luffy_monetization_d1_d5_20261012/skin_audit/README.md",
+      "sha256": "6f245af56c69cf11a4ea479a11bce4b85938c77a76e9f55d7eefd25ee1a2a86c"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/jump_assemble/01_monetization/s_class_sanji_monetization_d1_d5_20260914/README.md",
+      "sha256": "b0e2ea3e5e49402eb9c7fe4bf3bcfab8f820be68d406d627d16b515049540d91"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/jump_assemble/01_monetization/s_class_trunks_monetization_d1_available_20260924/README.md",
+      "sha256": "0e506f1d06f17bd1d7ad374900b8bf43a4525bed306eaf7988307c9a6c70be3e"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/jump_assemble/01_monetization/skin_gacha_ledger_attribution_without_tracking/README.md",
+      "sha256": "ed5378250c46c5ea24593a1428bc79db118019f307cf963bb209d21b12173491"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/jump_assemble/01_monetization/tc_monthly_revenue_attribution_202606/docs/attribution_rules.md",
+      "sha256": "7167d1451343910c7638818147332d7b30b59b7ddf34e5c3f390fb398dee269b"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/jump_assemble/01_monetization/tc_monthly_revenue_attribution_202606/README.md",
+      "sha256": "554b5c546a4e8ad609da58783ca2d31b6cc8571f52d5799401c09fbe908e533c"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/jump_assemble/01_monetization/tc_monthly_revenue_attribution_202607/docs/归因规则与8月复用.md",
+      "sha256": "622ad78a6f5e2c142aab86dd159640e7c315c4db497d07789960bdb1adf45443"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/jump_assemble/01_monetization/tc_monthly_revenue_attribution_202607/README.md",
+      "sha256": "0d4c740c7b3e2051b328367917a6256bd15fce9ae9534a289854391baf8de1bf"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/jump_assemble/01_monetization/tc_veteran_cultivation_revenue_decline_20261109/README.md",
+      "sha256": "3068178080d3c28722cdd7a254a547de9ced0775c9a9218c8322c1c8d330716b"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/jump_assemble/02_liveops_payments/battlepass_s1_s4_decline_20260921/README.md",
+      "sha256": "f3c9d8fc2eaf21b1ff08f656f42d487584519afacae5c71d82cea11d389662fe"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/jump_assemble/02_liveops_payments/jump_star_first_topup_double_20260909/README.md",
+      "sha256": "ef7fea2b6cd3a2632af9f9f2fbce9e64d216477ba4994925f82f300a23809069"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/jump_assemble/02_liveops_payments/jump_tc_friend_invitation_effectiveness_20260624/outputs/注册留存结论_v3.md",
+      "sha256": "dc0ed5c0a204fb22b176e987717b8d3e6c0e32f614746c4872e98d272be00831"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/jump_assemble/02_liveops_payments/jump_tc_friend_invitation_effectiveness_20260624/README.md",
+      "sha256": "809d2367eaea4c078801e57b71dcee388ebba8bbe7f1df1338ce5f7d0913be92"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/jump_assemble/02_liveops_payments/luffy_117_gacha_delivery_audit_20261007/README.md",
+      "sha256": "2c24c26f16555a6cabb4cdec8076122d8738862e96412773917b19ed8abf9cbc"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/jump_assemble/02_liveops_payments/nezuko_daily_recharge_reimbursement_20260819/README.md",
+      "sha256": "3c03f36a2acc4f2bec5965640a71af3ce2a0d14e2a3570cf71323952c7636fda"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/jump_assemble/02_liveops_payments/payment_rate_uplift_20260819/README.md",
+      "sha256": "5d991a38653e24eb1eeca586c5d3965766e6e169231cf2ebaedc69747e4bc6cd"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/jump_assemble/03_competitive_gameplay/cn_ranked_mvp_svp_by_rank/README.md",
+      "sha256": "3f2157313bf51b3ca49b29513f2e7f619d47584287b241487aded4e7b46ec63a"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/jump_assemble/03_competitive_gameplay/ranked_match_balance/outputs/README.md",
+      "sha256": "e17e269f68bb287cf4c8612928db4753aae7dea82973411504525b70f2101b98"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/jump_assemble/03_competitive_gameplay/ranked_match_balance/README.md",
+      "sha256": "90b4dd128da645e42e7691d3f8ce4dcb933348a01c2bf2965d09c1df21d74d22"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/jump_assemble/03_competitive_gameplay/ranked_match_balance/VALIDATION_CHECKLIST.md",
+      "sha256": "b79b6cebdffa5d5e1747bb09cf38653dccb6807737ad69f4ae888b400e868912"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/jump_assemble/03_competitive_gameplay/ranked_season_engagement_20260831/README.md",
+      "sha256": "cff69199d892bf367dd4cb7f31a12842ac2c6255449902e2f9f875527f3d443b"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/jump_assemble/04_engagement_kpi/active_duration_lifecycle_mix/README.md",
+      "sha256": "5ebebbf72ee56f1f14df0e9210920659b39d274a1bf93752d1182807c24836c6"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/jump_assemble/04_engagement_kpi/daily_cn_kpi_20260820/README.md",
+      "sha256": "04d840898c7dc074492d06bc2668f3d098cb416cfc3d508d423f3317fe9816c1"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/jump_assemble/04_engagement_kpi/tc_au_forecast_to_202612_20260923/forecast/README.md",
+      "sha256": "b001b8ee5d46ccb7b6b40aca1af5b890dec2fa59e04e7f0bb16a0b59902c5ddd"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/jump_assemble/04_engagement_kpi/tc_au_forecast_to_202612_20260923/README.md",
+      "sha256": "519804ba5331d2b965af46b5ebe0b06997b08f261028f7612ba31a08ab7f1d97"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/jump_assemble/04_engagement_kpi/tc_cultivation_s_card_cadence_20261018/README.md",
+      "sha256": "74708d36db3362f9a8a15ecb3492c34090c7cdabcb1d86f010d0e60e32b82c91"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/jump_assemble/04_engagement_kpi/tc_cultivation_s_card_cadence_20261018/validation/six_visual_review.md",
+      "sha256": "a2938fc877149f3bc7565da7e3df299940a64add54328fabfe07f4d2498bf7c3"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/jump_assemble/90_archive/backups/ja_tc_historical_user_data/README.md",
+      "sha256": "4201a6248fb84612ac1250c97425a994f1fc2015bccad46006d6d54be2869560"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/jump_assemble/90_archive/backups/ja_tc_historical_user_profile/ja_tc_moba_profile_cleaning_report.md",
+      "sha256": "1aaca555f50c7e389976f29961ad9406e3dcb16d8bca5cad60ccbaee3a72ecd9"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/jump_assemble/README.md",
+      "sha256": "ab2efb60ebcb48cccc3a2f10c719ff068995cbdeedc90c4f87ab25d4a25b9277"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/kurokos_basketball/01_kpi_reports/weekly_comprehensive_requirements/README.md",
+      "sha256": "a674ea4922b19b537a0bbe41b92533896a7e146ba17c5c66228ece020359361b"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/kurokos_basketball/02_monetization_liveops/daily_payment_spike_20260825/outputs/README.md",
+      "sha256": "27ce063b12d5a91a99e6fd066c15bdcd6e9e1001d8d6dd26193163da06dba911"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/kurokos_basketball/02_monetization_liveops/daily_payment_spike_20260825/README.md",
+      "sha256": "6398dbef46d3103c6c36e582e9953223b47986e28196717fc13e9cc552b5f8e7"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/kurokos_basketball/02_monetization_liveops/tc_august_2026_spend_analysis/README.md",
+      "sha256": "1fcf1b41b3fa21f978c0faf41e9cee186332e8a7e85f9fd3e6b7e1656f7f7c3f"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/kurokos_basketball/03_player_cultivation_resources/awaken_card_fragment_inventory_20260911/README.md",
+      "sha256": "f1a86b75e48aeb5f30e0e7fbedb18236293ab507b0251ae1cdba5a969176b196"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/kurokos_basketball/03_player_cultivation_resources/tc_lg_midorima_acquisition_cultivation_20260819_20260823/README.md",
+      "sha256": "9f73ce912b23fe80761924f48b937c99fdd794f595d76955f72e7dce0e31c745"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/kurokos_basketball/04_data_audits/bp_purchase_refund_audit_20261001_20261101/README.md",
+      "sha256": "3e861be332c549f2d56bd7110a462c701c6036ccc3810bc7dc64de0914fafc5d"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/kurokos_basketball/04_data_audits/jp_suspicious_new_devices_20260910/README.md",
+      "sha256": "687fa0391433027f6f1cba6b7cebd688c160edc72c3e27fae47d89ba53a43c4b"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/kurokos_basketball/04_data_audits/kr_uuid_blackcoin_flow_20261109/README.md",
+      "sha256": "29c6c7511cf674ee024ba39351fb057ece726a6960261e71fb6471efad1ec827"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/kurokos_basketball/04_data_audits/kuroko_uid_100621823_coin_audit_20261015/README.md",
+      "sha256": "d4f3e8143881ebfe6ea8648112f7a2dba385793ecfff4e5759ec27054a4f3611"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/kurokos_basketball/04_data_audits/kuroko_uid_100621823_coin_audit_20261015/REPORT.md",
+      "sha256": "c904bdda3c70ba5e8b102e6c3c09f0dd2d88163024a9292161fbb0cb8949e4ca"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/kurokos_basketball/README.md",
+      "sha256": "e7315b625c75371969a40fb6a7fc5c648adf6517095126225d63ba4add48a0e0"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/platforms/kpi_overview_v1/README.md",
+      "sha256": "12919e2ba8d18e415fa195dc039c23373ed4e4cb334180a61be8c59c058f0cff"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/platforms/overseas_wallet_recharge/README.md",
+      "sha256": "32fc68caa7c9bc3c94be7de21f12371b31ef9a558222d7cad86a8cad46078c3e"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/platforms/wallet_logs_alicoud_vs_ta/README.md",
+      "sha256": "6c873e149f417492603e400334d29990b75f1fa8c1c497cb87ba004452356432"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/README.md",
+      "sha256": "38ca8280e94062cc7829171bc00b87b5ceeaf155c9aa118e660571983f1654f3"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/seiya2_n_threekingdoms/order_reconcile_alicloud_vs_ta/README.md",
+      "sha256": "cdbfbee799c00c9300be0d4c85b4721f235def4daf4929ea3e7ddc141b052179"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/seiya2_n_threekingdoms/order_reconcile_publisher_vs_dev/README.md",
+      "sha256": "fc20e52c65580d3c629265964de8b37dfbcc090a0781a418bbc3b68a27e2b79a"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/seiya2_n_threekingdoms/ss2ntk_monthly_kpi/README.md",
+      "sha256": "be0f011d7d9d055f40faf73d9c9c00bf00964ce633bc55db5e3010431a6956b1"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/slam_dunk/01_kpi_performance/au_user_revenue_decline_analysis/README.md",
+      "sha256": "d59239d8772449e795e7d984a016cb1c520a2b3416ee04931d3bb992da6e2efc"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/slam_dunk/01_kpi_performance/au_user_revenue_decline_analysis/VALIDATION_CHECKLIST.md",
+      "sha256": "ecada236c8d8354ca1ccb3cf83ee1680b9288212ba1daffbdff7b7c1854c3048"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/slam_dunk/01_kpi_performance/cross_platform_monthly_user_kpi/outputs/README.md",
+      "sha256": "f5920adf8f9e3666ac7a8e779e8b252ef3658c28929a2a837add36efb3fd8ce1"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/slam_dunk/01_kpi_performance/cross_platform_monthly_user_kpi/README.md",
+      "sha256": "75ebdf281e6150a27b2cc55d945eac46fc9ee933bec115cbee220fde7efe9922"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/slam_dunk/01_kpi_performance/cross_platform_monthly_user_kpi/VALIDATION_CHECKLIST.md",
+      "sha256": "f651c585ea66205fcd0f9a465b3bc65b0c3a95246bf82f3352824143b7d276a8"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/slam_dunk/01_kpi_performance/dau_long_term_decline_20261009/README.md",
+      "sha256": "02d0bd5b64d598a518397b2f11990717aa95299630764dbd9172e1d5fa1bd522"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/slam_dunk/01_kpi_performance/dau_long_term_decline_20261009/reports/taiwan_dau_live_verification_20261013.md",
+      "sha256": "876d2f3d7fb6cf3bf717913cff5492a9418b1f5829313033c2488138039e4577"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/slam_dunk/01_kpi_performance/dau_long_term_decline_20261009/reports/taiwan_dau_long_term_diagnosis_20261009.md",
+      "sha256": "2f6d66482200fbaa0ada2e31f65b8be0cf52b519e72daa1b071ee9fa2b82350d"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/slam_dunk/01_kpi_performance/dau_long_term_decline_20261009/reports/taiwan_fixed_registration_cohorts_20261013.md",
+      "sha256": "60fc3e9c2535c437d8d258924b4336f20db0c401f53f1cfe5cf9c9baa4e2fdd7"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/slam_dunk/01_kpi_performance/dau_long_term_decline_20261009/reports/taiwan_user_composition_20261013.md",
+      "sha256": "f09e6b0e12feff663bf3f7d89f571f955655ffac8049ada673204e7acb50b63b"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/slam_dunk/01_kpi_performance/kpi_target_completion/README.md",
+      "sha256": "100760b1313e37cabd905e637919f2d59ca81d6d2644631f6d4774805358848e"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/slam_dunk/01_kpi_performance/revenue_decline_player_vs_spend_20261008/docs/mitsui_package_ids.md",
+      "sha256": "3ed6b5dbf72ec00b0c3fe216d91f014d9357a4f5a79f7e984c681571209ad4ef"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/slam_dunk/01_kpi_performance/revenue_decline_player_vs_spend_20261008/README.md",
+      "sha256": "260fa15af1bb86c36825df25b69154d7c600981deed365c10d96d01533fec7d5"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/slam_dunk/02_monetization_liveops/cn_hall_player_first_week_backup_20261029/README.md",
+      "sha256": "979e0309c5eb064265a1d474b9cdb5d41779d5622b53fe9e2e96c71a56e45d10"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/slam_dunk/02_monetization_liveops/hall_of_fame_card_activity_comparison/README.md",
+      "sha256": "fb7ab7a6a1f7e124efeb4c258283964d48866b66a8b41223bca6d54819f357c7"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/slam_dunk/02_monetization_liveops/overseas_card_first_week_backup_20261029/gl/README.md",
+      "sha256": "baa9b5bcd8e5189dede6d6eda5838d86304bad929d7395a94a967e232d2c9ce5"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/slam_dunk/02_monetization_liveops/overseas_card_first_week_backup_20261029/kr/README.md",
+      "sha256": "5cb45e5e960913f9b72ea357b1ec86668721f7138d68564420a7c6df368940f7"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/slam_dunk/02_monetization_liveops/overseas_card_first_week_backup_20261029/tc/README.md",
+      "sha256": "ece900eac16b5e3902050ba39850970428f5721adcbf3061493e595b630bfd80"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/slam_dunk/03_user_lifecycle_cohorts/cross_platform_new_user_d30_rank_distribution/METHODOLOGY.md",
+      "sha256": "a592ae3dec868580948c5cf6182250f9f45051e2b425e2fcd84df60714fce73b"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/slam_dunk/03_user_lifecycle_cohorts/cross_platform_new_user_d30_rank_distribution/outputs/README.md",
+      "sha256": "3a9d653bbff0497e8db94c3e28c1e746f1004c0735956e1132a184edb2ea4648"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/slam_dunk/03_user_lifecycle_cohorts/cross_platform_new_user_d30_rank_distribution/README.md",
+      "sha256": "5dd99e893dc8b7b4641e04a7b6e956f9bb9e8b67affa6f403f7fc09506d141a8"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/slam_dunk/03_user_lifecycle_cohorts/cross_platform_new_user_d30_rank_distribution/SQL_GUIDE.md",
+      "sha256": "bffd23356d9465a8a238789986171b453a50b3f804b70a9c6173e990adb2ac2f"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/slam_dunk/03_user_lifecycle_cohorts/cross_platform_new_user_d30_rank_distribution/VALIDATION_CHECKLIST.md",
+      "sha256": "e080b86ed132b62df6190d2be3d8536ae1d35a51362289564c72a172674ae03d"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/slam_dunk/03_user_lifecycle_cohorts/sd_gl_kr_mixed_platform_return_user/README.md",
+      "sha256": "42b32b63934125672844b9b2490d2e030c42210eaa27159df26e2c801f19e010"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/slam_dunk/04_data_extraction_audits/item_flow/docs/data_logic.md",
+      "sha256": "46ed37aaf5bfe5bc6346736ccf6940a4e624e25d91b451722c14d60d2155e968"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/slam_dunk/04_data_extraction_audits/item_flow/README.md",
+      "sha256": "284802bc69bf4af88455d72b18701cb8bfbb8fc1fabd224c439c0bfd617cf4b3"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/slam_dunk/04_data_extraction_audits/kr_battle_customer_service_log_lookup_100942605_20261022/README.md",
+      "sha256": "693e094bcdfabc15ab0e46c9487bed6f027b197c258751f3bcc5262fa466a05a"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/slam_dunk/04_data_extraction_audits/kr_rank_score_audit_100942605_20261022_20261023/README.md",
+      "sha256": "228217d6412accad781fc5d7fee7085baf324e8fd3b70ef028f7ab7e3f7c0ee2"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/slam_dunk/04_data_extraction_audits/sa_aliyun_user_recharge_history/README.md",
+      "sha256": "8976db1666207201e7ca70af95ae73ee35e76a0721ff2d885131349c4a31286b"
+    },
+    {
+      "kind": "case",
+      "source": "fivecross-analysis-cases/slam_dunk/README.md",
+      "sha256": "4da1ae40489c956e2f321cb0185247efe623b52db6713ad9e7133a31b22c3512"
+    },
+    {
+      "kind": "event",
+      "source": "shinchan-events-tracking/.cache/verification/acceptance.md",
+      "sha256": "806a31abc0ea8b89c9c99e23dfed98f5dfcde5225419527c0441af3f4415e582"
+    },
+    {
+      "kind": "event",
+      "source": "shinchan-events-tracking/debug/tc/baseline_before_20261110/outputs/tc/acceptance.md",
+      "sha256": "162f8be5372699934e1a36af69b673ca9c753d80e055d12b332f1153d6a959a0"
+    },
+    {
+      "kind": "event",
+      "source": "shinchan-events-tracking/inputs/kr/README.md",
+      "sha256": "d4457b5f1fb3929661569a8aef8e72e2563c3cde873ccd8cc3d368a6a25bd132"
+    },
+    {
+      "kind": "event",
+      "source": "shinchan-events-tracking/inputs/tc/README.md",
+      "sha256": "07b3e94579c73e8a9c77549c253c57d1be0f2feb73cc643b94237212f85135c0"
+    },
+    {
+      "kind": "event",
+      "source": "shinchan-events-tracking/outputs/kr/acceptance.md",
+      "sha256": "fe085935bfbba3d82bd1d8c6430249345b821df19256254aa6e1240386d7333c"
+    },
+    {
+      "kind": "event",
+      "source": "shinchan-events-tracking/outputs/kr/charge_shop_currency.md",
+      "sha256": "7e48981c60a992b6b8f6d4b796ba5452be9394ec2803bc89050587607eb74df1"
+    },
+    {
+      "kind": "event",
+      "source": "shinchan-events-tracking/outputs/tc/acceptance.md",
+      "sha256": "01209e64721e244d5d05b0554321bb7a4b360f710e08406266bcac65901fa47e"
+    },
+    {
+      "kind": "event",
+      "source": "shinchan-events-tracking/README.md",
+      "sha256": "6984037a20ec0d2f9c557714fe0e2385ff326f56760efac3f13294109b757c0f"
+    }
+  ],
+  "rejected": []
+}

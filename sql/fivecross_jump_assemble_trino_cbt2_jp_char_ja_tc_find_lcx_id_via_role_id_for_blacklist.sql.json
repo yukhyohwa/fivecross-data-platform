@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_char/ja_tc_find_lcx_id_via_role_id_for_blacklist.sql",
+  "sha256": "d7cb473c2e903bce748679dc7d66d87e37ec7cda3e6f17c2172f9fecf0ea9c61"
+}

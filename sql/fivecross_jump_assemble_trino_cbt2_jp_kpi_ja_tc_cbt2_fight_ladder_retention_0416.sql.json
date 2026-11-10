@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_kpi/ja_tc_cbt2_fight_ladder_retention_0416.sql",
+  "sha256": "075619c6e851cede1ef802e4e34d18cf4a4d6a1813be49827d61f4064573e489"
+}

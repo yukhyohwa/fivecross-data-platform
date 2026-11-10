@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/ja_act/ja_tc_activity_special_participation_0415_all_by_recharge.sql",
+  "sha256": "e83ab13c157bdf682fbb3ba111f9bd9e2b4150800f19a7e1d8e950690040f37a"
+}

@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "crayon_shinchan_tc",
+  "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_act/cs_tc_limited_mount_gundam_ge4_players.sql",
+  "sha256": "fc31eca18aec32937e1413bf135da0f414bcbe3a896680aa6c115877b46f6776"
+}

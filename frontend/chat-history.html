@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>聊天记录 · FiveCross 数据平台</title>
+<link rel="stylesheet" href="style.css">
+  <script src="theme.js"></script>
+</head>
+<body>
+<nav id="topnav" class="topnav"></nav>
+<div class="layout">
+  <aside class="sidebar">
+    <div class="panel">
+      <label class="panel-label">聊天记录</label>
+      <div class="toolbar" style="margin:0 0 8px;">
+        <input id="search-input" class="control" placeholder="搜索标题 / 内容…" style="flex:1; min-width:0;">
+      </div>
+      <div class="toolbar" style="margin:0 0 8px;">
+        <button id="btn-refresh" class="btn btn-sm">刷新</button>
+        <button id="btn-trash" class="btn btn-sm">🗑 回收站</button>
+      </div>
+      <ul id="session-list" class="list"></ul>
+    </div>
+  </aside>
+
+  <main class="main-area">
+    <div class="page">
+      <h1 class="page-title">💾 聊天记录</h1>
+      <p class="page-sub">浏览已保存的对话，并让 AI 把对话内容自动整理成知识库条目（文档 / 专项）。</p>
+      <div id="session-detail">
+        <div class="hint">选择左侧会话查看，并可让 AI 生成知识库。</div>
+      </div>
+    </div>
+  </main>
+</div>
+
+<script src="auth.js"></script>
+<script src="nav.js"></script>
+<script src="vendor/marked.min.js"></script>
+<script src="vendor/dompurify.min.js"></script>
+<script src="sanitize.js"></script>
+<script src="chat-history.js"></script>
+</body>
+</html>

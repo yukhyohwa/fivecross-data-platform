@@ -1,0 +1,14 @@
+[
+  {
+    "name": "拳皇国服充值金额按周",
+    "game": "kof",
+    "question": "拳皇国服最近 8 周的充值金额（人民币），按周汇总",
+    "expect_keywords": ["pf_kof", "price_cny_from_api"]
+  },
+  {
+    "name": "拳皇东南亚充值金额按周",
+    "game": "kof_sea",
+    "question": "拳皇东南亚最近 4 周的充值金额（美金），按周汇总",
+    "expect_keywords": ["pf_kof_sea", "price_usd_from_api"]
+  }
+]

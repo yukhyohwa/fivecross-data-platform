@@ -1,0 +1,9 @@
+{
+  "version": 1,
+  "level": "项目",
+  "game": "slam_dunk_gl",
+  "sources": [
+    "C:\\Users\\5xgames\\Desktop\\github\\fivecross-sql-lib\\games\\slam_dunk\\trino\\sd_tc_ranked_match_participants_matching_time_20260811_20260909.sql"
+  ],
+  "confidentiality": "internal"
+}

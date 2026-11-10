@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "slam_dunk_gl",
+  "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_gl_th_launch_cohort_retention_ltv.sql",
+  "sha256": "a6340ffa7b72a33fb54f37b033438ff4d265891df802bc7f3096a4916b1627c3"
+}

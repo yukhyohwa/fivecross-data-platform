@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "slam_dunk_gl",
+  "source": "fivecross-sql-lib/games/slam_dunk/trino/sd_kr_nuu_daily_online_duration_heartbeat.sql",
+  "sha256": "367981dc1c2a0bc4410dca5133e543b8e108ffcd2913846e66c77d45a630a877"
+}

@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_play/ja_tc_cbt2_userid_duration_retention.sql",
+  "sha256": "ca4a7710de5599cb914e6377d5df45debfad749a663f6844c8c7cf7343c8d4e7"
+}

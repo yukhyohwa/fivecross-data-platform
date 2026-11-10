@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "slam_dunk_gl",
+  "source": "fivecross-sql-lib/games/slam_dunk/trino/sd_tc_new_hero/sd_tc_card_talent_vs_winrate.sql",
+  "sha256": "b60e622deeb265cfed03a8531c76c08b3ec21fd9cd96a0ae6c36d47ea62b0fca"
+}

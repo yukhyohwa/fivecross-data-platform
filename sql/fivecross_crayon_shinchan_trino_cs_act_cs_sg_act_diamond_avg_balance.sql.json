@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "crayon_shinchan_tc",
+  "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_act/cs_sg_act_diamond_avg_balance.sql",
+  "sha256": "8c36bebd695d67b24e87b086b4a73fd319e80f8f581822c3c67972ce9fd21e3b"
+}

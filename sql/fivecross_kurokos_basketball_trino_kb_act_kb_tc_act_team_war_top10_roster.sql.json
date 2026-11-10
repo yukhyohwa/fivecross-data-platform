@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "kuroko_basketball_jp",
+  "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_act/kb_tc_act_team_war_top10_roster.sql",
+  "sha256": "b6fa2a284a03f0e659bea29a3ca3547cca3414c435b723b7b5102586bb6adeb4"
+}

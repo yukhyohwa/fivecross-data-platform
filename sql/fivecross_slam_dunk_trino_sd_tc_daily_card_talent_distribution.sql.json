@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "slam_dunk_gl",
+  "source": "fivecross-sql-lib/games/slam_dunk/trino/sd_tc_daily_card_talent_distribution.sql",
+  "sha256": "db48021727f4b39c44f3e9dbbc5dfe6f94ced83dd4af346973aad624b6476e85"
+}

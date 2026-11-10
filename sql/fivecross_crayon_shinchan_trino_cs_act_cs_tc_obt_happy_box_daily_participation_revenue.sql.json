@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "crayon_shinchan_tc",
+  "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_act/cs_tc_obt_happy_box_daily_participation_revenue.sql",
+  "sha256": "51e8c464c8d81239d14256763ba55033b322cb9fb376e05a1e05782c5f72ffdf"
+}

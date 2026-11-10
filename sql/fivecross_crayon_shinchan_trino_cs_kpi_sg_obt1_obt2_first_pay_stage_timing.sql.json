@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "crayon_shinchan_tc",
+  "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/sg_obt1_obt2_first_pay_stage_timing.sql",
+  "sha256": "61191ca45d0f077968b42a6073a800cbeba41b3b3ed8baef72262f167098f8fc"
+}

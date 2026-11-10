@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "captain_tsubasa_global",
+  "source": "fivecross-sql-lib/games/captain_tsubasa/maxcomputer/ct_gl_daily_kpi_by_country_channel_from_launch.sql",
+  "sha256": "705050b5843e5f5eb607fdff6f36bff4a16b97a3aea1180dc879b7d1081e8bf6"
+}

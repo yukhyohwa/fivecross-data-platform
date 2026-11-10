@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_card_ownership_rates.sql",
+  "sha256": "e9d8e55a0654e3e26d14f24218b761f7e3014f8dcea7631b6a7912260a92ceeb"
+}

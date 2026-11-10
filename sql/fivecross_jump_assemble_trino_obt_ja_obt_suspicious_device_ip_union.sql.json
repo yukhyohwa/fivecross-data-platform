@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_suspicious_device_ip_union.sql",
+  "sha256": "acba03380c672fa7b32c1c7640702bfa2d8e775ce6d6b74ac1ca1da8abb4de53"
+}

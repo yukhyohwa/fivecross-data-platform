@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_top_payer.sql",
+  "sha256": "9f4ba2eb0f4a003acc013f80a970a8b2727c21f3e5c0306c3c36d913805f7d2f"
+}

@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-analysis-cases/jump_assemble/02_liveops_payments/payment_rate_uplift_20260819/README.md",
+  "sha256": "5d991a38653e24eb1eeca586c5d3965766e6e169231cf2ebaedc69747e4bc6cd"
+}

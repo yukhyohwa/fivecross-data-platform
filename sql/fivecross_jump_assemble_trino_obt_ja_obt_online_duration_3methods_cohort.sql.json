@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_online_duration_3methods_cohort.sql",
+  "sha256": "25a78c4b99b1954b67b5fb891760b140d5b44d010b97c21d3e2875b06ca4123f"
+}

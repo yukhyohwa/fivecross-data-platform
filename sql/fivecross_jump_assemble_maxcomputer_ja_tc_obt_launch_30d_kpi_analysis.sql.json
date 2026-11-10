@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/maxcomputer/ja_tc_obt_launch_30d_kpi_analysis.sql",
+  "sha256": "85a74d2afe24b0cb45d9eab903fa850c9659fa0cc4fe99672d404f74ad993dfc"
+}

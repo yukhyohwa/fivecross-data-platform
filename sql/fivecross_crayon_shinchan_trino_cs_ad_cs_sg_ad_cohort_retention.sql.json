@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "crayon_shinchan_tc",
+  "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_ad/cs_sg_ad_cohort_retention.sql",
+  "sha256": "f018c04e5db21a3e941f1b54c7a6586fe59d74a17aa50a9924c08788f2669fb7"
+}

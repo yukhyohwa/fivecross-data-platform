@@ -1,0 +1,32 @@
+# FiveCross source registry. External repositories are references only.
+reference_platform:
+  path: C:/Users/5xgames/Desktop/github/hlhy_data_ai
+  runtime: false
+  purpose: archived audit reference; never bootstrap
+sql_library:
+  path: C:/Users/5xgames/Desktop/github/fivecross-sql-lib
+  runtime: canonical
+analysis_cases:
+  path: C:/Users/5xgames/Desktop/github/fivecross-analysis-cases
+  runtime: canonical
+event_tracking:
+  path: C:/Users/5xgames/Desktop/github/shinchan-events-tracking
+  runtime: canonical
+data_client_source:
+  path: C:/Users/5xgames/Desktop/github/fivecross-data-client
+  runtime: upstream-reference
+vendored_data_client:
+  path: vendor/fivecross_data_client
+  runtime: canonical-client
+aliyun_backup:
+  path: C:/Users/5xgames/Desktop/github/fivecross-aliyun-backup
+  runtime: false
+  copy: forbidden
+
+policy:
+  bootstrap: scripts/bootstrap_fivecross_sources.py
+  content_validation: fail-closed
+  allowed_schema_prefixes: [pf_, dwd_]
+  forbidden_runtime_engines: [mysql, starrocks]
+  forbidden_legacy_templates: [joytools, joydata, hlhy_data_ai]
+  credentials: platform-root-.env-only

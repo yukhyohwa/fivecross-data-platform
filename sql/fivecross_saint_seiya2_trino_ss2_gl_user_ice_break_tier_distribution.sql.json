@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "saint_seiya2_tc",
+  "source": "fivecross-sql-lib/games/saint_seiya2/trino/ss2_gl_user_ice_break_tier_distribution.sql",
+  "sha256": "cab58fe3a00d11988c441c7fcb51d01ad19d356ed866868fd2bb39c2fe93e39f"
+}

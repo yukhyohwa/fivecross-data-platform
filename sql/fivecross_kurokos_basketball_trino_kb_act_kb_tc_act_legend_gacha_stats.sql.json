@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "kuroko_basketball_jp",
+  "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_act/kb_tc_act_legend_gacha_stats.sql",
+  "sha256": "1650ebca6e0413d81faaf3e30a6ddcfe55b80d225aef73bbb755c8325710264e"
+}

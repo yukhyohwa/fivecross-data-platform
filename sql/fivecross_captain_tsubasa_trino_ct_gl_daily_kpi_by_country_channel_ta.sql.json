@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "captain_tsubasa_global",
+  "source": "fivecross-sql-lib/games/captain_tsubasa/trino/ct_gl_daily_kpi_by_country_channel_ta.sql",
+  "sha256": "d52e155f16526e371545aae00597b8d13828eac700712a16a54f6e08befe10ba"
+}

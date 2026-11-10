@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_cohort_reg0624_tier_subsequent_revenue.sql",
+  "sha256": "aa7b8a8dbbc4da73799b686c44cf4ba59c827aa16093f9e2b0b3f538e23c75f5"
+}

@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "street_rivals_jp",
+  "source": "fivecross-sql-lib/games/street_rivals/trino/sr_jp_user_active_registration_month.sql",
+  "sha256": "dff6592a16e5407b666bf4d1908be86186a61529fbe28923447c94d6a7c91b19"
+}

@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_device_guide_funnel_with_cbt.sql",
+  "sha256": "76fda0a2dc7488d7ebe9d17ce21a72beb8a3ea52314db5d9009bbf7437643e80"
+}

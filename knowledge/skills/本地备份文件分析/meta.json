@@ -1,0 +1,10 @@
+{
+  "sqls": [],
+  "docs": [],
+  "level": "通用",
+  "game": null,
+  "owner": null,
+  "forecast": null,
+  "online": true,
+  "execution_tool": "query_local_backup"
+}

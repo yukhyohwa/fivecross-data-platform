@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "saint_seiya2_tc",
+  "source": "fivecross-sql-lib/games/saint_seiya2/maxcomputer/ss2_cn_search_dena_id_v2.sql",
+  "sha256": "3c0d527119fb3bd2e8f8c1967e5aa41b554abda9d3a5de28ddd1f279953c215e"
+}

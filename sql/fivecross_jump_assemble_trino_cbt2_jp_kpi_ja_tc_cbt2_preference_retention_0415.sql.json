@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_kpi/ja_tc_cbt2_preference_retention_0415.sql",
+  "sha256": "912a1fff163cee8a7fe5e0b46e5221c9d0eae25bee8793913408f8eca28c2a7f"
+}

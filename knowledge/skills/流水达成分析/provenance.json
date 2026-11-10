@@ -1,0 +1,74 @@
+{
+  "sql": {
+    "流水达成_分周.sql": {
+      "source": "流水达成_分周.sql",
+      "fingerprint": "d8433c45ce12d2a01a6697116cd94a97fdb74fd2b241d82a8d3dd8a68de443f9",
+      "mode": "follow",
+      "content_fingerprint": "926106c47c809ae6c81530fed0936479c0a4e949973a849b0ee01a44377e66fe"
+    },
+    "流水达成.sql": {
+      "source": "流水达成.sql",
+      "fingerprint": "37f3d69b780d7ea2fab7e57ba23e7e35ea01da2e03c89053a6235b3f15f830fb",
+      "mode": "follow",
+      "content_fingerprint": "0faf9ac8789371b7781743cf7183261925a82649929d7a10073e2111f05219da"
+    },
+    "付费指标拆解.sql": {
+      "source": "付费指标拆解.sql",
+      "fingerprint": "7ca4adf591050a58b1cb463466d5c886bdce9c6bff5d247060750c46f4a07eec",
+      "mode": "follow",
+      "content_fingerprint": "19bd42d361ac5eeb4598e6ade79b2506a8d1af87f608fc1e71c61fb783cb24e7"
+    },
+    "付费国家构成.sql": {
+      "source": "付费国家构成.sql",
+      "fingerprint": "dbee87fa1e0c246fe13640816ea54acfebc86c4036ae711ec83d435a2db28aa6",
+      "mode": "follow",
+      "content_fingerprint": "dbee87fa1e0c246fe13640816ea54acfebc86c4036ae711ec83d435a2db28aa6"
+    },
+    "付费商品构成.sql": {
+      "source": "付费商品构成.sql",
+      "fingerprint": "b83a595a4fefc8df7ede07e23b7cfe984eb719c73fa8e6eede08e6f9f8ed5047",
+      "mode": "follow",
+      "content_fingerprint": "b83a595a4fefc8df7ede07e23b7cfe984eb719c73fa8e6eede08e6f9f8ed5047"
+    },
+    "喵果消耗.sql": {
+      "source": "喵果消耗.sql",
+      "fingerprint": "a3dedd88d4217dd8fa33c2fc2a31d6c0e37aabf0944cee6cdb5296197a9e0aff",
+      "mode": "follow",
+      "content_fingerprint": "a3dedd88d4217dd8fa33c2fc2a31d6c0e37aabf0944cee6cdb5296197a9e0aff"
+    },
+    "流水目标_未来4周.sql": {
+      "source": "流水目标_未来4周.sql",
+      "fingerprint": "9b2f46aea7964f89a610601307011de380ce71a841c5498958873beeabc763af",
+      "mode": "follow",
+      "content_fingerprint": "9b2f46aea7964f89a610601307011de380ce71a841c5498958873beeabc763af"
+    },
+    "流水预测_分日群组历史.sql": {
+      "source": "流水预测_分日群组历史.sql",
+      "fingerprint": "84e87c952f0d947c220d95e9e4a94bb17f4a36aa6117c01428c1d74761be13a6",
+      "mode": "follow",
+      "content_fingerprint": "fe1a5560a5b6df07715878f00890ca30a23f5470a69154ea36c312fce2a889fe"
+    }
+  },
+  "models": {
+    "dau_arpu_roll": {
+      "source": "dau_arpu_roll",
+      "fingerprint": "3d1683f2b412f1761d5d282c81a84c55618cffdceef9b1436fd35810f632eb1e",
+      "mode": "follow",
+      "content_fingerprint": "3d1683f2b412f1761d5d282c81a84c55618cffdceef9b1436fd35810f632eb1e"
+    }
+  },
+  "knowledge": {
+    "数据指标知识库": {
+      "source": "数据指标知识库",
+      "fingerprint": "2d38488b0af23bab26e6cc98f3b340851a588609efdf71fbe58a4a55a230a8dc",
+      "mode": "follow",
+      "content_fingerprint": "2d38488b0af23bab26e6cc98f3b340851a588609efdf71fbe58a4a55a230a8dc"
+    },
+    "ROOC 商业化特色知识库": {
+      "source": "ROOC 商业化特色知识库",
+      "fingerprint": "580c869a289ced8c562b780f3612d99ac143e82fd9a8b1cc184506f413e6d7d1",
+      "mode": "follow",
+      "content_fingerprint": "580c869a289ced8c562b780f3612d99ac143e82fd9a8b1cc184506f413e6d7d1"
+    }
+  }
+}

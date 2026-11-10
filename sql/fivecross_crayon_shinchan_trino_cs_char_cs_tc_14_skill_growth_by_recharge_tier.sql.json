@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "crayon_shinchan_tc",
+  "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_char/cs_tc_14_skill_growth_by_recharge_tier.sql",
+  "sha256": "f6caa8cdd9a770cff6ee81a87211be2feab5c330754a4a1b5180d4da2505ccbf"
+}

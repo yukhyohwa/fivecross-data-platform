@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/ja_revenue/ja_tc_rev_product_sales_stats.sql",
+  "sha256": "4c6d925ff0bebce62505f87c54b2cc5598b4b09a32bb9d00ebd0f4adaf8d19ed"
+}

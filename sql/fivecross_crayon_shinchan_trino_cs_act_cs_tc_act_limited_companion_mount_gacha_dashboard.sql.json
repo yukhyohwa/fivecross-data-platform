@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "crayon_shinchan_tc",
+  "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_act/cs_tc_act_limited_companion_mount_gacha_dashboard.sql",
+  "sha256": "5464871c6c55bcaa55851b41632cd0edc9577e2eb9e05286694f182d641364de"
+}

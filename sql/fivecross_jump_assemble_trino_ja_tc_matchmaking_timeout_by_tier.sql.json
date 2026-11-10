@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/ja_tc_matchmaking_timeout_by_tier.sql",
+  "sha256": "a0cfedd387b637b2e4679e5162940e12466b1270ccc27fcf00194f2410d09bc1"
+}

@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_play/ja_tc_cbt2_daily_task_milestone_distribution.sql",
+  "sha256": "69564eaddc6ea3817166370138e56e0d8fa543637fcd50662a51ea452f37cb43"
+}

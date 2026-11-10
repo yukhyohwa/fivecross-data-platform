@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_water_users_hourly_stats.sql",
+  "sha256": "d86c95d5b1fe6761c52dd3d648cc38cdbbf8c5c9754c0cb862f54df208316577"
+}

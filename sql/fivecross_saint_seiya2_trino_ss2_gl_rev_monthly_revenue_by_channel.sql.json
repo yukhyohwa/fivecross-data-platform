@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "saint_seiya2_tc",
+  "source": "fivecross-sql-lib/games/saint_seiya2/trino/ss2_gl_rev_monthly_revenue_by_channel.sql",
+  "sha256": "8d7a8aa36a28d8685e51850668b8f098e6976d5655053a1d8255d16bfced56a4"
+}

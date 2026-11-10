@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_battlepass_level_distribution.sql",
+  "sha256": "6d718b37eba2d89118ae22bc200fd04f462cea57cad0370836191d7b586daf58"
+}

@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "crayon_shinchan_tc",
+  "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_play/sg_mainline_chapter_bottleneck.sql",
+  "sha256": "cd4a60a8a20d60111666e6766d7a73d4eb8c0ed28ec72af93d4a29089cb40232"
+}

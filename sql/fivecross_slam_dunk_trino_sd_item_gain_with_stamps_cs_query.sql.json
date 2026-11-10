@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "slam_dunk_gl",
+  "source": "fivecross-sql-lib/games/slam_dunk/trino/sd_item_gain_with_stamps_cs_query.sql",
+  "sha256": "6fc3a1ced82c451fb6fad5fd0a1b1df614a217718842ba173f534a33ece6320a"
+}

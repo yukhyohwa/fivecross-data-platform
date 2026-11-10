@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "kuroko_basketball_jp",
+  "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_tc_daily_top_paying_users_breakdown_20260808.sql",
+  "sha256": "b1fa1b04cf8559ef0642e233ffafa42bb1e67ce862a7ec9d5d32f0cd3d4a3434"
+}

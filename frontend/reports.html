@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>订阅报告 · FiveCross 数据平台</title>
+<link rel="stylesheet" href="style.css">
+  <script src="theme.js"></script>
+</head>
+<body>
+<nav id="topnav" class="topnav"></nav>
+<div class="layout">
+  <aside class="sidebar">
+    <div class="panel">
+      <label class="panel-label">订阅</label>
+      <div class="toolbar" style="margin:0 0 8px;">
+        <button id="btn-new-sub" class="btn btn-sm">＋ 新建</button>
+        <button id="btn-refresh-sub" class="btn btn-sm">刷新</button>
+      </div>
+      <ul id="sub-list" class="list"></ul>
+    </div>
+  </aside>
+
+  <main class="main-area">
+    <div class="page">
+      <h1 class="page-title">📡 订阅报告</h1>
+      <p class="page-sub">在聊天里订阅报告后在这里统一生成；选起止日期即可重跑三模型流水线并保存、查看。</p>
+
+      <div class="tabs">
+        <button class="tab active" data-tab="sub">📡 订阅生成</button>
+        <button class="tab" data-tab="history">🗂️ 历史报告</button>
+      </div>
+
+      <!-- 订阅生成 -->
+      <div id="tab-sub">
+        <div id="sub-empty" class="panel-box"><div class="hint">从左侧选择或新建一个订阅。</div></div>
+
+        <div id="sub-detail" hidden>
+          <div class="panel-box">
+            <div class="split">
+              <div class="field" style="flex:1;">
+                <label class="field-label" for="s-name">订阅名称</label>
+                <input id="s-name" class="control">
+              </div>
+              <div class="field" style="flex:1;">
+                <label class="field-label" for="s-skill">关联专项（可选）</label>
+                <select id="s-skill" class="control"></select>
+              </div>
+            </div>
+            <div class="field" style="margin-top:12px;">
+              <label class="field-label">取数代码（SQL，多选）</label>
+              <div id="s-sqls" class="assoc-list" style="margin-top:6px;"></div>
+            </div>
+            <div class="field" style="margin-top:12px;">
+              <label class="field-label" for="s-docs">参考知识库文档（可多选）</label>
+              <select id="s-docs" class="control" multiple size="4"></select>
+            </div>
+            <div class="field" style="margin-top:12px;">
+              <label class="field-label" for="s-extra">额外分析要求（可选）</label>
+              <textarea id="s-extra" class="control" rows="2" style="resize:vertical; font-family:inherit;"></textarea>
+            </div>
+            <div class="toolbar" style="margin-top:12px;">
+              <button id="btn-save-sub" class="btn">💾 保存订阅</button>
+              <button id="btn-del-sub" class="btn btn-danger">🗑 删除订阅</button>
+            </div>
+          </div>
+
+          <div class="panel-box" style="margin-top:16px;">
+            <div class="field-label">生成报告（选起止日期区间）</div>
+            <div class="split" style="margin-top:10px; align-items:center;">
+              <label class="deep-toggle" style="margin:0;" title="报告三模型开「深度思考」（推理），结论更严谨但耗时久（可能数分钟）；关闭可快速获取报告">
+                <input type="checkbox" id="s-deep-think">
+                <span class="deep-toggle-track"><span class="deep-toggle-thumb"></span></span>
+                <span class="deep-toggle-label">💭 深度思考</span>
+              </label>
+              <span class="hint" style="margin:0 0 0 8px;">深度思考模型耗时久，关闭可快速获取报告</span>
+            </div>
+            <div class="split" style="margin-top:10px;">
+              <div class="field" style="flex:1;">
+                <label class="field-label" for="s-start">起始日期</label>
+                <input id="s-start" type="date" class="control">
+              </div>
+              <div class="field" style="flex:1;">
+                <label class="field-label" for="s-end">结束日期</label>
+                <input id="s-end" type="date" class="control">
+              </div>
+              <div class="field" style="flex:0 0 auto; justify-content:flex-end;">
+                <button id="btn-run" class="btn btn-primary">🚀 生成报告</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel-box" id="run-log-box" style="margin-top:16px;" hidden>
+            <div class="field-label">执行进度</div>
+            <div id="run-log" class="status-log" style="margin-top:8px;"></div>
+          </div>
+
+          <div id="rounds"></div>
+          <div id="final-report" class="panel-box" style="margin-top:16px;" hidden></div>
+
+          <div class="panel-box" style="margin-top:16px;">
+            <div class="field-label">本订阅的历史生成</div>
+            <ul id="sub-history" class="list" style="margin-top:8px;"></ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- 历史报告 -->
+      <div id="tab-history" hidden>
+        <div class="split">
+          <div class="split-aside">
+            <div class="panel-box">
+              <div class="field-label">报告列表</div>
+              <ul id="report-list" class="list" style="margin-top:8px;"></ul>
+            </div>
+          </div>
+          <div class="split-main">
+            <div id="report-detail">
+              <div class="hint">选择左侧报告查看内容。</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+
+<script src="auth.js"></script>
+<script src="nav.js"></script>
+<script src="vendor/marked.min.js"></script>
+<script src="vendor/dompurify.min.js"></script>
+<script src="sanitize.js"></script>
+<script src="reports.js"></script>
+</body>
+</html>

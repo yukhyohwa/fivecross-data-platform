@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "crayon_shinchan_tc",
+  "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_char/cs_tc_48_week4_quality_ownership_compare.sql",
+  "sha256": "b2ce12a21e2c1ef08f3d5e117f9f81478338c7745efa81a580c235833faf82ae"
+}

@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_streamer_purchase.sql",
+  "sha256": "8f22cbd93006e5cb4415a1b8d3590b8703a7357fae8aa971f44b0bacf1c05afd"
+}

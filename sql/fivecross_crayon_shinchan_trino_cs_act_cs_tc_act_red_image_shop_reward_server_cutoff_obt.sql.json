@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "crayon_shinchan_tc",
+  "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_act/cs_tc_act_red_image_shop_reward_server_cutoff_obt.sql",
+  "sha256": "56c328ba90b27b38392596eb534661a3fcbbb9bb3c53a85cf5f7ed4825bfdddd"
+}

@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "slam_dunk_gl",
+  "source": "fivecross-sql-lib/games/slam_dunk/maxcomputer/sd_tc_gl_kr_palace_skill.sql",
+  "sha256": "02a23d11aef7c8de59082bd5230fee04f6e270a4d43968948c835b86d5b12187"
+}

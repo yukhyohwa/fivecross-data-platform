@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/cbt2/jp_play/ja_tc_cbt2_fight_preference_churn_winrate_0416.sql",
+  "sha256": "7ed096a64af9ab85651d0abc70b0362938a8dcbf3fb3dd39bf43ebebf3a71485"
+}

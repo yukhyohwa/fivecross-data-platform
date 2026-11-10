@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "kuroko_basketball_jp",
+  "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_act/kb_tc_act_2nd_anniversary_users.sql",
+  "sha256": "99516d164d543ba70c1355772a5175a15b63bda47de9a522326de199b435efa4"
+}

@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/maxcomputer/ja_gl_multi_app_did_recharge_last_login.sql",
+  "sha256": "e3939edb7f1d4ccce6f3e07017b6208f044eefaa2090db5de7d227751879566b"
+}

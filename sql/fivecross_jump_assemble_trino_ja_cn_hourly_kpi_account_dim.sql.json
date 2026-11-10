@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/ja_cn_hourly_kpi_account_dim.sql",
+  "sha256": "36d5c5df6a78b0e5e915bf55c37e951cb8b74e82c751e3109432eae04fae1ba0"
+}

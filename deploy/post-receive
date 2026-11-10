@@ -1,0 +1,61 @@
+#!/usr/bin/env bash
+# =============================================================
+# Data AI 自动部署钩子（方案 B：git push-to-deploy）
+#
+# 权限模型：推送用户 = 服务用户 dataai（不是 huanle/root）。
+#   钩子以 dataai 身份执行 → checkout 写自己的工作树、pip 装进自己的 venv
+#   都无需 sudo；只有重启服务需要 sudo，靠下面两条 NOPASSWD sudoers。
+#   hooks/ 目录归 root：即使 web 层被攻破（应用以 dataai 跑），
+#   攻击者也改不了这个钩子，拿不到 root。
+#
+# 服务器一次性初始化（root 执行）：
+#   sudo mkdir -p /opt/data_ai.git
+#   cd /opt/data_ai.git && sudo git init --bare
+#   sudo chown -R dataai:dataai /opt/data_ai.git          # 推送者 dataai 需要写 objects/refs
+#   sudo cp /opt/data_ai/deploy/post-receive hooks/post-receive
+#   sudo chmod +x hooks/post-receive
+#   sudo chown -R root:root hooks                          # 钩子目录收归 root，dataai 不可改
+#   # dataai 的免密 sudo（只放行两条重启命令）——/etc/sudoers.d/dataai-deploy：
+#   #   dataai ALL=(root) NOPASSWD: /usr/bin/systemctl restart data-ai, /usr/bin/systemctl restart dataai-streamlit
+#   # 开发机公钥放进 dataai 的 authorized_keys（root 执行）：
+#   #   sudo mkdir -p /home/dataai/.ssh && sudo cp <开发机id_*.pub> /home/dataai/.ssh/authorized_keys
+#   #   sudo chown -R dataai:dataai /home/dataai/.ssh && sudo chmod 700 /home/dataai/.ssh && sudo chmod 600 /home/dataai/.ssh/authorized_keys
+# 本地（开发机）：
+#   git remote add deploy ssh://dataai@<服务器IP或域名>:/opt/data_ai.git
+#   git push deploy main        # 一次 push：内网 GitLab 留档 + 服务器上线
+#   （想一次推两处：git remote set-url --add --push origin ssh://dataai@... 后 git push origin main）
+#
+# 前提：本地能 SSH 直连服务器（dataai 账号、22 端口可达）；不行就退回方案 A
+# （轮询拉取，见部署文档 9.2）。失败模式：钩子非零退出时 push 报错但服务端
+# refs 已更新——重推同 commit 会变成 up-to-date 空推送、钩子不再触发。
+# 因此每一步失败都要给足可见性（set -e + echo 阶段标记），若出现
+# 「push 报错但服务器代码已更新」，按部署文档 9.4 手动兜底把依赖装完并重启。
+# =============================================================
+set -euo pipefail
+
+APP=/opt/data_ai
+GIT_DIR=/opt/data_ai.git
+
+while read -r oldrev newrev ref; do
+  if [ "$ref" != "refs/heads/main" ]; then
+    continue
+  fi
+  echo "[deploy] $(date -Is) $oldrev -> $newrev"
+
+  echo "[deploy] checkout main to $APP"
+  git --git-dir="$GIT_DIR" --work-tree="$APP" checkout -f main
+
+  # 依赖幂等安装（钩子以 dataai 跑，venv 归 dataai，直接 pip）
+  echo "[deploy] pip install"
+  "$APP/.venv/bin/pip" install -q -r "$APP/requirements.txt"
+
+  # 重启（dataai 有两条 NOPASSWD sudoers；streamlit 单元不存在则跳过）
+  echo "[deploy] restart data-ai"
+  sudo systemctl restart data-ai
+  if systemctl cat dataai-streamlit.service >/dev/null 2>&1; then
+    echo "[deploy] restart dataai-streamlit"
+    sudo systemctl restart dataai-streamlit
+  fi
+
+  echo "[deploy] $(date -Is) done: $(git --git-dir="$GIT_DIR" rev-parse --short main)"
+done

@@ -1,0 +1,10 @@
+[Unit]
+Description=Check for Data AI updates every 2 minutes
+
+[Timer]
+OnBootSec=2min
+OnUnitActiveSec=2min
+RandomizedDelaySec=30
+
+[Install]
+WantedBy=timers.target

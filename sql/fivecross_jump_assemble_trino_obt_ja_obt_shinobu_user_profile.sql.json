@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_shinobu_user_profile.sql",
+  "sha256": "b9edbafdf976721fce6d97b2190007a69e1662da10364f4eec2a0e56fa1abe18"
+}

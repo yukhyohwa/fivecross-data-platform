@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/hologres/ja_tc_user_survey_tags.sql",
+  "sha256": "0e259f4c49232dadd3a20bfadaf07b81bdc0297869254d1e395524f180f4671a"
+}

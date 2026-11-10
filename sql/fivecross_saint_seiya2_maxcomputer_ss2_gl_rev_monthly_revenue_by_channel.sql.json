@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "saint_seiya2_tc",
+  "source": "fivecross-sql-lib/games/saint_seiya2/maxcomputer/ss2_gl_rev_monthly_revenue_by_channel.sql",
+  "sha256": "1019ed2a40a879ac5783d10bd0892928f4e753aaa557329ab2203473adfb3af0"
+}

@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "new_three_kingdoms_global",
+  "source": "fivecross-sql-lib/games/new_three_kingdoms/maxcomputer/ntk_gl_rev_general_analysis_by_zone.sql",
+  "sha256": "05654ae04d8ee60b8d1a3960496b731471f8cdac5859e254403efdd797d00b50"
+}

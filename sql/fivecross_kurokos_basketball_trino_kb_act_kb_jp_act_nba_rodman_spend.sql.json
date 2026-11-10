@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "kuroko_basketball_jp",
+  "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_act/kb_jp_act_nba_rodman_spend.sql",
+  "sha256": "4acc4a685a05cb7c6af6acc073c122655fe6c59fc9c7f4d12d9ca3a0e4ce9ff4"
+}

@@ -1,0 +1,11 @@
+文件	用途	原位置
+__init__.py	加载器（load_system_user，带缓存+占位符渲染；load_prompt 已退役 P1-11）	新增
+agent_system.md	Agent 主 system prompt（角色/工作方式/MCP工具/规则/结果窗口读取）【已退役 2026-10：chat_bi 深度分析走 backend/services/agent_deep 的 build_agent_system_prompt，本文件仅 ide_app 侧 SQL 助手残留路径仍在引用，勿再扩充内容】	agent_service.py
+claude_guidance.md	Claude 后端工具指引	claude_backend.py
+conversation_summary.md	对话压缩（system+user）	conversation_manager.py
+memory_extract.md	记忆提取（system+user）	memory_manager.py
+indicator_analyze.md	指标SQL分析（system+user，16字段）	indicator_service.py
+sync_table.md	同步建表建议	ai_sync_helper.py
+sync_mapping.md	同步字段映射建议	ai_sync_helper.py
+skill_loop.md	Skill 多轮loop注入	bot_message_handler.py
+skill_execute.md	Skill 执行 system prompt	skills/engine.py

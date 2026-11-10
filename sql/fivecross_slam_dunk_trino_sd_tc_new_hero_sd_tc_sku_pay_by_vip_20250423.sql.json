@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "slam_dunk_gl",
+  "source": "fivecross-sql-lib/games/slam_dunk/trino/sd_tc_new_hero/sd_tc_sku_pay_by_vip_20250423.sql",
+  "sha256": "0c8bf05041596eee61d83fa8d2faa004fb77e8382f01656a2b6aa7744149869f"
+}

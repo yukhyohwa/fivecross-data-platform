@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_wau_currency_inventory_stats.sql",
+  "sha256": "acfd0880ab7eb2a20e2014d0e30a02a01f1de3d413a57d5ba871d29bc62e675c"
+}

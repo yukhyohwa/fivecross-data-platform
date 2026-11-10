@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "slam_dunk_gl",
+  "source": "fivecross-sql-lib/games/slam_dunk/holo/sd_tc_kr_movie_impact_monthly_analysis_organic.sql",
+  "sha256": "9fbb4229b665021947f9587b2e552ca1699cd25ef38ce0ddd38b6e4c5041d9c2"
+}

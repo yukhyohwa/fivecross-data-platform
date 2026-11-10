@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "crayon_shinchan_tc",
+  "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_char/cs_tc_first_jobchange_level.sql",
+  "sha256": "6368d9a5295ce1a40c0302bf5d7c96e6a01ec15bf1d95c35376ae7194ce5566d"
+}

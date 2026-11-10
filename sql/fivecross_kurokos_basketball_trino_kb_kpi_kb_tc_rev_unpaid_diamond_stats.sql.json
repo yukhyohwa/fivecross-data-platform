@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "kuroko_basketball_jp",
+  "source": "fivecross-sql-lib/games/kurokos_basketball/trino/kb_kpi/kb_tc_rev_unpaid_diamond_stats.sql",
+  "sha256": "27b93eeba180f1bdd3c4388d9e70b8b8da98930e442c83adb852740857cb4b11"
+}

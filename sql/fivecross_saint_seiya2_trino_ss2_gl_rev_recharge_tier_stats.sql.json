@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "saint_seiya2_tc",
+  "source": "fivecross-sql-lib/games/saint_seiya2/trino/ss2_gl_rev_recharge_tier_stats.sql",
+  "sha256": "475a8e748aa4a6297667b2d9637b92d9fa31f79e12fc72dc4ab4c4da214af0a5"
+}

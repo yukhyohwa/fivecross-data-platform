@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "slam_dunk_gl",
+  "source": "fivecross-sql-lib/games/slam_dunk/trino/sd_gl_tc_kr_rev_monthly_revenue_by_channel.sql",
+  "sha256": "a7ed76fba34b54d0509ee3813de53e344b39116e57fbfe0f16ea2c409fc85484"
+}

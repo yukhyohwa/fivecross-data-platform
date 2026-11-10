@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "crayon_shinchan_tc",
+  "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_questionaire/cs_sg_lom_level_dist_by_recharge_tier.sql",
+  "sha256": "cf2f350dbf2f8a4b8cbf5c60cc5ac54c9bf58d8aefec981c711d40dc5f4b424a"
+}

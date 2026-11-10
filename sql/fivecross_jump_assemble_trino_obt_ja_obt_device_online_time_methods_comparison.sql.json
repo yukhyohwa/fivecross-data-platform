@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/trino/obt/ja_obt_device_online_time_methods_comparison.sql",
+  "sha256": "cbb5c44d5394ef5cbd4cfa887ef8d8b5ee3929d70bc0c3869c323915a9827c65"
+}

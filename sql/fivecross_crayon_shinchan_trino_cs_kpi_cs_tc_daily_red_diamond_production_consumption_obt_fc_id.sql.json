@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "crayon_shinchan_tc",
+  "source": "fivecross-sql-lib/games/crayon_shinchan/trino/cs_kpi/cs_tc_daily_red_diamond_production_consumption_obt_fc_id.sql",
+  "sha256": "cad247dd07e3080d3b41da9d208e00519d796e1c5254a930adc9b30930d52b71"
+}

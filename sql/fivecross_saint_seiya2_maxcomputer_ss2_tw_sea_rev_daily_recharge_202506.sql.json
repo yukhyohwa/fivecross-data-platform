@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "saint_seiya2_tc",
+  "source": "fivecross-sql-lib/games/saint_seiya2/maxcomputer/ss2_tw_sea_rev_daily_recharge_202506.sql",
+  "sha256": "e3300be95ecc427fe58cd55f4d2dae1d492b01c4ada0dc6802d0142522fc8cdc"
+}

@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "slam_dunk_gl",
+  "source": "fivecross-sql-lib/games/slam_dunk/trino/sd_kr_churn/sd_kr_user_guide_dist_new_return60d.sql",
+  "sha256": "4513d5e623b117709a027ede9732a3ead00e528548af183792af8b4579c11361"
+}

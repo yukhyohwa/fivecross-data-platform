@@ -1,0 +1,140 @@
+/*
+================================================================================
+Game: Saint Seiya GL (TC & SEA)
+Description: Match 0-price orders (potential welfare coin payments) with 
+             wallet consumption records to verify balance usage.
+Environment: MaxCompute (ODPS)
+Tables: 
+  - dm_platform.daily_lcx_user_purchase (Order details)
+  - dm_platform.transaction_wallet (Wallet/Balance consumption)
+================================================================================
+*/
+
+
+-- Query dm_platform.transaction_wallet for specific 113 orders in June 2025
+SELECT 
+    * 
+FROM 
+    dm_platform.transaction_wallet
+WHERE 
+    day BETWEEN 20250601 AND 20250630
+    AND 
+        lcx_transaction_id IN (
+            'f0bb155d-5671-43eb-9771-3fed16bcc771',
+            'd746df40-d533-42a3-b10b-83bef115b178',
+            'f41d113c-d77a-4006-bbb8-5fee41d7681a',
+            '06a308f7-204e-4045-80c8-3a6fb943521b',
+            '8e4f7b15-b25f-49bd-acbc-518dda813f93',
+            'a2ced2a3-ab74-4d92-b119-d14d0277afb0',
+            'afbea006-dbd6-449d-9efe-babdc8fba8dc',
+            'c6d29d7d-a21d-4b37-b6d2-7f4e74dca009',
+            'bf2086d6-0738-4f77-a273-352a80871fbc',
+            '86eee5d2-2cdf-47d6-94db-6ee7aec52f94',
+            '80c32b39-5d61-4fc8-aae9-3377903ff035',
+            'c91c78a5-aeab-420a-94f8-d452142ac05d',
+            '20bafebd-8ac0-4621-a91c-4f77cd79b177',
+            '60f3f028-ff08-433f-8c49-306010fa5e04',
+            '0703eb7d-e6bd-4b56-99c4-fac822ccc062',
+            'd8c19c1a-ad9c-45cd-8b12-0a2e3daadd7f',
+            '29a1c76b-d535-409f-8ec2-28f8642d213c',
+            'cb6934bc-8e58-4714-8fa5-c8101e274776',
+            '5cc8f69a-762f-44cc-aa5d-0f0659a5ffab',
+            '8de2914d-28f4-404d-93b7-394ca7cab05c',
+            'ac39780e-ddb5-429a-aa95-8125b0b7a27a',
+            '4b4c0ffa-38a1-4dfb-9967-f6f357e191a2',
+            '0a22b4c7-3207-4821-abf0-a5b6f1de9c8f',
+            '72c066b3-fea4-4ab2-b226-7f6066c4e998',
+            '09e11a17-a0d9-4c73-a45e-da694ebdd0c8',
+            '10a91cd5-b6d2-4856-82ea-6aac2a59c399',
+            '0a0af53c-0d9c-46b2-853b-f5c53c3a1dfc',
+            '260026e6-8870-47ed-83a2-5b00b9807d8e',
+            'ff611daa-cbe8-495e-a999-c79ee5124fcd',
+            '0b968eba-b745-4104-8788-b31bf503e8bf',
+            '6519c96e-7fd5-4adf-b73b-7b2a6e58dd07',
+            '561d3811-0a92-40c0-b847-8453983a0cdc',
+            '5ed68d7b-ac31-44f8-8279-00094304081d',
+            '7d3db7a5-f454-4d61-a9db-8303496d0e52',
+            'bb516439-f5ff-41d7-b917-3990156df29a',
+            'e3f437e7-3070-4740-8060-a66938604f83',
+            'c63a3216-540f-4354-a003-b41de11f6369',
+            '81d489a3-f010-48f9-8788-f6d364d7beec',
+            'fc31b879-e9bb-4527-9d84-406210858b51',
+            '05f38e04-d383-475c-bb34-f7f987e3d545',
+            'dbcc1d06-c665-4055-adc5-8a0f3e4d228a',
+            'd29d8222-89d1-48cd-b9a1-efb4d7c9c787',
+            'aefc57eb-62f7-4454-925e-14929ade48b6',
+            '7d087840-2e37-4148-b18b-6d4045c3bd60',
+            '45be21d6-551a-4245-b91a-7f8e6e767fb0',
+            'be001b1c-c704-446f-9ff3-35bda79d4049',
+            '434146d7-7524-4449-be5b-d5638ae2d33e',
+            '8bffd084-ea70-46d7-af87-85f24ebbaf76',
+            'a8e6d673-9459-4f92-9fe4-ef40b7b7c0b6',
+            '12bff1aa-ed3b-46bf-8225-ee10f5e26670',
+            'cd654ae7-70bd-45dc-8dfc-bb07d0d2b2dd',
+            '570c5a67-e464-4fed-84ee-3934d7029327',
+            '7ba35b3f-a602-480f-8813-cb6690a5efc7',
+            '88c3892e-15a1-43ab-a979-cd41760139d0',
+            'c12566e0-7a15-4261-b751-7e1122dbde5b',
+            '9dde1199-674a-4875-959c-c4494f69db70',
+            '407acc2a-d400-4b9f-9aae-952061cc1948',
+            'e742a5b5-e9ea-4a9f-ac64-6d74d1c641b6',
+            '17332b87-0d51-47c9-97b4-42953d461724',
+            'b7e9ef69-ba32-4311-8078-2a89fe5ab832',
+            '8e01ae6e-39ea-4edf-81b1-5977f5bc30f7',
+            '747660f3-e85d-4dfb-9bd1-7b355cd3118e',
+            '9cc3291f-d117-40da-8036-4d085019a2d3',
+            '7e0c4b41-ec4e-4a02-b3c0-a2ce2d909bcc',
+            '7823be01-5319-470c-aa42-6bd70dc00a89',
+            'b973285d-3f94-47dd-b525-f902d9222e8b',
+            '1ed1cf69-a45a-40a4-825b-e656240e685a',
+            '170d8bdf-12fd-457a-8e78-dec4f8d9eda8',
+            '4c0b3b35-f852-424a-9120-78bbb219329e',
+            '92eba233-6386-4abd-8b10-0d2887fe67e6',
+            'ba879a82-4e37-4886-bd4e-cf3ac26bbe92',
+            'f615beaf-fb8e-4f86-9675-c9ca46ae67a9',
+            '7f5adb04-0931-4c24-b2c3-643d766084ed',
+            '6f27ebb0-5cb7-40e0-a0f9-b71d683ea251',
+            '86601dc9-2c5a-4e62-b2aa-1ebbb0a3553c',
+            '8daecb4b-5bfa-4d10-9943-c3582627d699',
+            '1cf664f4-f875-4f58-be98-3fd852efd71a',
+            '6de6287e-6c0d-4b18-b1cc-916ea2f732c5',
+            '5dd1cd67-8601-4640-af83-2d88507b743b',
+            '0c6832b9-e924-4396-bf4d-7e7e272608d8',
+            '404930e4-b83c-4889-beca-07adedc881a5',
+            '969360b9-65ec-494c-b0f2-c7a1c478f063',
+            '4a47398d-f294-4e09-b4dd-b5eafde86e3b',
+            '6a03456c-114f-4f53-86f6-c66219f92262',
+            'de6ceb61-4e0b-4cd7-94cc-10f906e6f572',
+            'addce754-c87d-4ad5-a6a8-443a1bcfd2b3',
+            '95461ac7-3599-4982-8234-29b93d012fea',
+            'c874a93f-a287-4a93-b24e-d5412825daad',
+            '46a04267-f35c-468d-9c5c-6d6728133b93',
+            '7709dd76-e2f7-4e89-858d-529a5060646e',
+            '5a19a92e-197b-42f6-83c2-f28a3b546d61',
+            '38aa14d8-8b00-4cff-ac95-c1bf056ae52e',
+            'b088cf09-1486-4a94-9eb8-6d27487f991e',
+            '13492a6e-4c73-4d99-8a1a-c7248e132920',
+            '49c05a54-919c-45ec-9644-a8df8b82ac7f',
+            '88027c0c-ee54-4c50-b25c-5f2201150218',
+            'dd991049-72fc-486a-b2f4-7fdaf107baf1',
+            '4f27cf51-3ae2-477d-b4c2-a7cf1d2fdd2c',
+            '05bc18fd-c9da-46e2-80ee-b95121976777',
+            'c3a73cc1-8e23-4f3b-8660-256f47938391',
+            'bc3227f4-de1f-4fc0-963e-571a46209679',
+            '4f4a70f9-49d4-4011-a200-f81558868c3a',
+            '4a1214d2-a958-4dac-ab83-12b220dfaf13',
+            '28f057fc-2ae4-4334-bbe0-f9a48fdff70c',
+            'ac068284-0034-4a37-8cd9-7b741d503ea7',
+            '5aa55898-6eb1-4832-bfec-4796f761bdc7',
+            '0b2230c1-9a46-4bb1-8df2-af679855bbbe',
+            '9eec08ec-136c-4464-a9f2-5704ba8166bd',
+            'f110855b-ead9-4f6b-90fe-aa57550f4148',
+            'b78885d8-f199-4e7c-bae2-c61762b3278f',
+            '2876a07e-8df8-41f6-8902-054c07c76137',
+            'a82bfdd2-86f0-49e9-bf2e-06c63e6f2e8b',
+            'f65fa4b1-0a6e-4fa1-9912-c57b62f1ec5e'
+        
+    )
+ORDER BY 
+    day DESC, 
+    lcx_user_id;

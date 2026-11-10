@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "jump_assemble_tc",
+  "source": "fivecross-sql-lib/games/jump_assemble/maxcomputer/ja_tc_daily_dau_to_now.sql",
+  "sha256": "cd6107ec369a4cf759694127906c07acf2d477478b536193fd1cae7377c6b7ef"
+}

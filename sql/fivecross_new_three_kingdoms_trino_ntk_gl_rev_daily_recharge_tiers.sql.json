@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "source_type": "FiveCross",
+  "game": "new_three_kingdoms_global",
+  "source": "fivecross-sql-lib/games/new_three_kingdoms/trino/ntk_gl_rev_daily_recharge_tiers.sql",
+  "sha256": "68d2484fee545f0139dd389748bfe08255553a25b6721517de182fd56c0df4dd"
+}
